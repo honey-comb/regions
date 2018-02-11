@@ -1,0 +1,16 @@
+[
+  {
+    "id": "lt",
+    "flag_id": "flag-lt",
+    "translations": [
+      {
+        "language_code": "lt",
+        "label": "Lietuva"
+      },
+      {
+        "language_code": "en",
+        "label": "Lithuania"
+      }
+    ]
+  }
+]

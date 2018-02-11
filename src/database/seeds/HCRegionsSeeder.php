@@ -40,6 +40,6 @@ class HCRegionsSeeder extends Seeder
      */
     public function run(): void
     {
-
+        $this->call(HCCountriesSeeder::class);
     }
 }
