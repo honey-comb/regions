@@ -55,7 +55,7 @@ class HCCityController extends HCBaseController
     public function index(): View
     {
         $config = [
-            'title' => trans('HCRegions::regions_city.page_title'),
+            'title' => trans('HCRegion::regions_city.page_title'),
             'url' => route('admin.api.regions.city'),
             'form' => route('admin.api.form-manager', ['regions.city']),
             'headers' => $this->getTableColumns(),
@@ -73,8 +73,8 @@ class HCCityController extends HCBaseController
     public function getTableColumns(): array
     {
         $columns = [
-            'translation.label' => $this->headerText(trans('HCRegions::regions_city.label')),
-            'country_id' => $this->headerText(trans('HCRegions::regions_city.country_id')),
+            'translation.label' => $this->headerText(trans('HCRegion::regions_city.label')),
+            'country_id' => $this->headerText(trans('HCRegion::regions_city.country_id')),
         ];
 
         return $columns;

@@ -82,7 +82,7 @@ class HCCountryForm extends HCBaseForm
             $prefix . 'flag_id' =>
                 [
                     'type' => 'singleLine',
-                    'label' => trans('HCRegions::regions_countries.flag_id'),
+                    'label' => trans('HCRegion::regions_countries.flag_id'),
                     'readonly' => 1
 
                 ],

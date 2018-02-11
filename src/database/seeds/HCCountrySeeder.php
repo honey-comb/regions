@@ -36,7 +36,7 @@ use HoneyComb\Resources\Services\HCResourceService;
 use Illuminate\Database\Connection;
 use Illuminate\Database\Seeder;
 
-class HCCountriesSeeder extends Seeder
+class HCCountrySeeder extends Seeder
 {
     /**
      * @var \HoneyComb\Resources\Services\HCResourceService

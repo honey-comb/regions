@@ -55,7 +55,7 @@ class HCContinentController extends HCBaseController
     public function index(): View
     {
         $config = [
-            'title' => trans('HCRegions::regions_continents.page_title'),
+            'title' => trans('HCRegion::regions_continents.page_title'),
             'url' => route('admin.api.regions.continents'),
             'form' => route('admin.api.form-manager', ['regions.continents']),
             'headers' => $this->getTableColumns(),
@@ -73,7 +73,7 @@ class HCContinentController extends HCBaseController
     public function getTableColumns(): array
     {
         $columns = [
-            'translation.label' => $this->headerText(trans('HCRegions::regions_continents.label')),
+            'translation.label' => $this->headerText(trans('HCRegion::regions_continents.label')),
         ];
 
         return $columns;

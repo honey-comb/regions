@@ -1,6 +1,6 @@
 {
     "general": {
-        "packageName": "HCRegions",
+        "packageName": "HCRegion",
         "sequence": 0,
         "namespace": "HoneyComb\\Regions\\"
     },
@@ -13,31 +13,31 @@
         {
             "route": "admin.regions.continents.index",
             "parent": "admin.index",
-            "translation": "HCRegions::regions_continents.page_title",
+            "translation": "HCRegion::regions_continents.page_title",
             "icon": "globe",
             "skipList": true,
             "aclPermission": "honey_comb_regions_regions_continents_list",
             "parentConfig" : {
-                "translation": "HCRegions::regions_continents.regions",
+                "translation": "HCRegion::regions_continents.regions",
                 "icon": "map"
             }
         },
         {
             "route": "admin.regions.countries.index",
             "parent": "admin.regions.continents.index",
-            "translation": "HCRegions::regions_countries.page_title",
+            "translation": "HCRegion::regions_countries.page_title",
             "icon": "flag",
             "aclPermission": "honey_comb_regions_regions_countries_list"
         },
         {
             "route": "admin.regions.city.index",
             "parent": "admin.regions.continents.index",
-            "translation": "HCRegions::regions_city.page_title",
+            "translation": "HCRegion::regions_city.page_title",
             "icon": "map-marker-alt",
             "aclPermission": "honey_comb_regions_regions_city_list"
         }
     ],
-    "seeder": "HoneyComb\\Regions\\Database\\Seeds\\HCRegionsSeeder",
+    "seeder": "HoneyComb\\Regions\\Database\\Seeds\\HCRegionSeeder",
     "routes": [
         "Routes\/Admin\/routes.regions.continents.php",
         "Routes\/Admin\/routes.regions.countries.php",

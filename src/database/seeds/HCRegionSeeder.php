@@ -27,39 +27,19 @@
 
 declare(strict_types = 1);
 
-namespace HoneyComb\Regions\Providers;
+namespace HoneyComb\Regions\Database\Seeds;
 
-use HoneyComb\Starter\Providers\HCBaseServiceProvider;
+use Illuminate\Database\Seeder;
 
-/**
- * Class HCRegionsServiceProvider
- * @package HoneyComb\Regions\Providers
- */
-class HCRegionsServiceProvider extends HCBaseServiceProvider
+class HCRegionSeeder extends Seeder
 {
     /**
-     * @var string
-     */
-    protected $homeDirectory = __DIR__;
-
-    /**
-     * Console commands
+     * Run the database seeds.
      *
-     * @var array
+     * @return void
      */
-    protected $commands = [];
-
-    /**
-     * Controller namespace
-     *
-     * @var string
-     */
-    protected $namespace = 'HoneyComb\Regions\Http\Controllers';
-
-    /**
-     * Provider name
-     *
-     * @var string
-     */
-    protected $packageName = 'HCRegions';
+    public function run(): void
+    {
+        $this->call(HCCountrySeeder::class);
+    }
 }

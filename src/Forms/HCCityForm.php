@@ -93,14 +93,14 @@ class HCCityForm extends HCBaseForm
             $prefix . 'country_id' =>
                 [
                     'type' => 'dropDownList',
-                    'label' => trans('HCRegions::regions_city.country_id'),
+                    'label' => trans('HCRegion::regions_city.country_id'),
                     'required' => 1,
                     'options' => optimizeTranslationOptions($this->countryRepository->all())
                 ],
             $prefix . 'translations.label' =>
                 [
                     'type' => 'singleLine',
-                    'label' => trans('HCRegions::regions_city.label'),
+                    'label' => trans('HCRegion::regions_city.label'),
                     'multiLanguage' => 1,
                     'required' => 1,
                     'requiredVisible' => 1,
