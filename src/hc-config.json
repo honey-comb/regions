@@ -1,0 +1,14 @@
+{
+    "general": {
+        "packageName": "HCRegions",
+        "sequence": 0,
+        "namespace": "HoneyComb\\Regions\\"
+    },
+    "formData": {},
+    "adminMenu": [],
+    "seeder": "",
+    "routes": [],
+    "acl": {
+        "permissions": []
+    }
+}
