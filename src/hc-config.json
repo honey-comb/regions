@@ -4,11 +4,32 @@
         "sequence": 0,
         "namespace": "HoneyComb\\Regions\\"
     },
-    "formData": {},
-    "adminMenu": [],
-    "seeder": "",
-    "routes": [],
+    "formData": {
+        "regions.continents": "HoneyComb\\Regions\\Forms\\HCContinentForm"
+    },
+    "adminMenu": [
+        {
+            "route": "admin.regions.continents.index",
+            "parent": "admin.index",
+            "translation": "HCRegions::regions_continents.page_title",
+            "icon": "globe",
+            "aclPermission": "honey_comb_regions_regions_continents_list"
+        }
+    ],
+    "seeder": "HoneyComb\\Regions\\Database\\Seeds\\HCRegionsSeeder",
+    "routes": [
+        "Routes\/Admin\/routes.regions.continents.php"
+    ],
     "acl": {
-        "permissions": []
+        "permissions": [
+            {
+                "name": "acl.regions.continents",
+                "controller": "HoneyComb\\Regions\\Http\\Controllers\\Admin\\HCContinentController",
+                "actions": [
+                    "honey_comb_regions_regions_continents_update",
+                    "honey_comb_regions_regions_continents_list"
+                ]
+            }
+        ]
     }
 }

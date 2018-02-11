@@ -27,19 +27,41 @@
 
 declare(strict_types = 1);
 
-namespace HoneyComb\Regions\Database\Seeds;
+namespace HoneyComb\Regions\Models;
 
-use Illuminate\Database\Seeder;
+use HoneyComb\Starter\Models\HCUuidModel;
+use HoneyComb\Core\Models\Traits\HCTranslation;
 
-class HCRegionsSeeder extends Seeder
+
+/**
+ * Class HCContinent
+ * @package HoneyComb\Regions\Models
+ */
+class HCContinent extends HCUuidModel
 {
-    /**
-     * Run the database seeds.
-     *
-     * @return void
-     */
-    public function run(): void
-    {
+    use HCTranslation;
 
-    }
+    /**
+     * The database table used by the model.
+     *
+     * @var string
+     */
+    protected $table = 'hc_region_continent';
+
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    protected $fillable = [
+        "id"
+    ];
+
+    /**
+     * @var array
+     */
+    protected $with = [
+        
+    ];
+
 }
