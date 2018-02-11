@@ -61,7 +61,8 @@ class HCContinent extends HCUuidModel
      * @var array
      */
     protected $with = [
-        
+        'translations',
+        'translation',
     ];
 
 }

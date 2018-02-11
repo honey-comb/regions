@@ -21,75 +21,48 @@
  * SOFTWARE.
  *
  * Contact InteractiveSolutions:
- * E-mail: info@interactivesolutions.lt
+ * E-mail: hello@interactivesolutions.lt
  * http://www.interactivesolutions.lt
  */
 
 declare(strict_types = 1);
 
-namespace HoneyComb\Regions\Http\Requests;
+namespace HoneyComb\Regions\Models;
 
-use Illuminate\Foundation\Http\FormRequest;
+use HoneyComb\Starter\Models\HCUuidModel;
 
-class HCContinentRequest extends FormRequest
+
+/**
+ * Class HCCountryTranslation
+ * @package HoneyComb\Regions\Models
+ */
+class HCCountryTranslation extends HCUuidModel
 {
-    /**
-     * Get request inputs
-     *
-     * @return array
-     */
-    public function getRecordData(): array
-    {
-        return $this->all();
-    }
+
 
     /**
-     * Get ids to delete, force delete or restore
+     * The database table used by the model.
      *
-     * @return array
+     * @var string
      */
-    public function getListIds(): array
-    {
-        return $this->input('list', []);
-    }
+    protected $table = 'hc_region_country_translation';
 
     /**
-     * Getting translations
+     * The attributes that are mass assignable.
      *
-     * @return array
+     * @var array
      */
-    public function getTranslations(): array
-    {
-        return $this->input('translations', []);
-    }
+    protected $fillable = [
+        "record_id",
+        "language_code",
+        "label",
+    ];
 
     /**
-     * Determine if the user is authorized to make this request.
-     *
-     * @return bool
+     * @var array
      */
-    public function authorize(): bool
-    {
-        return true;
-    }
+    protected $with = [
 
-    /**
-     * Get the validation rules that apply to the request.
-     *
-     * @return array
-     */
-    public function rules(): array
-    {
-        switch ($this->method()) {
+    ];
 
-            case 'PUT':
-
-                return [
-                    'translations' => 'required|array|min:1',
-                ];
-
-        }
-
-        return [];
-    }
 }

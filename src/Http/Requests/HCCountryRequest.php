@@ -31,7 +31,7 @@ namespace HoneyComb\Regions\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class HCContinentRequest extends FormRequest
+class HCCountryRequest extends FormRequest
 {
     /**
      * Get request inputs
@@ -87,7 +87,6 @@ class HCContinentRequest extends FormRequest
                 return [
                     'translations' => 'required|array|min:1',
                 ];
-
         }
 
         return [];
