@@ -29,14 +29,14 @@ declare(strict_types = 1);
 
 namespace HoneyComb\Regions\Models;
 
-use HoneyComb\Starter\Models\HCUuidModel;
+use HoneyComb\Starter\Models\HCModel;
 
 
 /**
  * Class HCCountryTranslation
  * @package HoneyComb\Regions\Models
  */
-class HCCountryTranslation extends HCUuidModel
+class HCCountryTranslation extends HCModel
 {
 
 
