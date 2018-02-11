@@ -6,7 +6,8 @@
     },
     "formData": {
         "regions.continents": "HoneyComb\\Regions\\Forms\\HCContinentForm",
-        "regions.countries": "HoneyComb\\Regions\\Forms\\HCCountryForm"
+        "regions.countries": "HoneyComb\\Regions\\Forms\\HCCountryForm",
+        "regions.city": "HoneyComb\\Regions\\Forms\\HCCityForm"
     },
     "adminMenu": [
         {
@@ -14,20 +15,33 @@
             "parent": "admin.index",
             "translation": "HCRegions::regions_continents.page_title",
             "icon": "globe",
-            "aclPermission": "honey_comb_regions_regions_continents_list"
+            "skipList": true,
+            "aclPermission": "honey_comb_regions_regions_continents_list",
+            "parentConfig" : {
+                "translation": "HCRegions::regions_continents.regions",
+                "icon": "map"
+            }
         },
         {
             "route": "admin.regions.countries.index",
-            "parent": "admin.index",
+            "parent": "admin.regions.continents.index",
             "translation": "HCRegions::regions_countries.page_title",
-            "icon": "globe",
+            "icon": "flag",
             "aclPermission": "honey_comb_regions_regions_countries_list"
+        },
+        {
+            "route": "admin.regions.city.index",
+            "parent": "admin.regions.continents.index",
+            "translation": "HCRegions::regions_city.page_title",
+            "icon": "map-marker-alt",
+            "aclPermission": "honey_comb_regions_regions_city_list"
         }
     ],
     "seeder": "HoneyComb\\Regions\\Database\\Seeds\\HCRegionsSeeder",
     "routes": [
         "Routes\/Admin\/routes.regions.continents.php",
-        "Routes\/Admin\/routes.regions.countries.php"
+        "Routes\/Admin\/routes.regions.countries.php",
+        "Routes\/Admin\/routes.regions.city.php"
     ],
     "acl": {
         "permissions": [
@@ -45,6 +59,18 @@
                 "actions": [
                     "honey_comb_regions_regions_countries_update",
                     "honey_comb_regions_regions_countries_list"
+                ]
+            },
+            {
+                "name": "acl.regions.city",
+                "controller": "HoneyComb\\Regions\\Http\\Controllers\\Admin\\HCCityController",
+                "actions": [
+                    "honey_comb_regions_regions_city_update",
+                    "honey_comb_regions_regions_city_create",
+                    "honey_comb_regions_regions_city_delete",
+                    "honey_comb_regions_regions_city_delete_force",
+                    "honey_comb_regions_regions_city_restore",
+                    "honey_comb_regions_regions_city_list"
                 ]
             }
         ]

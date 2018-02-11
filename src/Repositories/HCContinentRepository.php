@@ -20,9 +20,4 @@ class HCContinentRepository extends HCBaseRepository
         return HCContinent::class;
     }
 
-    
-
-    
-
-    
 }

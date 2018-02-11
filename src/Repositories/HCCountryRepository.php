@@ -19,10 +19,4 @@ class HCCountryRepository extends HCBaseRepository
     {
         return HCCountry::class;
     }
-
-    
-
-    
-
-    
 }

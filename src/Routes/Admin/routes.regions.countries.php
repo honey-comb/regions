@@ -30,41 +30,35 @@ declare(strict_types = 1);
 Route::prefix(config('hc.admin_url'))
     ->namespace('Admin')
     ->middleware(['web', 'auth'])
-    ->group(function () {
+    ->group(function() {
 
         Route::get('regions/countries', 'HCCountryController@index')
-                    ->name('admin.regions.countries.index')
-                    ->middleware('acl:honey_comb_regions_regions_countries_admin_list');
+            ->name('admin.regions.countries.index')
+            ->middleware('acl:honey_comb_regions_regions_countries_admin_list');
 
+        Route::prefix('api/regions/countries')->group(function() {
 
-        Route::prefix('api/regions/countries')->group(function () {
-
-    Route::get('/', 'HCCountryController@getListPaginate')
+            Route::get('/', 'HCCountryController@getListPaginate')
                 ->name('admin.api.regions.countries')
                 ->middleware('acl:honey_comb_regions_regions_countries_admin_list');
 
+            Route::get('list', 'HCCountryController@getList')
+                ->name('admin.api.regions.countries.list')
+                ->middleware('acl:honey_comb_regions_regions_countries_admin_list');
 
-Route::get('list', 'HCCountryController@getList')
-                    ->name('admin.api.regions.countries.list')
+            Route::prefix('{id}')->group(function() {
+
+                Route::get('/', 'HCCountryController@getById')
+                    ->name('admin.api.regions.countries.single')
                     ->middleware('acl:honey_comb_regions_regions_countries_admin_list');
 
+                Route::put('/', 'HCCountryController@update')
+                    ->name('admin.api.regions.countries.update')
+                    ->middleware('acl:honey_comb_regions_regions_countries_admin_update');
 
-    Route::prefix('{id}')->group(function () {
-
-    Route::get('/', 'HCCountryController@getById')
-    ->name('admin.api.regions.countries.single')
-    ->middleware('acl:honey_comb_regions_regions_countries_admin_list');
-
-Route::put('/', 'HCCountryController@update')
-    ->name('admin.api.regions.countries.update')
-    ->middleware('acl:honey_comb_regions_regions_countries_admin_update');
-
-Route::patch('/', 'HCCountryController@patch')
-    ->name('admin.api.regions.countries.patch')
-    ->middleware('acl:honey_comb_regions_regions_countries_admin_update');
-
-
-});
-});
-
+                Route::patch('/', 'HCCountryController@patch')
+                    ->name('admin.api.regions.countries.patch')
+                    ->middleware('acl:honey_comb_regions_regions_countries_admin_update');
+            });
+        });
     });
