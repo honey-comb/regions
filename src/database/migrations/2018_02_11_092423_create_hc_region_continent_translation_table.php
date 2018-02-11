@@ -26,10 +26,9 @@ class CreateHcRegionContinentTranslationTable extends Migration
             $table->string('label');
 
             $table->foreign('record_id')->references('id')->on('hc_region_continent')
-                ->onUpdate('NO ACTION')->onDelete('NO ACTION');
+                ->onUpdate('CASCADE')->onDelete('CASCADE');
 
-            $table->foreign('language_code')->references('iso_639_1')->on('hc_language')
-                ->onUpdate('NO ACTION')->onDelete('NO ACTION');
+            $table->foreign('language_code')->references('iso_639_1')->on('hc_language');
         });
     }
 
