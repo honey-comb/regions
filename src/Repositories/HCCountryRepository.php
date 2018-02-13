@@ -8,7 +8,7 @@ use HoneyComb\Regions\Http\Requests\HCCountryRequest;
 use HoneyComb\Regions\Models\HCCountry;
 use HoneyComb\Core\Repositories\Traits\HCQueryBuilderTrait;
 use HoneyComb\Starter\Repositories\HCBaseRepository;
-use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Support\Collection;
 
 class HCCountryRepository extends HCBaseRepository
 {
@@ -24,10 +24,10 @@ class HCCountryRepository extends HCBaseRepository
 
     /**
      * @param \HoneyComb\Regions\Http\Requests\HCCountryRequest $request
-     * @return \Illuminate\Database\Eloquent\Collection
+     * @return \Illuminate\Support\Collection
      */
     public function getOptions (HCCountryRequest $request): Collection
     {
-        return $this->createBuilderQuery($request)->where('visible', '1')->get();
+        return optimizeTranslationOptions($this->createBuilderQuery($request)->where('visible', '1')->get());
     }
 }

@@ -8,8 +8,7 @@ use HoneyComb\Regions\Http\Requests\HCCityRequest;
 use HoneyComb\Regions\Models\HCCity;
 use HoneyComb\Core\Repositories\Traits\HCQueryBuilderTrait;
 use HoneyComb\Starter\Repositories\HCBaseRepository;
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Support\Collection;
 
 class HCCityRepository extends HCBaseRepository
 {
@@ -74,10 +73,10 @@ class HCCityRepository extends HCBaseRepository
 
     /**
      * @param \HoneyComb\Regions\Http\Requests\HCCityRequest $request
-     * @return \Illuminate\Database\Eloquent\Collection
+     * @return \Illuminate\Support\Collection
      */
     public function getOptions (HCCityRequest $request): Collection
     {
-        return $this->createBuilderQuery($request)->where('visible', '1')->get();
+        return optimizeTranslationOptions($this->createBuilderQuery($request)->where('visible', '1')->get());
     }
 }

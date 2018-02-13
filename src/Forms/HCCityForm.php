@@ -29,6 +29,7 @@ declare(strict_types = 1);
 
 namespace HoneyComb\Regions\Forms;
 
+use HoneyComb\Regions\Http\Requests\HCCountryRequest;
 use HoneyComb\Regions\Repositories\HCCountryRepository;
 use HoneyComb\Starter\Forms\HCBaseForm;
 
@@ -95,7 +96,7 @@ class HCCityForm extends HCBaseForm
                     'type' => 'dropDownList',
                     'label' => trans('HCRegion::regions_city.country_id'),
                     'required' => 1,
-                    'options' => optimizeTranslationOptions($this->countryRepository->all())
+                    'options' => $this->countryRepository->getOptions(new HCCountryRequest())
                 ],
             $prefix . 'translations.label' =>
                 [

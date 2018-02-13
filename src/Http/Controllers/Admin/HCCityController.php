@@ -110,9 +110,7 @@ class HCCityController extends HCBaseController
      */
     public function getList(HCCityRequest $request): JsonResponse
     {
-        return response()->json(
-            optimizeTranslationOptions($this->service->getRepository()->getOptions($request))
-        );
+        return response()->json(($this->service->getRepository()->getOptions($request)));
     }
 
     /**
