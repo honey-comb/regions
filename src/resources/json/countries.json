@@ -12,5 +12,19 @@
         "label": "Lithuania"
       }
     ]
+  },
+  {
+    "id": "lv",
+    "flag_id": "flag-lv",
+    "translations": [
+      {
+        "language_code": "lt",
+        "label": "Latvia"
+      },
+      {
+        "language_code": "en",
+        "label": "Latvia"
+      }
+    ]
   }
 ]
