@@ -75,6 +75,7 @@ class HCCountryController extends HCBaseController
         $columns = [
             'flag_id' => $this->headerImage(trans('HCRegion::regions_countries.flag_id')),
             'translation.label' => $this->headerText(trans('HCRegion::regions_countries.label')),
+            'visible' => $this->headerCheckBox(trans('HCRegion::regions_countries.visible')),
         ];
 
         return $columns;
@@ -101,6 +102,18 @@ class HCCountryController extends HCBaseController
         );
     }
 
+    /**
+     * Creating data list
+     * @param HCCountryRequest $request
+     * @return JsonResponse
+     */
+    public function getList(HCCountryRequest $request): JsonResponse
+    {
+        return response()->json(
+            optimizeTranslationOptions($this->service->getRepository()->getOptions($request))
+        );
+    }
+
 
     /**
      * Update record
@@ -118,5 +131,16 @@ class HCCountryController extends HCBaseController
         return $this->response->success("Created");
     }
 
+    /**
+     * @param \HoneyComb\Regions\Http\Requests\HCCountryRequest $request
+     * @param string $id
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function patch (HCCountryRequest $request, string  $id)
+    {
+        $this->service->getRepository()->update($request->getPatchValues(), $id);
+
+        return $this->response->success('Updated');
+    }
 
 }

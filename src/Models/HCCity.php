@@ -54,7 +54,7 @@ class HCCity extends HCUuidModel
      * @var array
      */
     protected $fillable = [
-        "id", "country_id"
+        "id", "country_id", "visible"
     ];
 
     /**

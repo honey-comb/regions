@@ -72,6 +72,10 @@ Route::prefix(config('hc.admin_url'))
                     ->name('admin.api.regions.city.update')
                     ->middleware('acl:honey_comb_regions_regions_city_admin_update');
 
+                Route::patch('/', 'HCCityController@patch')
+                    ->name('admin.api.regions.city.patch')
+                    ->middleware('acl:honey_comb_regions_regions_city_admin_update');
+
             });
         });
     });

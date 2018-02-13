@@ -73,8 +73,9 @@ class HCCityController extends HCBaseController
     public function getTableColumns(): array
     {
         $columns = [
-            'translation.label' => $this->headerText(trans('HCRegion::regions_city.label')),
             'country_id' => $this->headerText(trans('HCRegion::regions_city.country_id')),
+            'translation.label' => $this->headerText(trans('HCRegion::regions_city.label')),
+            'visible' => $this->headerCheckBox(trans('HCRegion::regions_city.visible')),
         ];
 
         return $columns;
@@ -90,7 +91,7 @@ class HCCityController extends HCBaseController
     }
 
     /**
-     * Creating data list
+     * Creating pages of data
      * @param HCCityRequest $request
      * @return JsonResponse
      */
@@ -98,6 +99,19 @@ class HCCityController extends HCBaseController
     {
         return response()->json(
             $this->service->getRepository()->getListPaginate($request)
+        );
+    }
+
+    /**
+     * Creating list
+     *
+     * @param \HoneyComb\Regions\Http\Requests\HCCityRequest $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function getList(HCCityRequest $request): JsonResponse
+    {
+        return response()->json(
+            optimizeTranslationOptions($this->service->getRepository()->getOptions($request))
         );
     }
 
@@ -141,6 +155,18 @@ class HCCityController extends HCBaseController
         $model->updateTranslations($request->getTranslations());
 
         return $this->response->success("Created");
+    }
+
+    /**
+     * @param \HoneyComb\Regions\Http\Requests\HCCityRequest $request
+     * @param string $id
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function patch (HCCityRequest $request, string  $id)
+    {
+        $this->service->getRepository()->update($request->getPatchValues(), $id);
+
+        return $this->response->success('Updated');
     }
 
 

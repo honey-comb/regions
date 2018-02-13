@@ -4,9 +4,12 @@ declare(strict_types = 1);
 
 namespace HoneyComb\Regions\Repositories;
 
+use HoneyComb\Regions\Http\Requests\HCCityRequest;
 use HoneyComb\Regions\Models\HCCity;
 use HoneyComb\Core\Repositories\Traits\HCQueryBuilderTrait;
 use HoneyComb\Starter\Repositories\HCBaseRepository;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Collection;
 
 class HCCityRepository extends HCBaseRepository
 {
@@ -67,5 +70,14 @@ class HCCityRepository extends HCBaseRepository
             $record->translations()->forceDelete();
             $record->forceDelete();
         }
+    }
+
+    /**
+     * @param \HoneyComb\Regions\Http\Requests\HCCityRequest $request
+     * @return \Illuminate\Database\Eloquent\Collection
+     */
+    public function getOptions (HCCityRequest $request): Collection
+    {
+        return $this->createBuilderQuery($request)->where('visible', '1')->get();
     }
 }

@@ -56,6 +56,7 @@ class HCCountry extends HCUuidModel
     protected $fillable = [
         "id",
         "flag_id",
+        "visible"
     ];
 
     /**

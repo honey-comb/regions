@@ -21,6 +21,7 @@ class CreateHcRegionCountryTable extends Migration
             $table->datetime('deleted_at')->nullable();
 
             $table->uuid('flag_id')->nullable();
+            $table->boolean('visible')->default(1);
 
             $table->foreign('flag_id')->references('id')->on('hc_resource');
         });

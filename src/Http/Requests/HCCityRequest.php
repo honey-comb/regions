@@ -34,6 +34,11 @@ use Illuminate\Foundation\Http\FormRequest;
 class HCCityRequest extends FormRequest
 {
     /**
+     * @var array
+     */
+    private $patchKeys = ['visible'];
+
+    /**
      * Get request inputs
      *
      * @return array
@@ -74,6 +79,16 @@ class HCCityRequest extends FormRequest
     }
 
     /**
+     * Get only available to update fields
+     *
+     * @return array
+     */
+    public function getPatchValues(): array
+    {
+        return $this->only($this->patchKeys);
+    }
+
+    /**
      * Get the validation rules that apply to the request.
      *
      * @return array
@@ -95,7 +110,9 @@ class HCCityRequest extends FormRequest
                 return [];
 
             case 'PATCH':
-                return [];
+                return [
+                    'visible' => 'required'
+                ];
 
             case 'DELETE':
                 return [

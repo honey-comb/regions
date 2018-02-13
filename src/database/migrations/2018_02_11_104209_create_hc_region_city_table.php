@@ -21,6 +21,7 @@ class CreateHcRegionCityTable extends Migration
             $table->datetime('deleted_at')->nullable();
 
             $table->uuid('country_id');
+            $table->boolean('visible')->default(1);
 
             $table->foreign('country_id')->references('id')->on('hc_region_country');
         });
