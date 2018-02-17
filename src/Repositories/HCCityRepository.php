@@ -79,4 +79,13 @@ class HCCityRepository extends HCBaseRepository
     {
         return optimizeTranslationOptions($this->createBuilderQuery($request)->where('visible', '1')->get());
     }
+
+    /**
+     * @param $record
+     * @return mixed
+     */
+    public function formatForOptions(HCcity $record): array
+    {
+        return optimizeSingleTranslationOption($record);
+    }
 }

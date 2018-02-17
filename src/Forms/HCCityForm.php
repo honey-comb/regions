@@ -90,7 +90,7 @@ class HCCityForm extends HCBaseForm
      */
     public function getStructureNew(string $prefix): array
     {
-        return [
+        $form = [
             $prefix . 'country_id' =>
                 [
                     'type' => 'dropDownList',
@@ -105,8 +105,20 @@ class HCCityForm extends HCBaseForm
                     'multiLanguage' => 1,
                     'required' => 1,
                     'requiredVisible' => 1,
-                ]
+                ],
         ];
+
+        if (request('hc_options'))
+        {
+            $form[$prefix . 'hc_options'] = [
+                'type' => 'singleLine',
+                'required' => 1,
+                'value' => 1,
+                'hidden' => 1,
+            ];
+        }
+
+        return $form;
     }
 
     /**

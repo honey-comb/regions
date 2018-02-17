@@ -122,4 +122,15 @@ class HCCityRequest extends FormRequest
 
         return [];
     }
+
+    /**
+     * @return bool
+     */
+    public function isResponseForOptions(): bool
+    {
+        if ($this->has('hc_options'))
+            return true;
+
+        return false;
+    }
 }

@@ -135,7 +135,20 @@ class HCCityController extends HCBaseController
             return $this->response->error($e->getMessage());
         }
 
-        return $this->response->success("Created");
+        return $this->response->success("Created", $this->responseData($request, $model->id));
+    }
+
+    /**
+     * @param \HoneyComb\Regions\Http\Requests\HCCityRequest $request
+     * @param string $id
+     * @return array|null
+     */
+    protected function responseData(HCCityRequest $request, string $id)
+    {
+        if ($request->isResponseForOptions())
+            return $this->service->getRepository()->formatForOptions($this->getById($id));
+
+        return null;
     }
 
 
