@@ -36,6 +36,10 @@ use HoneyComb\Resources\Services\HCResourceService;
 use Illuminate\Database\Connection;
 use Illuminate\Database\Seeder;
 
+/**
+ * Class HCCountrySeeder
+ * @package HoneyComb\Regions\Database\Seeds
+ */
 class HCCountrySeeder extends Seeder
 {
     /**

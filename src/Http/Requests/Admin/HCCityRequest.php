@@ -21,17 +21,21 @@
  * SOFTWARE.
  *
  * Contact InteractiveSolutions:
- * E-mail: info@interactivesolutions.lt
+ * E-mail: hello@interactivesolutions.lt
  * http://www.interactivesolutions.lt
  */
 
 declare(strict_types = 1);
 
-namespace HoneyComb\Regions\Http\Requests;
+namespace HoneyComb\Regions\Http\Requests\Admin;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class HCCountryRequest extends FormRequest
+/**
+ * Class HCCityRequest
+ * @package HoneyComb\Regions\Http\Requests\Admin
+ */
+class HCCityRequest extends FormRequest
 {
     /**
      * @var array
@@ -96,19 +100,41 @@ class HCCountryRequest extends FormRequest
     public function rules(): array
     {
         switch ($this->method()) {
+            case 'POST':
+                if ($this->segment(4) == 'restore') {
+                    return [
+                        'list' => 'required|array',
+                    ];
+                }
+
+                return [];
 
             case 'PUT':
 
-                return [
-                    'translations' => 'required|array|min:1',
-                ];
+                return [];
 
             case 'PATCH':
                 return [
                     'visible' => 'required'
                 ];
+
+            case 'DELETE':
+                return [
+                    'list' => 'required|array',
+                ];
         }
 
         return [];
+    }
+
+    /**
+     * @return bool
+     */
+    public function isResponseForOptions(): bool
+    {
+        if ($this->has('hc_options'))
+            return true;
+
+        return false;
     }
 }

@@ -21,23 +21,18 @@
  * SOFTWARE.
  *
  * Contact InteractiveSolutions:
- * E-mail: info@interactivesolutions.lt
+ * E-mail: hello@interactivesolutions.lt
  * http://www.interactivesolutions.lt
  */
 
 declare(strict_types = 1);
 
-namespace HoneyComb\Regions\Http\Requests;
+namespace HoneyComb\Regions\Http\Requests\Admin;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class HCCityRequest extends FormRequest
+class HCContinentRequest extends FormRequest
 {
-    /**
-     * @var array
-     */
-    private $patchKeys = ['visible'];
-
     /**
      * Get request inputs
      *
@@ -79,16 +74,6 @@ class HCCityRequest extends FormRequest
     }
 
     /**
-     * Get only available to update fields
-     *
-     * @return array
-     */
-    public function getPatchValues(): array
-    {
-        return $this->only($this->patchKeys);
-    }
-
-    /**
      * Get the validation rules that apply to the request.
      *
      * @return array
@@ -96,41 +81,15 @@ class HCCityRequest extends FormRequest
     public function rules(): array
     {
         switch ($this->method()) {
-            case 'POST':
-                if ($this->segment(4) == 'restore') {
-                    return [
-                        'list' => 'required|array',
-                    ];
-                }
-
-                return [];
 
             case 'PUT':
 
-                return [];
-
-            case 'PATCH':
                 return [
-                    'visible' => 'required'
+                    'translations' => 'required|array|min:1',
                 ];
 
-            case 'DELETE':
-                return [
-                    'list' => 'required|array',
-                ];
         }
 
         return [];
-    }
-
-    /**
-     * @return bool
-     */
-    public function isResponseForOptions(): bool
-    {
-        if ($this->has('hc_options'))
-            return true;
-
-        return false;
     }
 }

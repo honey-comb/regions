@@ -21,18 +21,23 @@
  * SOFTWARE.
  *
  * Contact InteractiveSolutions:
- * E-mail: info@interactivesolutions.lt
+ * E-mail: hello@interactivesolutions.lt
  * http://www.interactivesolutions.lt
  */
 
 declare(strict_types = 1);
 
-namespace HoneyComb\Regions\Http\Requests;
+namespace HoneyComb\Regions\Http\Requests\Admin;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class HCContinentRequest extends FormRequest
+class HCCountryRequest extends FormRequest
 {
+    /**
+     * @var array
+     */
+    private $patchKeys = ['visible'];
+
     /**
      * Get request inputs
      *
@@ -74,6 +79,16 @@ class HCContinentRequest extends FormRequest
     }
 
     /**
+     * Get only available to update fields
+     *
+     * @return array
+     */
+    public function getPatchValues(): array
+    {
+        return $this->only($this->patchKeys);
+    }
+
+    /**
      * Get the validation rules that apply to the request.
      *
      * @return array
@@ -88,6 +103,10 @@ class HCContinentRequest extends FormRequest
                     'translations' => 'required|array|min:1',
                 ];
 
+            case 'PATCH':
+                return [
+                    'visible' => 'required'
+                ];
         }
 
         return [];

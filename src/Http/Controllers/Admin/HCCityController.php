@@ -1,11 +1,36 @@
 <?php
+/**
+ * @copyright 2018 interactivesolutions
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ *
+ * Contact InteractiveSolutions:
+ * E-mail: hello@interactivesolutions.lt
+ * http://www.interactivesolutions.lt
+ */
 
 declare(strict_types = 1);
 
 namespace HoneyComb\Regions\Http\Controllers\Admin;
 
 use HoneyComb\Regions\Services\HCCityService;
-use HoneyComb\Regions\Http\Requests\HCCityRequest;
+use HoneyComb\Regions\Http\Requests\Admin\HCCityRequest;
 use HoneyComb\Regions\Models\HCCity;
 
 use HoneyComb\Core\Http\Controllers\HCBaseController;
@@ -15,6 +40,10 @@ use Illuminate\Database\Connection;
 use Illuminate\Http\JsonResponse;
 use Illuminate\View\View;
 
+/**
+ * Class HCCityController
+ * @package HoneyComb\Regions\Http\Controllers\Admin
+ */
 class HCCityController extends HCBaseController
 {
     use HCAdminListHeaders;
@@ -105,7 +134,7 @@ class HCCityController extends HCBaseController
     /**
      * Creating list
      *
-     * @param \HoneyComb\Regions\Http\Requests\HCCityRequest $request
+     * @param \HoneyComb\Regions\Http\Requests\Admin\HCCityRequest $request
      * @return \Illuminate\Http\JsonResponse
      */
     public function getList(HCCityRequest $request): JsonResponse
@@ -139,7 +168,7 @@ class HCCityController extends HCBaseController
     }
 
     /**
-     * @param \HoneyComb\Regions\Http\Requests\HCCityRequest $request
+     * @param \HoneyComb\Regions\Http\Requests\Admin\HCCityRequest $request
      * @param string $id
      * @return array|null
      */
@@ -169,7 +198,7 @@ class HCCityController extends HCBaseController
     }
 
     /**
-     * @param \HoneyComb\Regions\Http\Requests\HCCityRequest $request
+     * @param \HoneyComb\Regions\Http\Requests\Admin\HCCityRequest $request
      * @param string $id
      * @return \Illuminate\Http\JsonResponse
      */

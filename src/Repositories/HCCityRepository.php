@@ -4,12 +4,16 @@ declare(strict_types = 1);
 
 namespace HoneyComb\Regions\Repositories;
 
-use HoneyComb\Regions\Http\Requests\HCCityRequest;
+use HoneyComb\Regions\Http\Requests\Admin\HCCityRequest;
 use HoneyComb\Regions\Models\HCCity;
 use HoneyComb\Core\Repositories\Traits\HCQueryBuilderTrait;
 use HoneyComb\Starter\Repositories\HCBaseRepository;
 use Illuminate\Support\Collection;
 
+/**
+ * Class HCCityRepository
+ * @package HoneyComb\Regions\Repositories
+ */
 class HCCityRepository extends HCBaseRepository
 {
     use HCQueryBuilderTrait;
@@ -72,7 +76,7 @@ class HCCityRepository extends HCBaseRepository
     }
 
     /**
-     * @param \HoneyComb\Regions\Http\Requests\HCCityRequest $request
+     * @param \HoneyComb\Regions\Http\Requests\Admin\HCCityRequest $request
      * @return \Illuminate\Support\Collection
      */
     public function getOptions (HCCityRequest $request): Collection

@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 namespace HoneyComb\Regions\Repositories;
 
-use HoneyComb\Regions\Http\Requests\HCCountryRequest;
+use HoneyComb\Regions\Http\Requests\Admin\HCCountryRequest;
 use HoneyComb\Regions\Models\HCCountry;
 use HoneyComb\Core\Repositories\Traits\HCQueryBuilderTrait;
 use HoneyComb\Starter\Repositories\HCBaseRepository;
@@ -23,7 +23,7 @@ class HCCountryRepository extends HCBaseRepository
     }
 
     /**
-     * @param \HoneyComb\Regions\Http\Requests\HCCountryRequest $request
+     * @param \HoneyComb\Regions\Http\Requests\Admin\HCCountryRequest $request
      * @return \Illuminate\Support\Collection
      */
     public function getOptions (HCCountryRequest $request): Collection
