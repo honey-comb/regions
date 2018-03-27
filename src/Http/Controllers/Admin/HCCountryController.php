@@ -5,7 +5,7 @@ declare(strict_types = 1);
 namespace HoneyComb\Regions\Http\Controllers\Admin;
 
 use HoneyComb\Regions\Services\HCCountryService;
-use HoneyComb\Regions\Http\Requests\HCCountryRequest;
+use HoneyComb\Regions\Http\Requests\Admin\HCCountryRequest;
 use HoneyComb\Regions\Models\HCCountry;
 
 use HoneyComb\Core\Http\Controllers\HCBaseController;
@@ -130,7 +130,7 @@ class HCCountryController extends HCBaseController
     }
 
     /**
-     * @param \HoneyComb\Regions\Http\Requests\HCCountryRequest $request
+     * @param \HoneyComb\Regions\Http\Requests\Admin\HCCountryRequest $request
      * @param string $id
      * @return \Illuminate\Http\JsonResponse
      */

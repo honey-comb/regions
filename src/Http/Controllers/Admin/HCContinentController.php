@@ -5,7 +5,7 @@ declare(strict_types = 1);
 namespace HoneyComb\Regions\Http\Controllers\Admin;
 
 use HoneyComb\Regions\Services\HCContinentService;
-use HoneyComb\Regions\Http\Requests\HCContinentRequest;
+use HoneyComb\Regions\Http\Requests\Admin\HCContinentRequest;
 use HoneyComb\Regions\Models\HCContinent;
 
 use HoneyComb\Core\Http\Controllers\HCBaseController;

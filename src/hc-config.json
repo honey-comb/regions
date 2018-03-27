@@ -5,9 +5,9 @@
         "namespace": "HoneyComb\\Regions\\"
     },
     "formData": {
-        "regions.continents": "HoneyComb\\Regions\\Forms\\HCContinentForm",
-        "regions.countries": "HoneyComb\\Regions\\Forms\\HCCountryForm",
-        "regions.city": "HoneyComb\\Regions\\Forms\\HCCityForm"
+        "regions.continents": "HoneyComb\\Regions\\Forms\\Admin\\HCContinentForm",
+        "regions.countries": "HoneyComb\\Regions\\Forms\\Admin\\HCCountryForm",
+        "regions.city": "HoneyComb\\Regions\\Forms\\Admin\\HCCityForm"
     },
     "adminMenu": [
         {
