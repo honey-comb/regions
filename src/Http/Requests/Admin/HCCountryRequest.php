@@ -31,6 +31,11 @@ namespace HoneyComb\Regions\Http\Requests\Admin;
 
 use Illuminate\Foundation\Http\FormRequest;
 
+
+/**
+ * Class HCCountryRequest
+ * @package HoneyComb\Regions\Http\Requests\Admin
+ */
 class HCCountryRequest extends FormRequest
 {
     /**
