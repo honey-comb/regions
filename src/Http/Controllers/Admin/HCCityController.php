@@ -29,12 +29,17 @@ declare(strict_types = 1);
 
 namespace HoneyComb\Regions\Http\Controllers\Admin;
 
-use HoneyComb\Regions\Services\HCCityService;
-use HoneyComb\Regions\Http\Requests\Admin\HCCityRequest;
-use HoneyComb\Regions\Models\HCCity;
-
 use HoneyComb\Core\Http\Controllers\HCBaseController;
 use HoneyComb\Core\Http\Controllers\Traits\HCAdminListHeaders;
+use HoneyComb\Regions\Events\Admin\City\HCCityCreated;
+use HoneyComb\Regions\Events\Admin\City\HCCityForceDeleted;
+use HoneyComb\Regions\Events\Admin\City\HCCityPatched;
+use HoneyComb\Regions\Events\Admin\City\HCCityRestored;
+use HoneyComb\Regions\Events\Admin\City\HCCitySoftDeleted;
+use HoneyComb\Regions\Events\Admin\City\HCCityUpdated;
+use HoneyComb\Regions\Http\Requests\Admin\HCCityRequest;
+use HoneyComb\Regions\Models\HCCity;
+use HoneyComb\Regions\Services\HCCityService;
 use HoneyComb\Starter\Helpers\HCFrontendResponse;
 use Illuminate\Database\Connection;
 use Illuminate\Http\JsonResponse;
@@ -56,12 +61,12 @@ class HCCityController extends HCBaseController
     /**
      * @var Connection
      */
-    private $connection;
+    protected $connection;
 
     /**
      * @var HCFrontendResponse
      */
-    private $response;
+    protected $response;
 
     /**
      * HCCityController constructor.
@@ -137,7 +142,7 @@ class HCCityController extends HCBaseController
      * @param \HoneyComb\Regions\Http\Requests\Admin\HCCityRequest $request
      * @return \Illuminate\Http\JsonResponse
      */
-    public function getList(HCCityRequest $request): JsonResponse
+    public function getOptions(HCCityRequest $request): JsonResponse
     {
         return response()->json(($this->service->getRepository()->getOptions($request)));
     }
@@ -154,8 +159,9 @@ class HCCityController extends HCBaseController
         $this->connection->beginTransaction();
 
         try {
-            $model = $this->service->getRepository()->create($request->getRecordData());
-            $model->updateTranslations($request->getTranslations());
+            /** @var HCCity $record */
+            $record = $this->service->getRepository()->create($request->getRecordData());
+            $record->updateTranslations($request->getTranslations());
 
             $this->connection->commit();
         } catch (\Throwable $e) {
@@ -164,7 +170,9 @@ class HCCityController extends HCBaseController
             return $this->response->error($e->getMessage());
         }
 
-        return $this->response->success("Created", $this->responseData($request, $model->id));
+        event(new HCCityCreated($record));
+
+        return $this->response->success("Created", $this->responseData($request, $record->id));
     }
 
     /**
@@ -174,12 +182,12 @@ class HCCityController extends HCBaseController
      */
     protected function responseData(HCCityRequest $request, string $id)
     {
-        if ($request->isResponseForOptions())
+        if ($request->isResponseForOptions()) {
             return $this->service->getRepository()->formatForOptions($this->getById($id));
+        }
 
         return null;
     }
-
 
     /**
      * Update record
@@ -190,9 +198,16 @@ class HCCityController extends HCBaseController
      */
     public function update(HCCityRequest $request, string $id): JsonResponse
     {
-        $model = $this->service->getRepository()->findOneBy(['id' => $id]);
-        $model->update($request->getRecordData());
-        $model->updateTranslations($request->getTranslations());
+        /** @var HCCity $record */
+        $record = $this->service->getRepository()->findOneBy(['id' => $id]);
+        $record->update($request->getRecordData());
+        $record->updateTranslations($request->getTranslations());
+
+        if ($record) {
+            $record = $this->service->getRepository()->find($id);
+
+            event(new HCCityUpdated($record));
+        }
 
         return $this->response->success("Created");
     }
@@ -202,13 +217,20 @@ class HCCityController extends HCBaseController
      * @param string $id
      * @return \Illuminate\Http\JsonResponse
      */
-    public function patch (HCCityRequest $request, string  $id)
+    public function patch(HCCityRequest $request, string $id)
     {
-        $this->service->getRepository()->update($request->getPatchValues(), $id);
+        $updated = $this->service->getRepository()->update($request->getPatchValues(), $id);
+
+        if ($updated) {
+
+            /** @var HCCity $record */
+            $record = $this->service->getRepository()->find($id);
+
+            event(new HCCityPatched($record));
+        }
 
         return $this->response->success('Updated');
     }
-
 
     /**
      * Soft delete record
@@ -222,7 +244,7 @@ class HCCityController extends HCBaseController
         $this->connection->beginTransaction();
 
         try {
-            $this->service->getRepository()->deleteSoft($request->getListIds());
+            $deleted = $this->service->getRepository()->deleteSoft($request->getListIds());
 
             $this->connection->commit();
         } catch (\Throwable $exception) {
@@ -231,23 +253,22 @@ class HCCityController extends HCBaseController
             return $this->response->error($exception->getMessage());
         }
 
+        event(new HCCitySoftDeleted($deleted));
+
         return $this->response->success('Successfully deleted');
     }
 
-
     /**
-     * Restore record
-     *
      * @param HCCityRequest $request
      * @return JsonResponse
-     * @throws \Throwable
+     * @throws \Exception
      */
     public function restore(HCCityRequest $request): JsonResponse
     {
         $this->connection->beginTransaction();
 
         try {
-            $this->service->getRepository()->restore($request->getListIds());
+            $restored = $this->service->getRepository()->restore($request->getListIds());
 
             $this->connection->commit();
         } catch (\Throwable $exception) {
@@ -256,9 +277,10 @@ class HCCityController extends HCBaseController
             return $this->response->error($exception->getMessage());
         }
 
+        event(new HCCityRestored($restored));
+
         return $this->response->success('Successfully restored');
     }
-
 
     /**
      * Force delete record
@@ -272,7 +294,7 @@ class HCCityController extends HCBaseController
         $this->connection->beginTransaction();
 
         try {
-            $this->service->getRepository()->deleteForce($request->getListIds());
+            $deleted = $this->service->getRepository()->deleteForce($request->getListIds());
 
             $this->connection->commit();
         } catch (\Throwable $exception) {
@@ -280,6 +302,8 @@ class HCCityController extends HCBaseController
 
             return $this->response->error($exception->getMessage());
         }
+
+        event(new HCCityForceDeleted($deleted));
 
         return $this->response->success('Successfully deleted');
     }

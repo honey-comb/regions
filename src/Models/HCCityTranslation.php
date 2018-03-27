@@ -38,7 +38,12 @@ use HoneyComb\Starter\Models\HCModel;
  */
 class HCCityTranslation extends HCModel
 {
-    
+    /**
+     * The primary key for the model.
+     *
+     * @var string
+     */
+    protected $primaryKey = 'count';
 
     /**
      * The database table used by the model.
@@ -53,14 +58,16 @@ class HCCityTranslation extends HCModel
      * @var array
      */
     protected $fillable = [
-        "record_id", "language_code", "label"
+        "record_id",
+        "language_code",
+        "label",
     ];
 
     /**
      * @var array
      */
     protected $with = [
-        
+
     ];
 
 }

@@ -27,38 +27,38 @@
 
 declare(strict_types = 1);
 
-Route::prefix(config('hc.admin_url'))
+Route::domain(config('hc.admin_domain'))
+    ->prefix(config('hc.admin_url'))
     ->namespace('Admin')
     ->middleware(['web', 'auth'])
     ->group(function() {
 
         Route::get('regions/countries', 'HCCountryController@index')
             ->name('admin.regions.countries.index')
-            ->middleware('acl:honey_comb_regions_regions_countries_admin_list');
+            ->middleware('acl:honey_comb_regions_regions_countries_list');
 
         Route::prefix('api/regions/countries')->group(function() {
 
             Route::get('/', 'HCCountryController@getListPaginate')
                 ->name('admin.api.regions.countries')
-                ->middleware('acl:honey_comb_regions_regions_countries_admin_list');
+                ->middleware('acl:honey_comb_regions_regions_countries_list');
 
-            Route::get('list', 'HCCountryController@getList')
-                ->name('admin.api.regions.countries.list')
-                ->middleware('acl:honey_comb_regions_regions_countries_admin_list');
+            Route::get('options', 'HCCountryController@getOptions')
+                ->name('admin.api.regions.countries.options');
 
             Route::prefix('{id}')->group(function() {
 
                 Route::get('/', 'HCCountryController@getById')
                     ->name('admin.api.regions.countries.single')
-                    ->middleware('acl:honey_comb_regions_regions_countries_admin_list');
+                    ->middleware('acl:honey_comb_regions_regions_countries_list');
 
                 Route::put('/', 'HCCountryController@update')
                     ->name('admin.api.regions.countries.update')
-                    ->middleware('acl:honey_comb_regions_regions_countries_admin_update');
+                    ->middleware('acl:honey_comb_regions_regions_countries_update');
 
                 Route::patch('/', 'HCCountryController@patch')
                     ->name('admin.api.regions.countries.patch')
-                    ->middleware('acl:honey_comb_regions_regions_countries_admin_update');
+                    ->middleware('acl:honey_comb_regions_regions_countries_update');
             });
         });
     });

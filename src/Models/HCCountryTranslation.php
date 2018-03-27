@@ -38,8 +38,6 @@ use HoneyComb\Starter\Models\HCModel;
  */
 class HCCountryTranslation extends HCModel
 {
-
-
     /**
      * The database table used by the model.
      *

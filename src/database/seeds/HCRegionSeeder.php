@@ -31,6 +31,10 @@ namespace HoneyComb\Regions\Database\Seeds;
 
 use Illuminate\Database\Seeder;
 
+/**
+ * Class HCRegionSeeder
+ * @package HoneyComb\Regions\Database\Seeds
+ */
 class HCRegionSeeder extends Seeder
 {
     /**

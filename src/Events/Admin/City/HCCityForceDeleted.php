@@ -25,50 +25,45 @@
  * http://www.interactivesolutions.lt
  */
 
-declare(strict_types = 1);
+namespace HoneyComb\Regions\Events\Admin\City;
 
-use Illuminate\Support\Facades\Schema;
-use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Database\Migrations\Migration;
+use Illuminate\Broadcasting\Channel;
+use Illuminate\Queue\SerializesModels;
+use Illuminate\Broadcasting\PrivateChannel;
+use Illuminate\Broadcasting\PresenceChannel;
+use Illuminate\Foundation\Events\Dispatchable;
+use Illuminate\Broadcasting\InteractsWithSockets;
+use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
 
 /**
- * Class CreateHcRegionContinentTranslationTable
+ * Class HCCityForceDeleted
+ * @package HoneyComb\Regions\Events\Admin\City
  */
-class CreateHcRegionContinentTranslationTable extends Migration
+class HCCityForceDeleted
 {
+    use Dispatchable, InteractsWithSockets, SerializesModels;
+
     /**
-     * Run the migrations.
+     * @var array
+     */
+    public $deleted;
+    /**
+     * Create a new event instance.
      *
      * @return void
      */
-    public function up(): void
+    public function __construct(array $deleted)
     {
-        Schema::create('hc_region_continent_translation', function (Blueprint $table) {
-            $table->increments('count');
-            $table->datetime('created_at')->default(DB::raw('CURRENT_TIMESTAMP'));
-            $table->datetime('updated_at')->default(DB::raw('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'));
-
-            $table->uuid('record_id');
-            $table->string('language_code', 2);
-
-            $table->unique(['record_id', 'language_code']);
-
-            $table->string('label');
-
-            $table->foreign('record_id')->references('id')->on('hc_region_continent')
-                ->onUpdate('CASCADE')->onDelete('CASCADE');
-
-            $table->foreign('language_code')->references('iso_639_1')->on('hc_language');
-        });
+        $this->deleted = $deleted;
     }
 
     /**
-     * Reverse the migrations.
+     * Get the channels the event should broadcast on.
      *
-     * @return void
+     * @return \Illuminate\Broadcasting\Channel|array
      */
-    public function down(): void
+    public function broadcastOn()
     {
-        Schema::dropIfExists('hc_region_continent_translation');
+        return new PrivateChannel('channel-name');
     }
 }

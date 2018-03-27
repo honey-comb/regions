@@ -115,7 +115,7 @@ class HCCityRequest extends FormRequest
 
             case 'PATCH':
                 return [
-                    'visible' => 'required'
+                    'visible' => 'required',
                 ];
 
             case 'DELETE':
@@ -132,8 +132,9 @@ class HCCityRequest extends FormRequest
      */
     public function isResponseForOptions(): bool
     {
-        if ($this->has('hc_options'))
+        if ($this->has('hc_options')) {
             return true;
+        }
 
         return false;
     }

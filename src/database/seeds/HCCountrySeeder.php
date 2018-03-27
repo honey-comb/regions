@@ -29,9 +29,7 @@ declare(strict_types = 1);
 
 namespace HoneyComb\Regions\Database\Seeds;
 
-use HoneyComb\Regions\Models\HCCountry;
 use HoneyComb\Regions\Repositories\HCCountryRepository;
-use HoneyComb\Resources\Models\HCResource;
 use HoneyComb\Resources\Services\HCResourceService;
 use Illuminate\Database\Connection;
 use Illuminate\Database\Seeder;
@@ -46,10 +44,12 @@ class HCCountrySeeder extends Seeder
      * @var \HoneyComb\Resources\Services\HCResourceService
      */
     private $resourceService;
+
     /**
      * @var \Illuminate\Database\Connection
      */
     private $connection;
+
     /**
      * @var \HoneyComb\Regions\Repositories\HCCountryRepository
      */

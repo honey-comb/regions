@@ -96,7 +96,7 @@ class HCCityForm extends HCBaseForm
                     'type' => 'dropDownList',
                     'label' => trans('HCRegion::regions_city.country_id'),
                     'required' => 1,
-                    'options' => $this->countryRepository->getOptions(new HCCountryRequest())
+                    'options' => $this->countryRepository->getOptions(new HCCountryRequest()),
                 ],
             $prefix . 'translations.label' =>
                 [
@@ -108,8 +108,7 @@ class HCCityForm extends HCBaseForm
                 ],
         ];
 
-        if (request('hc_options'))
-        {
+        if (request('hc_options')) {
             $form[$prefix . 'hc_options'] = [
                 'type' => 'singleLine',
                 'required' => 1,

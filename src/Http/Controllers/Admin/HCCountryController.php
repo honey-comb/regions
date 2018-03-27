@@ -1,20 +1,51 @@
 <?php
+/**
+ * @copyright 2018 interactivesolutions
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ *
+ * Contact InteractiveSolutions:
+ * E-mail: hello@interactivesolutions.lt
+ * http://www.interactivesolutions.lt
+ */
 
 declare(strict_types = 1);
 
 namespace HoneyComb\Regions\Http\Controllers\Admin;
 
-use HoneyComb\Regions\Services\HCCountryService;
-use HoneyComb\Regions\Http\Requests\Admin\HCCountryRequest;
-use HoneyComb\Regions\Models\HCCountry;
-
 use HoneyComb\Core\Http\Controllers\HCBaseController;
 use HoneyComb\Core\Http\Controllers\Traits\HCAdminListHeaders;
+use HoneyComb\Regions\Events\Admin\Continent\HCCountryPatched;
+use HoneyComb\Regions\Events\Admin\Countries\HCCountryUpdated;
+use HoneyComb\Regions\Http\Requests\Admin\HCCountryRequest;
+use HoneyComb\Regions\Models\HCCountry;
+use HoneyComb\Regions\Services\HCCountryService;
 use HoneyComb\Starter\Helpers\HCFrontendResponse;
 use Illuminate\Database\Connection;
 use Illuminate\Http\JsonResponse;
 use Illuminate\View\View;
 
+
+/**
+ * Class HCCountryController
+ * @package HoneyComb\Regions\Http\Controllers\Admin
+ */
 class HCCountryController extends HCBaseController
 {
     use HCAdminListHeaders;
@@ -27,12 +58,12 @@ class HCCountryController extends HCBaseController
     /**
      * @var Connection
      */
-    private $connection;
+    protected $connection;
 
     /**
      * @var HCFrontendResponse
      */
-    private $response;
+    protected $response;
 
     /**
      * HCCountryController constructor.
@@ -107,11 +138,10 @@ class HCCountryController extends HCBaseController
      * @param HCCountryRequest $request
      * @return JsonResponse
      */
-    public function getList(HCCountryRequest $request): JsonResponse
+    public function getOptions(HCCountryRequest $request): JsonResponse
     {
         return response()->json($this->service->getRepository()->getOptions($request));
     }
-
 
     /**
      * Update record
@@ -122,21 +152,36 @@ class HCCountryController extends HCBaseController
      */
     public function update(HCCountryRequest $request, string $id): JsonResponse
     {
-        $model = $this->service->getRepository()->findOneBy(['id' => $id]);
-        $model->update($request->getRecordData());
-        $model->updateTranslations($request->getTranslations());
+        /** @var HCCountry $record */
+        $record = $this->service->getRepository()->findOneBy(['id' => $id]);
+        $record->update($request->getRecordData());
+        $record->updateTranslations($request->getTranslations());
+
+        if ($record) {
+            $record = $this->service->getRepository()->find($id);
+
+            event(new HCCountryUpdated($record));
+        }
 
         return $this->response->success("Created");
     }
 
     /**
-     * @param \HoneyComb\Regions\Http\Requests\Admin\HCCountryRequest $request
+     * @param HCCountryRequest $request
      * @param string $id
-     * @return \Illuminate\Http\JsonResponse
+     * @return JsonResponse
      */
-    public function patch (HCCountryRequest $request, string  $id)
+    public function patch(HCCountryRequest $request, string $id)
     {
-        $this->service->getRepository()->update($request->getPatchValues(), $id);
+        $updated = $this->service->getRepository()->update($request->getPatchValues(), $id);
+
+        if ($updated) {
+
+            /** @var HCCountry $record */
+            $record = $this->service->getRepository()->find($id);
+
+            event(new HCCountryPatched($record));
+        }
 
         return $this->response->success('Updated');
     }

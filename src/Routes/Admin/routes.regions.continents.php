@@ -27,34 +27,38 @@
 
 declare(strict_types = 1);
 
-Route::prefix(config('hc.admin_url'))
+Route::domain(config('hc.admin_domain'))
+    ->prefix(config('hc.admin_url'))
     ->namespace('Admin')
     ->middleware(['web', 'auth'])
     ->group(function() {
 
         Route::get('regions/continents', 'HCContinentController@index')
             ->name('admin.regions.continents.index')
-            ->middleware('acl:honey_comb_regions_regions_continents_admin_list');
+            ->middleware('acl:honey_comb_regions_regions_continents_list');
 
         Route::prefix('api/regions/continents')->group(function() {
 
             Route::get('/', 'HCContinentController@getListPaginate')
                 ->name('admin.api.regions.continents')
-                ->middleware('acl:honey_comb_regions_regions_continents_admin_list');
+                ->middleware('acl:honey_comb_regions_regions_continents_list');
+
+            Route::get('options', 'HCContinentController@getOptions')
+                ->name('admin.api.regions.options');
 
             Route::get('list', 'HCContinentController@getList')
                 ->name('admin.api.regions.continents.list')
-                ->middleware('acl:honey_comb_regions_regions_continents_admin_list');
+                ->middleware('acl:honey_comb_regions_regions_continents_list');
 
             Route::prefix('{id}')->group(function() {
 
                 Route::get('/', 'HCContinentController@getById')
                     ->name('admin.api.regions.continents.single')
-                    ->middleware('acl:honey_comb_regions_regions_continents_admin_list');
+                    ->middleware('acl:honey_comb_regions_regions_continents_list');
 
                 Route::put('/', 'HCContinentController@update')
                     ->name('admin.api.regions.continents.update')
-                    ->middleware('acl:honey_comb_regions_regions_continents_admin_update');
+                    ->middleware('acl:honey_comb_regions_regions_continents_update');
             });
         });
     });
