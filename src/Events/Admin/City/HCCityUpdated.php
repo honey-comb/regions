@@ -24,40 +24,49 @@
  * E-mail: hello@interactivesolutions.lt
  * http://www.interactivesolutions.lt
  */
-
 declare(strict_types = 1);
 
-namespace HoneyComb\Regions\Services;
+namespace HoneyComb\Regions\Events\Admin\City;
 
-use HoneyComb\Regions\Repositories\HCCityRepository;
-
+use HoneyComb\Regions\Models\HCCity;
+use Illuminate\Broadcasting\Channel;
+use Illuminate\Queue\SerializesModels;
+use Illuminate\Broadcasting\PrivateChannel;
+use Illuminate\Broadcasting\PresenceChannel;
+use Illuminate\Foundation\Events\Dispatchable;
+use Illuminate\Broadcasting\InteractsWithSockets;
+use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
 
 /**
- * Class HCCityService
- * @package HoneyComb\Regions\Services
+ * Class HCCityUpdated
+ * @package HoneyComb\Regions\Events\Admin\CityEvents
  */
-class HCCityService
+class HCCityUpdated
 {
-    /**
-     * @var HCCityRepository
-     */
-    protected $repository;
+    use Dispatchable, InteractsWithSockets, SerializesModels;
 
     /**
-     * HCCityService constructor.
-     * @param HCCityRepository $repository
+     * @var HCCity
      */
-    public function __construct(HCCityRepository $repository)
+    public $record;
+
+    /**
+     * Create a new event instance.
+     *
+     * @return void
+     */
+    public function __construct(HCCity $record)
     {
-        $this->repository = $repository;
+        $this->model = $record;
     }
 
     /**
-     * @return HCCityRepository
+     * Get the channels the event should broadcast on.
+     *
+     * @return \Illuminate\Broadcasting\Channel|array
      */
-    public function getRepository(): HCCityRepository
+    public function broadcastOn()
     {
-        return $this->repository;
+        return new PrivateChannel('channel-name');
     }
-
 }
