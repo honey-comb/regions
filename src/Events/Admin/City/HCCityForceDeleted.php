@@ -48,15 +48,15 @@ class HCCityForceDeleted
     /**
      * @var array
      */
-    public $records;
+    public $deleted;
     /**
      * Create a new event instance.
      *
      * @return void
      */
-    public function __construct(array $records)
+    public function __construct(array $deleted)
     {
-        $this->records = $records;
+        $this->deleted = $deleted;
     }
 
     /**

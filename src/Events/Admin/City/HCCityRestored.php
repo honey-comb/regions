@@ -25,6 +25,8 @@
  * http://www.interactivesolutions.lt
  */
 
+declare(strict_types = 1);
+
 namespace HoneyComb\Regions\Events\Admin\City;
 
 use HoneyComb\Regions\Models\HCCity;
@@ -36,6 +38,10 @@ use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
 
+/**
+ * Class HCCityRestored
+ * @package HoneyComb\Regions\Events\Admin\City
+ */
 class HCCityRestored
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;
@@ -43,16 +49,16 @@ class HCCityRestored
     /**
      * @var HCCity
      */
-    public $record;
+    public $restored;
 
     /**
      * Create a new event instance.
      *
      * @return void
      */
-    public function __construct(array $record)
+    public function __construct(array $restored)
     {
-        $this->record = $record;
+        $this->restored = $restored;
     }
 
     /**

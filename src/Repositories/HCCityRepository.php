@@ -29,9 +29,9 @@ declare(strict_types = 1);
 
 namespace HoneyComb\Regions\Repositories;
 
+use HoneyComb\Core\Repositories\Traits\HCQueryBuilderTrait;
 use HoneyComb\Regions\Http\Requests\Admin\HCCityRequest;
 use HoneyComb\Regions\Models\HCCity;
-use HoneyComb\Core\Repositories\Traits\HCQueryBuilderTrait;
 use HoneyComb\Starter\Repositories\HCBaseRepository;
 use Illuminate\Support\Collection;
 
@@ -63,11 +63,9 @@ class HCCityRepository extends HCBaseRepository
 
         /** @var HCCity $record */
         foreach ($records as $record) {
-
             if ($record->delete()) {
                 $deleted[] = $record;
             }
-
         }
 
         return $deleted;
@@ -83,11 +81,11 @@ class HCCityRepository extends HCBaseRepository
 
         $records = $this->makeQuery()->withTrashed()->whereIn('id', $ids)->get();
 
+        /** @var HCCity $record */
         foreach ($records as $record) {
-            /** @var HCCity $record */
-           if ($record->restore()) {
-               $restored[] =  $record;
-           }
+            if ($record->restore()) {
+                $restored[] = $record;
+            }
         }
 
         return $restored;
@@ -117,7 +115,7 @@ class HCCityRepository extends HCBaseRepository
      * @param \HoneyComb\Regions\Http\Requests\Admin\HCCityRequest $request
      * @return \Illuminate\Support\Collection
      */
-    public function getOptions (HCCityRequest $request): Collection
+    public function getOptions(HCCityRequest $request): Collection
     {
         return optimizeTranslationOptions($this->createBuilderQuery($request)->where('visible', '1')->get());
     }
@@ -126,7 +124,7 @@ class HCCityRepository extends HCBaseRepository
      * @param $record
      * @return mixed
      */
-    public function formatForOptions(HCcity $record): array
+    public function formatForOptions(HCCity $record): array
     {
         return optimizeSingleTranslationOption($record);
     }

@@ -29,12 +29,12 @@ declare(strict_types = 1);
 
 namespace HoneyComb\Regions\Http\Controllers\Admin;
 
-use HoneyComb\Regions\Services\HCContinentService;
-use HoneyComb\Regions\Http\Requests\Admin\HCContinentRequest;
-use HoneyComb\Regions\Models\HCContinent;
-
 use HoneyComb\Core\Http\Controllers\HCBaseController;
 use HoneyComb\Core\Http\Controllers\Traits\HCAdminListHeaders;
+use HoneyComb\Regions\Events\Admin\Continent\HCContinentUpdated;
+use HoneyComb\Regions\Http\Requests\Admin\HCContinentRequest;
+use HoneyComb\Regions\Models\HCContinent;
+use HoneyComb\Regions\Services\HCContinentService;
 use HoneyComb\Starter\Helpers\HCFrontendResponse;
 use Illuminate\Database\Connection;
 use Illuminate\Http\JsonResponse;
@@ -57,12 +57,12 @@ class HCContinentController extends HCBaseController
     /**
      * @var Connection
      */
-    private $connection;
+    protected $connection;
 
     /**
      * @var HCFrontendResponse
      */
-    private $response;
+    protected $response;
 
     /**
      * HCContinentController constructor.
@@ -132,16 +132,21 @@ class HCContinentController extends HCBaseController
 
 
     /**
-     * Update record
-     *
      * @param HCContinentRequest $request
      * @param string $id
      * @return JsonResponse
      */
     public function update(HCContinentRequest $request, string $id): JsonResponse
     {
-        $model = $this->service->getRepository()->findOneBy(['id' => $id]);
-        $model->update($request->getRecordData());
+        /** @var HCContinent $record */
+        $record = $this->service->getRepository()->findOneBy(['id' => $id]);
+        $record->update($request->getRecordData());
+
+        if ($record) {
+            $record = $this->service->getRepository()->find($id);
+
+            event(new HCContinentUpdated($record));
+        }
 
         return $this->response->success("Created");
     }

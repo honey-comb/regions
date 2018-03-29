@@ -29,12 +29,13 @@ declare(strict_types = 1);
 
 namespace HoneyComb\Regions\Http\Controllers\Admin;
 
-use HoneyComb\Regions\Services\HCCountryService;
-use HoneyComb\Regions\Http\Requests\Admin\HCCountryRequest;
-use HoneyComb\Regions\Models\HCCountry;
-
 use HoneyComb\Core\Http\Controllers\HCBaseController;
 use HoneyComb\Core\Http\Controllers\Traits\HCAdminListHeaders;
+use HoneyComb\Regions\Events\Admin\Continent\HCCountryPatched;
+use HoneyComb\Regions\Events\Admin\Countries\HCCountryUpdated;
+use HoneyComb\Regions\Http\Requests\Admin\HCCountryRequest;
+use HoneyComb\Regions\Models\HCCountry;
+use HoneyComb\Regions\Services\HCCountryService;
 use HoneyComb\Starter\Helpers\HCFrontendResponse;
 use Illuminate\Database\Connection;
 use Illuminate\Http\JsonResponse;
@@ -57,12 +58,12 @@ class HCCountryController extends HCBaseController
     /**
      * @var Connection
      */
-    private $connection;
+    protected $connection;
 
     /**
      * @var HCFrontendResponse
      */
-    private $response;
+    protected $response;
 
     /**
      * HCCountryController constructor.
@@ -152,21 +153,36 @@ class HCCountryController extends HCBaseController
      */
     public function update(HCCountryRequest $request, string $id): JsonResponse
     {
-        $model = $this->service->getRepository()->findOneBy(['id' => $id]);
-        $model->update($request->getRecordData());
-        $model->updateTranslations($request->getTranslations());
+        /** @var HCCountry $record */
+        $record = $this->service->getRepository()->findOneBy(['id' => $id]);
+        $record->update($request->getRecordData());
+        $record->updateTranslations($request->getTranslations());
+
+        if ($record) {
+            $record = $this->service->getRepository()->find($id);
+
+            event(new HCCountryUpdated($record));
+        }
 
         return $this->response->success("Created");
     }
 
     /**
-     * @param \HoneyComb\Regions\Http\Requests\Admin\HCCountryRequest $request
+     * @param HCCountryRequest $request
      * @param string $id
-     * @return \Illuminate\Http\JsonResponse
+     * @return JsonResponse
      */
-    public function patch (HCCountryRequest $request, string  $id)
+    public function patch(HCCountryRequest $request, string $id)
     {
-        $this->service->getRepository()->update($request->getPatchValues(), $id);
+        $updated = $this->service->getRepository()->update($request->getPatchValues(), $id);
+
+        if ($updated) {
+
+            /** @var HCCountry $record */
+            $record = $this->service->getRepository()->find($id);
+
+            event(new HCCountryPatched($record));
+        }
 
         return $this->response->success('Updated');
     }

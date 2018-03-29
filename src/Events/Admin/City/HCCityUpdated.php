@@ -57,7 +57,7 @@ class HCCityUpdated
      */
     public function __construct(HCCity $record)
     {
-        $this->model = $record;
+        $this->record = $record;
     }
 
     /**
