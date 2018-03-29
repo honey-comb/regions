@@ -25,6 +25,8 @@
  * http://www.interactivesolutions.lt
  */
 
+declare(strict_types = 1);
+
 namespace HoneyComb\Regions\Events\Admin\City;
 
 use Illuminate\Broadcasting\Channel;
@@ -35,6 +37,10 @@ use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
 
+/**
+ * Class HCCitySoftDeleted
+ * @package HoneyComb\Regions\Events\Admin\City
+ */
 class HCCitySoftDeleted
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;

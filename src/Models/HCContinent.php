@@ -29,8 +29,8 @@ declare(strict_types = 1);
 
 namespace HoneyComb\Regions\Models;
 
-use HoneyComb\Starter\Models\HCUuidModel;
 use HoneyComb\Core\Models\Traits\HCTranslation;
+use HoneyComb\Starter\Models\HCUuidModel;
 
 
 /**
@@ -54,7 +54,7 @@ class HCContinent extends HCUuidModel
      * @var array
      */
     protected $fillable = [
-        "id"
+        "id",
     ];
 
     /**

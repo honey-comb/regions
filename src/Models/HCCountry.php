@@ -29,8 +29,8 @@ declare(strict_types = 1);
 
 namespace HoneyComb\Regions\Models;
 
-use HoneyComb\Starter\Models\HCUuidModel;
 use HoneyComb\Core\Models\Traits\HCTranslation;
+use HoneyComb\Starter\Models\HCUuidModel;
 
 
 /**
@@ -56,7 +56,7 @@ class HCCountry extends HCUuidModel
     protected $fillable = [
         "id",
         "flag_id",
-        "visible"
+        "visible",
     ];
 
     /**

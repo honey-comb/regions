@@ -31,7 +31,6 @@ namespace HoneyComb\Regions\Services;
 
 use HoneyComb\Regions\Repositories\HCContinentRepository;
 
-
 /**
  * Class HCContinentService
  * @package HoneyComb\Regions\Services

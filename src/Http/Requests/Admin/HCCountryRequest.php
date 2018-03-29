@@ -110,7 +110,7 @@ class HCCountryRequest extends FormRequest
 
             case 'PATCH':
                 return [
-                    'visible' => 'required'
+                    'visible' => 'required',
                 ];
         }
 

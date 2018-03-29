@@ -38,7 +38,7 @@ use HoneyComb\Starter\Models\HCModel;
  */
 class HCContinentTranslation extends HCModel
 {
-    
+
 
     /**
      * The database table used by the model.
@@ -53,14 +53,16 @@ class HCContinentTranslation extends HCModel
      * @var array
      */
     protected $fillable = [
-        "record_id", "language_code", "label"
+        "record_id",
+        "language_code",
+        "label",
     ];
 
     /**
      * @var array
      */
     protected $with = [
-        
+
     ];
 
 }

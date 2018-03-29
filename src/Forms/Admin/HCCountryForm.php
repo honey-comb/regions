@@ -83,7 +83,7 @@ class HCCountryForm extends HCBaseForm
                 [
                     'type' => 'singleLine',
                     'label' => trans('HCRegion::regions_countries.flag_id'),
-                    'readonly' => 1
+                    'readonly' => 1,
 
                 ],
             $prefix . 'translations.label' =>
@@ -93,7 +93,7 @@ class HCCountryForm extends HCBaseForm
                     'multiLanguage' => 1,
                     'required' => 1,
                     'requiredVisible' => 1,
-                ]
+                ],
         ];
     }
 }

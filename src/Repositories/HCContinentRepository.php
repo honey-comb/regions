@@ -30,8 +30,8 @@ declare(strict_types = 1);
 
 namespace HoneyComb\Regions\Repositories;
 
-use HoneyComb\Regions\Models\HCContinent;
 use HoneyComb\Core\Repositories\Traits\HCQueryBuilderTrait;
+use HoneyComb\Regions\Models\HCContinent;
 use HoneyComb\Starter\Repositories\HCBaseRepository;
 
 /**
