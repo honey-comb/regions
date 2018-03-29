@@ -40,7 +40,7 @@ class HCContinentService
     /**
      * @var HCContinentRepository
      */
-    private $repository;
+    protected $repository;
 
     /**
      * HCContinentService constructor.

@@ -40,7 +40,7 @@ class HCCountryService
     /**
      * @var HCCountryRepository
      */
-    private $repository;
+    protected $repository;
 
     /**
      * HCCountryService constructor.
