@@ -25,8 +25,6 @@
  * http://www.interactivesolutions.lt
  */
 
-declare(strict_types = 1);
-
 namespace HoneyComb\Regions\Events\Admin\City;
 
 use Illuminate\Broadcasting\Channel;

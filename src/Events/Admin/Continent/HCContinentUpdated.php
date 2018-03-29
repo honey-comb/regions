@@ -37,6 +37,10 @@ use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
 
+/**
+ * Class HCContinentUpdated
+ * @package HoneyComb\Regions\Events\Admin\Continent
+ */
 class HCContinentUpdated
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;

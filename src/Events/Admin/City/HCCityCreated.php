@@ -24,7 +24,6 @@
  * E-mail: hello@interactivesolutions.lt
  * http://www.interactivesolutions.lt
  */
-declare(strict_types = 1);
 
 namespace HoneyComb\Regions\Events\Admin\City;
 
