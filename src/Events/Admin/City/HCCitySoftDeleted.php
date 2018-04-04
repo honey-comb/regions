@@ -44,7 +44,7 @@ class HCCitySoftDeleted
     use Dispatchable, InteractsWithSockets, SerializesModels;
 
     /**
-     * @var
+     * @var array
      */
     public $deleted;
     /**

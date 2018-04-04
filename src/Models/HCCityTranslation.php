@@ -38,7 +38,12 @@ use HoneyComb\Starter\Models\HCModel;
  */
 class HCCityTranslation extends HCModel
 {
-
+    /**
+     * The primary key for the model.
+     *
+     * @var string
+     */
+    protected $primaryKey = 'count';
 
     /**
      * The database table used by the model.
