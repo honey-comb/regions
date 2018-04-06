@@ -142,7 +142,7 @@ class HCCityController extends HCBaseController
      * @param \HoneyComb\Regions\Http\Requests\Admin\HCCityRequest $request
      * @return \Illuminate\Http\JsonResponse
      */
-    public function getList(HCCityRequest $request): JsonResponse
+    public function getOptions(HCCityRequest $request): JsonResponse
     {
         return response()->json(($this->service->getRepository()->getOptions($request)));
     }

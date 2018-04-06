@@ -130,6 +130,17 @@ class HCContinentController extends HCBaseController
         );
     }
 
+    /**
+     * Create data list
+     * @param HCMenuRequest $request
+     * @return JsonResponse
+     */
+    public function getOptions(HCContinentRequest $request): JsonResponse
+    {
+        return response()->json(
+            $this->service->getRepository()->getOptions($request)
+        );
+    }
 
     /**
      * @param HCContinentRequest $request

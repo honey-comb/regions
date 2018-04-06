@@ -42,7 +42,7 @@ Route::prefix(config('hc.admin_url'))
                 ->name('admin.api.regions.city')
                 ->middleware('acl:honey_comb_regions_regions_city_admin_list');
 
-            Route::get('list', 'HCCityController@getList')
+            Route::get('options', 'HCCityController@getOptions')
                 ->name('admin.api.regions.city.list')
                 ->middleware('acl:honey_comb_regions_regions_city_admin_list');
 

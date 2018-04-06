@@ -138,7 +138,7 @@ class HCCountryController extends HCBaseController
      * @param HCCountryRequest $request
      * @return JsonResponse
      */
-    public function getList(HCCountryRequest $request): JsonResponse
+    public function getOptions(HCCountryRequest $request): JsonResponse
     {
         return response()->json($this->service->getRepository()->getOptions($request));
     }

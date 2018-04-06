@@ -31,6 +31,7 @@ declare(strict_types = 1);
 namespace HoneyComb\Regions\Repositories;
 
 use HoneyComb\Core\Repositories\Traits\HCQueryBuilderTrait;
+use HoneyComb\Regions\Http\Requests\Admin\HCContinentRequest;
 use HoneyComb\Regions\Models\HCContinent;
 use HoneyComb\Starter\Repositories\HCBaseRepository;
 
@@ -48,6 +49,15 @@ class HCContinentRepository extends HCBaseRepository
     public function model(): string
     {
         return HCContinent::class;
+    }
+
+    /**
+     * @param HCContinentRequest $request
+     * @return \Illuminate\Support\Collection|static
+     */
+    public function getOptions(HCContinentRequest $request)
+    {
+        return optimizeTranslationOptions($this->createBuilderQuery($request)->where('visible', '1')->get());
     }
 
 }

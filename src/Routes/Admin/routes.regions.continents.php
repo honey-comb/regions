@@ -42,6 +42,10 @@ Route::prefix(config('hc.admin_url'))
                 ->name('admin.api.regions.continents')
                 ->middleware('acl:honey_comb_regions_regions_continents_admin_list');
 
+            Route::get('options', 'HCContinentController@getOptions')
+                ->name('admin.api.menu.group.list')
+                ->middleware('acl:honey_comb_menu_menu_group_admin_list');
+
             Route::get('list', 'HCContinentController@getList')
                 ->name('admin.api.regions.continents.list')
                 ->middleware('acl:honey_comb_regions_regions_continents_admin_list');
