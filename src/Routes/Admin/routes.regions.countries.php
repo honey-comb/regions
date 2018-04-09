@@ -42,9 +42,8 @@ Route::prefix(config('hc.admin_url'))
                 ->name('admin.api.regions.countries')
                 ->middleware('acl:honey_comb_regions_regions_countries_admin_list');
 
-            Route::get('list', 'HCCountryController@getList')
-                ->name('admin.api.regions.countries.list')
-                ->middleware('acl:honey_comb_regions_regions_countries_admin_list');
+            Route::get('options', 'HCCountryController@getOptions')
+                ->name('admin.api.regions.countries.options');
 
             Route::prefix('{id}')->group(function() {
 
