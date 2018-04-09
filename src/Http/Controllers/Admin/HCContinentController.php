@@ -161,6 +161,4 @@ class HCContinentController extends HCBaseController
 
         return $this->response->success("Created");
     }
-
-
 }

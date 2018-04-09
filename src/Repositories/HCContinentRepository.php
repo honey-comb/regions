@@ -34,6 +34,7 @@ use HoneyComb\Core\Repositories\Traits\HCQueryBuilderTrait;
 use HoneyComb\Regions\Http\Requests\Admin\HCContinentRequest;
 use HoneyComb\Regions\Models\HCContinent;
 use HoneyComb\Starter\Repositories\HCBaseRepository;
+use Illuminate\Support\Collection;
 
 /**
  * Class HCContinentRepository
@@ -53,11 +54,11 @@ class HCContinentRepository extends HCBaseRepository
 
     /**
      * @param HCContinentRequest $request
-     * @return \Illuminate\Support\Collection|static
+     * @return \Illuminate\Database\Eloquent\Collection|\Illuminate\Support\Collection
      */
-    public function getOptions(HCContinentRequest $request)
+    public function getOptions(HCContinentRequest $request): Collection
     {
-        return optimizeTranslationOptions($this->createBuilderQuery($request)->where('visible', '1')->get());
+        return optimizeTranslationOptions($this->createBuilderQuery($request)->get());
     }
 
 }

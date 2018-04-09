@@ -121,8 +121,8 @@ class HCCityRepository extends HCBaseRepository
     }
 
     /**
-     * @param $record
-     * @return mixed
+     * @param HCCity $record
+     * @return array
      */
     public function formatForOptions(HCCity $record): array
     {

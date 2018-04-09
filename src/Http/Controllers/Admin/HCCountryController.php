@@ -143,7 +143,6 @@ class HCCountryController extends HCBaseController
         return response()->json($this->service->getRepository()->getOptions($request));
     }
 
-
     /**
      * Update record
      *

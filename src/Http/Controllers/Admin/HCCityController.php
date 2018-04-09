@@ -232,7 +232,6 @@ class HCCityController extends HCBaseController
         return $this->response->success('Updated');
     }
 
-
     /**
      * Soft delete record
      *
@@ -259,7 +258,6 @@ class HCCityController extends HCBaseController
         return $this->response->success('Successfully deleted');
     }
 
-
     /**
      * @param HCCityRequest $request
      * @return JsonResponse
@@ -283,7 +281,6 @@ class HCCityController extends HCBaseController
 
         return $this->response->success('Successfully restored');
     }
-
 
     /**
      * Force delete record
