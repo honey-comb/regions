@@ -1,10 +1,23 @@
 {
     "name": "honey-comb/regions",
-    "description": "",
-    "keywords": [],
+    "description": "Honeycomb regions list",
+    "keywords": ["honeycomb", "honey", "laravel", "cms", "regions"],
     "homepage": "https://github.com/honey-comb/regions",
     "license": "MIT",
-    "authors": [],
+    "authors": [
+        {
+            "name": "Mantas Paulauskas",
+            "email": "mp@interactivesolutions.lt"
+        },
+        {
+            "name": "Jevgenij Dmitrijev",
+            "email": "jd@interactivesolutions.lt"
+        },
+        {
+            "name": "Darius Šlubelis",
+            "email": "darius.s@innovationbase.eu"
+        }
+    ],
     "repositories": [],
     "require": {
         "php": ">=7.1.0",
@@ -37,9 +50,7 @@
         ]
     },
     "config": {
-        "secure-http": false,
-        "platform": {
-            "php": "7.1"
+        "secure-http": false
         }
     }
 }
