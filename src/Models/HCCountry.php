@@ -30,7 +30,7 @@ declare(strict_types = 1);
 namespace HoneyComb\Regions\Models;
 
 use HoneyComb\Core\Models\Traits\HCTranslation;
-use HoneyComb\Starter\Models\HCUuidModel;
+use HoneyComb\Starter\Models\HCUuidSoftModel;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 
@@ -39,7 +39,7 @@ use Illuminate\Database\Eloquent\Relations\HasOne;
  * Class HCCountry
  * @package HoneyComb\Regions\Models
  */
-class HCCountry extends HCUuidModel
+class HCCountry extends HCUuidSoftModel
 {
     use HCTranslation;
 

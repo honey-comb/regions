@@ -30,14 +30,14 @@ declare(strict_types = 1);
 namespace HoneyComb\Regions\Models;
 
 use HoneyComb\Core\Models\Traits\HCTranslation;
-use HoneyComb\Starter\Models\HCUuidModel;
+use HoneyComb\Starter\Models\HCUuidSoftModel;
 
 
 /**
  * Class HCContinent
  * @package HoneyComb\Regions\Models
  */
-class HCContinent extends HCUuidModel
+class HCContinent extends HCUuidSoftModel
 {
     use HCTranslation;
 
