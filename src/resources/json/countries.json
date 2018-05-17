@@ -26,5 +26,2273 @@
         "label": "Latvia"
       }
     ]
+  },
+  {
+    "id": "ad",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Andorra"
+      }
+    ]
+  },
+  {
+    "id": "ae",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "United Arab Emirates"
+      }
+    ]
+  },
+  {
+    "id": "af",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Afghanistan"
+      }
+    ]
+  },
+  {
+    "id": "ag",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Antigua and Barbuda"
+      }
+    ]
+  },
+  {
+    "id": "ai",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Anguilla"
+      }
+    ]
+  },
+  {
+    "id": "al",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Albania"
+      }
+    ]
+  },
+  {
+    "id": "am",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Armenia"
+      }
+    ]
+  },
+  {
+    "id": "ao",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Angola"
+      }
+    ]
+  },
+  {
+    "id": "aq",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Antarctica"
+      }
+    ]
+  },
+  {
+    "id": "ar",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Argentina"
+      }
+    ]
+  },
+  {
+    "id": "as",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "American Samoa"
+      }
+    ]
+  },
+  {
+    "id": "at",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Austria"
+      }
+    ]
+  },
+  {
+    "id": "au",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Australia"
+      }
+    ]
+  },
+  {
+    "id": "aw",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Aruba"
+      }
+    ]
+  },
+  {
+    "id": "ax",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "\u00c5land Islands"
+      }
+    ]
+  },
+  {
+    "id": "az",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Azerbaijan"
+      }
+    ]
+  },
+  {
+    "id": "ba",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Bosnia and Herzegovina"
+      }
+    ]
+  },
+  {
+    "id": "bb",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Barbados"
+      }
+    ]
+  },
+  {
+    "id": "bd",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Bangladesh"
+      }
+    ]
+  },
+  {
+    "id": "be",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Belgium"
+      }
+    ]
+  },
+  {
+    "id": "bf",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Burkina Faso"
+      }
+    ]
+  },
+  {
+    "id": "bg",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Bulgaria"
+      }
+    ]
+  },
+  {
+    "id": "bh",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Bahrain"
+      }
+    ]
+  },
+  {
+    "id": "bi",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Burundi"
+      }
+    ]
+  },
+  {
+    "id": "bj",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Benin"
+      }
+    ]
+  },
+  {
+    "id": "bl",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Saint Barth\u00e9lemy"
+      }
+    ]
+  },
+  {
+    "id": "bm",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Bermuda"
+      }
+    ]
+  },
+  {
+    "id": "bn",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Brunei"
+      }
+    ]
+  },
+  {
+    "id": "bo",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Bolivia"
+      }
+    ]
+  },
+  {
+    "id": "bq",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Caribbean Netherlands"
+      }
+    ]
+  },
+  {
+    "id": "br",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Brazil"
+      }
+    ]
+  },
+  {
+    "id": "bs",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Bahamas"
+      }
+    ]
+  },
+  {
+    "id": "bt",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Bhutan"
+      }
+    ]
+  },
+  {
+    "id": "bv",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Bouvet Island"
+      }
+    ]
+  },
+  {
+    "id": "bw",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Botswana"
+      }
+    ]
+  },
+  {
+    "id": "by",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Belarus"
+      }
+    ]
+  },
+  {
+    "id": "bz",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Belize"
+      }
+    ]
+  },
+  {
+    "id": "ca",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Canada"
+      }
+    ]
+  },
+  {
+    "id": "cc",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Cocos (Keeling) Islands"
+      }
+    ]
+  },
+  {
+    "id": "cd",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "DR Congo"
+      }
+    ]
+  },
+  {
+    "id": "cf",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Central African Republic"
+      }
+    ]
+  },
+  {
+    "id": "cg",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Republic of the Congo"
+      }
+    ]
+  },
+  {
+    "id": "ch",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Switzerland"
+      }
+    ]
+  },
+  {
+    "id": "ci",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Ivory Coast"
+      }
+    ]
+  },
+  {
+    "id": "ck",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Cook Islands"
+      }
+    ]
+  },
+  {
+    "id": "cl",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Chile"
+      }
+    ]
+  },
+  {
+    "id": "cm",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Cameroon"
+      }
+    ]
+  },
+  {
+    "id": "cn",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "China"
+      }
+    ]
+  },
+  {
+    "id": "co",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Colombia"
+      }
+    ]
+  },
+  {
+    "id": "cr",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Costa Rica"
+      }
+    ]
+  },
+  {
+    "id": "cu",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Cuba"
+      }
+    ]
+  },
+  {
+    "id": "cv",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Cape Verde"
+      }
+    ]
+  },
+  {
+    "id": "cw",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Cura\u00e7ao"
+      }
+    ]
+  },
+  {
+    "id": "cx",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Christmas Island"
+      }
+    ]
+  },
+  {
+    "id": "cy",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Cyprus"
+      }
+    ]
+  },
+  {
+    "id": "cz",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Czech Republic"
+      }
+    ]
+  },
+  {
+    "id": "de",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Germany"
+      }
+    ]
+  },
+  {
+    "id": "dj",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Djibouti"
+      }
+    ]
+  },
+  {
+    "id": "dk",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Denmark"
+      }
+    ]
+  },
+  {
+    "id": "dm",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Dominica"
+      }
+    ]
+  },
+  {
+    "id": "do",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Dominican Republic"
+      }
+    ]
+  },
+  {
+    "id": "dz",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Algeria"
+      }
+    ]
+  },
+  {
+    "id": "ec",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Ecuador"
+      }
+    ]
+  },
+  {
+    "id": "ee",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Estonia"
+      }
+    ]
+  },
+  {
+    "id": "eg",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Egypt"
+      }
+    ]
+  },
+  {
+    "id": "eh",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Western Sahara"
+      }
+    ]
+  },
+  {
+    "id": "er",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Eritrea"
+      }
+    ]
+  },
+  {
+    "id": "es",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Spain"
+      }
+    ]
+  },
+  {
+    "id": "et",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Ethiopia"
+      }
+    ]
+  },
+  {
+    "id": "fi",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Finland"
+      }
+    ]
+  },
+  {
+    "id": "fj",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Fiji"
+      }
+    ]
+  },
+  {
+    "id": "fk",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Falkland Islands"
+      }
+    ]
+  },
+  {
+    "id": "fm",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Micronesia"
+      }
+    ]
+  },
+  {
+    "id": "fo",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Faroe Islands"
+      }
+    ]
+  },
+  {
+    "id": "fr",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "France"
+      }
+    ]
+  },
+  {
+    "id": "ga",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Gabon"
+      }
+    ]
+  },
+  {
+    "id": "gb",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "United Kingdom"
+      }
+    ]
+  },
+  {
+    "id": "gd",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Grenada"
+      }
+    ]
+  },
+  {
+    "id": "ge",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Georgia"
+      }
+    ]
+  },
+  {
+    "id": "gf",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "French Guiana"
+      }
+    ]
+  },
+  {
+    "id": "gg",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Guernsey"
+      }
+    ]
+  },
+  {
+    "id": "gh",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Ghana"
+      }
+    ]
+  },
+  {
+    "id": "gi",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Gibraltar"
+      }
+    ]
+  },
+  {
+    "id": "gl",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Greenland"
+      }
+    ]
+  },
+  {
+    "id": "gm",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Gambia"
+      }
+    ]
+  },
+  {
+    "id": "gn",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Guinea"
+      }
+    ]
+  },
+  {
+    "id": "gp",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Guadeloupe"
+      }
+    ]
+  },
+  {
+    "id": "gq",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Equatorial Guinea"
+      }
+    ]
+  },
+  {
+    "id": "gr",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Greece"
+      }
+    ]
+  },
+  {
+    "id": "gs",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "South Georgia"
+      }
+    ]
+  },
+  {
+    "id": "gt",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Guatemala"
+      }
+    ]
+  },
+  {
+    "id": "gu",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Guam"
+      }
+    ]
+  },
+  {
+    "id": "gw",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Guinea-Bissau"
+      }
+    ]
+  },
+  {
+    "id": "gy",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Guyana"
+      }
+    ]
+  },
+  {
+    "id": "hk",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Hong Kong"
+      }
+    ]
+  },
+  {
+    "id": "hm",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Heard Island and McDonald Islands"
+      }
+    ]
+  },
+  {
+    "id": "hn",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Honduras"
+      }
+    ]
+  },
+  {
+    "id": "hr",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Croatia"
+      }
+    ]
+  },
+  {
+    "id": "ht",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Haiti"
+      }
+    ]
+  },
+  {
+    "id": "hu",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Hungary"
+      }
+    ]
+  },
+  {
+    "id": "id",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Indonesia"
+      }
+    ]
+  },
+  {
+    "id": "ie",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Ireland"
+      }
+    ]
+  },
+  {
+    "id": "il",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Israel"
+      }
+    ]
+  },
+  {
+    "id": "im",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Isle of Man"
+      }
+    ]
+  },
+  {
+    "id": "in",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "India"
+      }
+    ]
+  },
+  {
+    "id": "io",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "British Indian Ocean Territory"
+      }
+    ]
+  },
+  {
+    "id": "iq",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Iraq"
+      }
+    ]
+  },
+  {
+    "id": "ir",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Iran"
+      }
+    ]
+  },
+  {
+    "id": "is",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Iceland"
+      }
+    ]
+  },
+  {
+    "id": "it",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Italy"
+      }
+    ]
+  },
+  {
+    "id": "je",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Jersey"
+      }
+    ]
+  },
+  {
+    "id": "jm",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Jamaica"
+      }
+    ]
+  },
+  {
+    "id": "jo",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Jordan"
+      }
+    ]
+  },
+  {
+    "id": "jp",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Japan"
+      }
+    ]
+  },
+  {
+    "id": "ke",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Kenya"
+      }
+    ]
+  },
+  {
+    "id": "kg",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Kyrgyzstan"
+      }
+    ]
+  },
+  {
+    "id": "kh",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Cambodia"
+      }
+    ]
+  },
+  {
+    "id": "ki",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Kiribati"
+      }
+    ]
+  },
+  {
+    "id": "km",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Comoros"
+      }
+    ]
+  },
+  {
+    "id": "kn",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Saint Kitts and Nevis"
+      }
+    ]
+  },
+  {
+    "id": "kp",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "North Korea"
+      }
+    ]
+  },
+  {
+    "id": "kr",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "South Korea"
+      }
+    ]
+  },
+  {
+    "id": "kw",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Kuwait"
+      }
+    ]
+  },
+  {
+    "id": "ky",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Cayman Islands"
+      }
+    ]
+  },
+  {
+    "id": "kz",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Kazakhstan"
+      }
+    ]
+  },
+  {
+    "id": "la",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Laos"
+      }
+    ]
+  },
+  {
+    "id": "lb",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Lebanon"
+      }
+    ]
+  },
+  {
+    "id": "lc",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Saint Lucia"
+      }
+    ]
+  },
+  {
+    "id": "li",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Liechtenstein"
+      }
+    ]
+  },
+  {
+    "id": "lk",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Sri Lanka"
+      }
+    ]
+  },
+  {
+    "id": "",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": null
+      }
+    ]
+  },
+  {
+    "id": "lr",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Liberia"
+      }
+    ]
+  },
+  {
+    "id": "ls",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Lesotho"
+      }
+    ]
+  },
+  {
+    "id": "lt",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Lithuania"
+      }
+    ]
+  },
+  {
+    "id": "lu",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Luxembourg"
+      }
+    ]
+  },
+  {
+    "id": "lv",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Latvia"
+      }
+    ]
+  },
+  {
+    "id": "ly",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Libya"
+      }
+    ]
+  },
+  {
+    "id": "ma",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Morocco"
+      }
+    ]
+  },
+  {
+    "id": "mc",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Monaco"
+      }
+    ]
+  },
+  {
+    "id": "md",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Moldova"
+      }
+    ]
+  },
+  {
+    "id": "me",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Montenegro"
+      }
+    ]
+  },
+  {
+    "id": "mf",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Saint Martin"
+      }
+    ]
+  },
+  {
+    "id": "mg",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Madagascar"
+      }
+    ]
+  },
+  {
+    "id": "mh",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Marshall Islands"
+      }
+    ]
+  },
+  {
+    "id": "mk",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Macedonia"
+      }
+    ]
+  },
+  {
+    "id": "ml",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Mali"
+      }
+    ]
+  },
+  {
+    "id": "mm",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Myanmar"
+      }
+    ]
+  },
+  {
+    "id": "mn",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Mongolia"
+      }
+    ]
+  },
+  {
+    "id": "mo",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Macau"
+      }
+    ]
+  },
+  {
+    "id": "mp",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Northern Mariana Islands"
+      }
+    ]
+  },
+  {
+    "id": "mq",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Martinique"
+      }
+    ]
+  },
+  {
+    "id": "mr",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Mauritania"
+      }
+    ]
+  },
+  {
+    "id": "ms",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Montserrat"
+      }
+    ]
+  },
+  {
+    "id": "mt",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Malta"
+      }
+    ]
+  },
+  {
+    "id": "mu",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Mauritius"
+      }
+    ]
+  },
+  {
+    "id": "mv",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Maldives"
+      }
+    ]
+  },
+  {
+    "id": "mw",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Malawi"
+      }
+    ]
+  },
+  {
+    "id": "mx",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Mexico"
+      }
+    ]
+  },
+  {
+    "id": "my",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Malaysia"
+      }
+    ]
+  },
+  {
+    "id": "mz",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Mozambique"
+      }
+    ]
+  },
+  {
+    "id": "na",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Namibia"
+      }
+    ]
+  },
+  {
+    "id": "nc",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "New Caledonia"
+      }
+    ]
+  },
+  {
+    "id": "ne",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Niger"
+      }
+    ]
+  },
+  {
+    "id": "nf",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Norfolk Island"
+      }
+    ]
+  },
+  {
+    "id": "ng",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Nigeria"
+      }
+    ]
+  },
+  {
+    "id": "ni",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Nicaragua"
+      }
+    ]
+  },
+  {
+    "id": "nl",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Netherlands"
+      }
+    ]
+  },
+  {
+    "id": "no",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Norway"
+      }
+    ]
+  },
+  {
+    "id": "np",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Nepal"
+      }
+    ]
+  },
+  {
+    "id": "nr",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Nauru"
+      }
+    ]
+  },
+  {
+    "id": "nu",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Niue"
+      }
+    ]
+  },
+  {
+    "id": "nz",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "New Zealand"
+      }
+    ]
+  },
+  {
+    "id": "om",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Oman"
+      }
+    ]
+  },
+  {
+    "id": "pa",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Panama"
+      }
+    ]
+  },
+  {
+    "id": "pe",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Peru"
+      }
+    ]
+  },
+  {
+    "id": "pf",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "French Polynesia"
+      }
+    ]
+  },
+  {
+    "id": "pg",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Papua New Guinea"
+      }
+    ]
+  },
+  {
+    "id": "ph",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Philippines"
+      }
+    ]
+  },
+  {
+    "id": "pk",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Pakistan"
+      }
+    ]
+  },
+  {
+    "id": "pl",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Poland"
+      }
+    ]
+  },
+  {
+    "id": "pm",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Saint Pierre and Miquelon"
+      }
+    ]
+  },
+  {
+    "id": "pn",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Pitcairn Islands"
+      }
+    ]
+  },
+  {
+    "id": "pr",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Puerto Rico"
+      }
+    ]
+  },
+  {
+    "id": "ps",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Palestine"
+      }
+    ]
+  },
+  {
+    "id": "pt",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Portugal"
+      }
+    ]
+  },
+  {
+    "id": "pw",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Palau"
+      }
+    ]
+  },
+  {
+    "id": "py",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Paraguay"
+      }
+    ]
+  },
+  {
+    "id": "qa",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Qatar"
+      }
+    ]
+  },
+  {
+    "id": "re",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "R\u00e9union"
+      }
+    ]
+  },
+  {
+    "id": "ro",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Romania"
+      }
+    ]
+  },
+  {
+    "id": "rs",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Serbia"
+      }
+    ]
+  },
+  {
+    "id": "ru",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Russia"
+      }
+    ]
+  },
+  {
+    "id": "rw",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Rwanda"
+      }
+    ]
+  },
+  {
+    "id": "sa",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Saudi Arabia"
+      }
+    ]
+  },
+  {
+    "id": "sb",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Solomon Islands"
+      }
+    ]
+  },
+  {
+    "id": "sc",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Seychelles"
+      }
+    ]
+  },
+  {
+    "id": "sd",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Sudan"
+      }
+    ]
+  },
+  {
+    "id": "se",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Sweden"
+      }
+    ]
+  },
+  {
+    "id": "sg",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Singapore"
+      }
+    ]
+  },
+  {
+    "id": "sh",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Saint Helena"
+      }
+    ]
+  },
+  {
+    "id": "",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": null
+      }
+    ]
+  },
+  {
+    "id": "si",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Slovenia"
+      }
+    ]
+  },
+  {
+    "id": "sj",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Svalbard and Jan Mayen"
+      }
+    ]
+  },
+  {
+    "id": "sk",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Slovakia"
+      }
+    ]
+  },
+  {
+    "id": "sl",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Sierra Leone"
+      }
+    ]
+  },
+  {
+    "id": "sm",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "San Marino"
+      }
+    ]
+  },
+  {
+    "id": "sn",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Senegal"
+      }
+    ]
+  },
+  {
+    "id": "so",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Somalia"
+      }
+    ]
+  },
+  {
+    "id": "sr",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Suriname"
+      }
+    ]
+  },
+  {
+    "id": "ss",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "South Sudan"
+      }
+    ]
+  },
+  {
+    "id": "st",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "S\u00e3o Tom\u00e9 and Pr\u00edncipe"
+      }
+    ]
+  },
+  {
+    "id": "sv",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "El Salvador"
+      }
+    ]
+  },
+  {
+    "id": "sx",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Sint Maarten"
+      }
+    ]
+  },
+  {
+    "id": "sy",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Syria"
+      }
+    ]
+  },
+  {
+    "id": "sz",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Swaziland"
+      }
+    ]
+  },
+  {
+    "id": "tc",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Turks and Caicos Islands"
+      }
+    ]
+  },
+  {
+    "id": "td",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Chad"
+      }
+    ]
+  },
+  {
+    "id": "tf",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "French Southern and Antarctic Lands"
+      }
+    ]
+  },
+  {
+    "id": "tg",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Togo"
+      }
+    ]
+  },
+  {
+    "id": "th",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Thailand"
+      }
+    ]
+  },
+  {
+    "id": "tj",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Tajikistan"
+      }
+    ]
+  },
+  {
+    "id": "tk",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Tokelau"
+      }
+    ]
+  },
+  {
+    "id": "tl",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Timor-Leste"
+      }
+    ]
+  },
+  {
+    "id": "tm",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Turkmenistan"
+      }
+    ]
+  },
+  {
+    "id": "tn",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Tunisia"
+      }
+    ]
+  },
+  {
+    "id": "to",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Tonga"
+      }
+    ]
+  },
+  {
+    "id": "tr",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Turkey"
+      }
+    ]
+  },
+  {
+    "id": "tt",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Trinidad and Tobago"
+      }
+    ]
+  },
+  {
+    "id": "tv",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Tuvalu"
+      }
+    ]
+  },
+  {
+    "id": "tw",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Taiwan"
+      }
+    ]
+  },
+  {
+    "id": "tz",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Tanzania"
+      }
+    ]
+  },
+  {
+    "id": "ua",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Ukraine"
+      }
+    ]
+  },
+  {
+    "id": "ug",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Uganda"
+      }
+    ]
+  },
+  {
+    "id": "um",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "United States Minor Outlying Islands"
+      }
+    ]
+  },
+  {
+    "id": "us",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "United States"
+      }
+    ]
+  },
+  {
+    "id": "uy",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Uruguay"
+      }
+    ]
+  },
+  {
+    "id": "uz",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Uzbekistan"
+      }
+    ]
+  },
+  {
+    "id": "va",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Vatican City"
+      }
+    ]
+  },
+  {
+    "id": "vc",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Saint Vincent and the Grenadines"
+      }
+    ]
+  },
+  {
+    "id": "ve",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Venezuela"
+      }
+    ]
+  },
+  {
+    "id": "vg",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "British Virgin Islands"
+      }
+    ]
+  },
+  {
+    "id": "vi",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "United States Virgin Islands"
+      }
+    ]
+  },
+  {
+    "id": "vn",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Vietnam"
+      }
+    ]
+  },
+  {
+    "id": "vu",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Vanuatu"
+      }
+    ]
+  },
+  {
+    "id": "wf",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Wallis and Futuna"
+      }
+    ]
+  },
+  {
+    "id": "ws",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Samoa"
+      }
+    ]
+  },
+  {
+    "id": "xk",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Kosovo"
+      }
+    ]
+  },
+  {
+    "id": "ye",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Yemen"
+      }
+    ]
+  },
+  {
+    "id": "yt",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Mayotte"
+      }
+    ]
+  },
+  {
+    "id": "za",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "South Africa"
+      }
+    ]
+  },
+  {
+    "id": "zm",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Zambia"
+      }
+    ]
+  },
+  {
+    "id": "zw",
+    "translations": [
+      {
+        "language_code": "en",
+        "label": "Zimbabwe"
+      }
+    ]
   }
 ]
