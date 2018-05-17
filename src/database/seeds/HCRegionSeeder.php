@@ -45,5 +45,6 @@ class HCRegionSeeder extends Seeder
     public function run(): void
     {
         $this->call(HCCountrySeeder::class);
+        $this->call(HCContinentSeeder::class);
     }
 }
