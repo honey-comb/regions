@@ -29,6 +29,7 @@
   },
   {
     "id": "ad",
+    "flag_id": "flag-ad",
     "translations": [
       {
         "language_code": "en",
@@ -38,6 +39,7 @@
   },
   {
     "id": "ae",
+    "flag_id": "flag-ae",
     "translations": [
       {
         "language_code": "en",
@@ -47,6 +49,7 @@
   },
   {
     "id": "af",
+    "flag_id": "flag-af",
     "translations": [
       {
         "language_code": "en",
@@ -56,6 +59,7 @@
   },
   {
     "id": "ag",
+    "flag_id": "flag-ag",
     "translations": [
       {
         "language_code": "en",
@@ -65,6 +69,7 @@
   },
   {
     "id": "ai",
+    "flag_id": "flag-ai",
     "translations": [
       {
         "language_code": "en",
@@ -74,6 +79,7 @@
   },
   {
     "id": "al",
+    "flag_id": "flag-al",
     "translations": [
       {
         "language_code": "en",
@@ -83,6 +89,7 @@
   },
   {
     "id": "am",
+    "flag_id": "flag-am",
     "translations": [
       {
         "language_code": "en",
@@ -92,6 +99,7 @@
   },
   {
     "id": "ao",
+    "flag_id": "flag-ao",
     "translations": [
       {
         "language_code": "en",
@@ -101,6 +109,7 @@
   },
   {
     "id": "aq",
+    "flag_id": "flag-aq",
     "translations": [
       {
         "language_code": "en",
@@ -110,6 +119,7 @@
   },
   {
     "id": "ar",
+    "flag_id": "flag-ar",
     "translations": [
       {
         "language_code": "en",
@@ -119,6 +129,7 @@
   },
   {
     "id": "as",
+    "flag_id": "flag-as",
     "translations": [
       {
         "language_code": "en",
@@ -128,6 +139,7 @@
   },
   {
     "id": "at",
+    "flag_id": "flag-at",
     "translations": [
       {
         "language_code": "en",
@@ -137,6 +149,7 @@
   },
   {
     "id": "au",
+    "flag_id": "flag-au",
     "translations": [
       {
         "language_code": "en",
@@ -146,6 +159,7 @@
   },
   {
     "id": "aw",
+    "flag_id": "flag-aw",
     "translations": [
       {
         "language_code": "en",
@@ -155,6 +169,7 @@
   },
   {
     "id": "ax",
+    "flag_id": "flag-ax",
     "translations": [
       {
         "language_code": "en",
@@ -164,6 +179,7 @@
   },
   {
     "id": "az",
+    "flag_id": "flag-az",
     "translations": [
       {
         "language_code": "en",
@@ -173,6 +189,7 @@
   },
   {
     "id": "ba",
+    "flag_id": "flag-ba",
     "translations": [
       {
         "language_code": "en",
@@ -182,6 +199,7 @@
   },
   {
     "id": "bb",
+    "flag_id": "flag-bb",
     "translations": [
       {
         "language_code": "en",
@@ -191,6 +209,7 @@
   },
   {
     "id": "bd",
+    "flag_id": "flag-bd",
     "translations": [
       {
         "language_code": "en",
@@ -200,6 +219,7 @@
   },
   {
     "id": "be",
+    "flag_id": "flag-be",
     "translations": [
       {
         "language_code": "en",
@@ -209,6 +229,7 @@
   },
   {
     "id": "bf",
+    "flag_id": "flag-bf",
     "translations": [
       {
         "language_code": "en",
@@ -218,6 +239,7 @@
   },
   {
     "id": "bg",
+    "flag_id": "flag-bg",
     "translations": [
       {
         "language_code": "en",
@@ -227,6 +249,7 @@
   },
   {
     "id": "bh",
+    "flag_id": "flag-bh",
     "translations": [
       {
         "language_code": "en",
@@ -236,6 +259,7 @@
   },
   {
     "id": "bi",
+    "flag_id": "flag-bi",
     "translations": [
       {
         "language_code": "en",
@@ -245,6 +269,7 @@
   },
   {
     "id": "bj",
+    "flag_id": "flag-bj",
     "translations": [
       {
         "language_code": "en",
@@ -254,6 +279,7 @@
   },
   {
     "id": "bl",
+    "flag_id": "flag-bl",
     "translations": [
       {
         "language_code": "en",
@@ -263,6 +289,7 @@
   },
   {
     "id": "bm",
+    "flag_id": "flag-bm",
     "translations": [
       {
         "language_code": "en",
@@ -272,6 +299,7 @@
   },
   {
     "id": "bn",
+    "flag_id": "flag-bn",
     "translations": [
       {
         "language_code": "en",
@@ -281,6 +309,7 @@
   },
   {
     "id": "bo",
+    "flag_id": "flag-bo",
     "translations": [
       {
         "language_code": "en",
@@ -290,6 +319,7 @@
   },
   {
     "id": "bq",
+    "flag_id": "flag-bq",
     "translations": [
       {
         "language_code": "en",
@@ -299,6 +329,7 @@
   },
   {
     "id": "br",
+    "flag_id": "flag-br",
     "translations": [
       {
         "language_code": "en",
@@ -308,6 +339,7 @@
   },
   {
     "id": "bs",
+    "flag_id": "flag-bs",
     "translations": [
       {
         "language_code": "en",
@@ -317,6 +349,7 @@
   },
   {
     "id": "bt",
+    "flag_id": "flag-bt",
     "translations": [
       {
         "language_code": "en",
@@ -326,6 +359,7 @@
   },
   {
     "id": "bv",
+    "flag_id": "flag-bv",
     "translations": [
       {
         "language_code": "en",
@@ -335,6 +369,7 @@
   },
   {
     "id": "bw",
+    "flag_id": "flag-bw",
     "translations": [
       {
         "language_code": "en",
@@ -344,6 +379,7 @@
   },
   {
     "id": "by",
+    "flag_id": "flag-by",
     "translations": [
       {
         "language_code": "en",
@@ -353,6 +389,7 @@
   },
   {
     "id": "bz",
+    "flag_id": "flag-bz",
     "translations": [
       {
         "language_code": "en",
@@ -362,6 +399,7 @@
   },
   {
     "id": "ca",
+    "flag_id": "flag-ca",
     "translations": [
       {
         "language_code": "en",
@@ -371,6 +409,7 @@
   },
   {
     "id": "cc",
+    "flag_id": "flag-cc",
     "translations": [
       {
         "language_code": "en",
@@ -380,6 +419,7 @@
   },
   {
     "id": "cd",
+    "flag_id": "flag-cd",
     "translations": [
       {
         "language_code": "en",
@@ -389,6 +429,7 @@
   },
   {
     "id": "cf",
+    "flag_id": "flag-cf",
     "translations": [
       {
         "language_code": "en",
@@ -398,6 +439,7 @@
   },
   {
     "id": "cg",
+    "flag_id": "flag-cg",
     "translations": [
       {
         "language_code": "en",
@@ -407,6 +449,7 @@
   },
   {
     "id": "ch",
+    "flag_id": "flag-ch",
     "translations": [
       {
         "language_code": "en",
@@ -416,6 +459,7 @@
   },
   {
     "id": "ci",
+    "flag_id": "flag-ci",
     "translations": [
       {
         "language_code": "en",
@@ -425,6 +469,7 @@
   },
   {
     "id": "ck",
+    "flag_id": "flag-ck",
     "translations": [
       {
         "language_code": "en",
@@ -434,6 +479,7 @@
   },
   {
     "id": "cl",
+    "flag_id": "flag-cl",
     "translations": [
       {
         "language_code": "en",
@@ -443,6 +489,7 @@
   },
   {
     "id": "cm",
+    "flag_id": "flag-cm",
     "translations": [
       {
         "language_code": "en",
@@ -452,6 +499,7 @@
   },
   {
     "id": "cn",
+    "flag_id": "flag-cn",
     "translations": [
       {
         "language_code": "en",
@@ -461,6 +509,7 @@
   },
   {
     "id": "co",
+    "flag_id": "flag-co",
     "translations": [
       {
         "language_code": "en",
@@ -470,6 +519,7 @@
   },
   {
     "id": "cr",
+    "flag_id": "flag-cr",
     "translations": [
       {
         "language_code": "en",
@@ -479,6 +529,7 @@
   },
   {
     "id": "cu",
+    "flag_id": "flag-cu",
     "translations": [
       {
         "language_code": "en",
@@ -488,6 +539,7 @@
   },
   {
     "id": "cv",
+    "flag_id": "flag-cv",
     "translations": [
       {
         "language_code": "en",
@@ -497,6 +549,7 @@
   },
   {
     "id": "cw",
+    "flag_id": "flag-cw",
     "translations": [
       {
         "language_code": "en",
@@ -506,6 +559,7 @@
   },
   {
     "id": "cx",
+    "flag_id": "flag-cx",
     "translations": [
       {
         "language_code": "en",
@@ -515,6 +569,7 @@
   },
   {
     "id": "cy",
+    "flag_id": "flag-cy",
     "translations": [
       {
         "language_code": "en",
@@ -524,6 +579,7 @@
   },
   {
     "id": "cz",
+    "flag_id": "flag-cz",
     "translations": [
       {
         "language_code": "en",
@@ -533,6 +589,7 @@
   },
   {
     "id": "de",
+    "flag_id": "flag-de",
     "translations": [
       {
         "language_code": "en",
@@ -542,6 +599,7 @@
   },
   {
     "id": "dj",
+    "flag_id": "flag-dj",
     "translations": [
       {
         "language_code": "en",
@@ -551,6 +609,7 @@
   },
   {
     "id": "dk",
+    "flag_id": "flag-dk",
     "translations": [
       {
         "language_code": "en",
@@ -560,6 +619,7 @@
   },
   {
     "id": "dm",
+    "flag_id": "flag-dm",
     "translations": [
       {
         "language_code": "en",
@@ -569,6 +629,7 @@
   },
   {
     "id": "do",
+    "flag_id": "flag-do",
     "translations": [
       {
         "language_code": "en",
@@ -578,6 +639,7 @@
   },
   {
     "id": "dz",
+    "flag_id": "flag-dz",
     "translations": [
       {
         "language_code": "en",
@@ -587,6 +649,7 @@
   },
   {
     "id": "ec",
+    "flag_id": "flag-ec",
     "translations": [
       {
         "language_code": "en",
@@ -596,6 +659,7 @@
   },
   {
     "id": "ee",
+    "flag_id": "flag-ee",
     "translations": [
       {
         "language_code": "en",
@@ -605,6 +669,7 @@
   },
   {
     "id": "eg",
+    "flag_id": "flag-eg",
     "translations": [
       {
         "language_code": "en",
@@ -614,6 +679,7 @@
   },
   {
     "id": "eh",
+    "flag_id": "flag-eh",
     "translations": [
       {
         "language_code": "en",
@@ -623,6 +689,7 @@
   },
   {
     "id": "er",
+    "flag_id": "flag-er",
     "translations": [
       {
         "language_code": "en",
@@ -632,6 +699,7 @@
   },
   {
     "id": "es",
+    "flag_id": "flag-es",
     "translations": [
       {
         "language_code": "en",
@@ -641,6 +709,7 @@
   },
   {
     "id": "et",
+    "flag_id": "flag-et",
     "translations": [
       {
         "language_code": "en",
@@ -650,6 +719,7 @@
   },
   {
     "id": "fi",
+    "flag_id": "flag-fi",
     "translations": [
       {
         "language_code": "en",
@@ -659,6 +729,7 @@
   },
   {
     "id": "fj",
+    "flag_id": "flag-fj",
     "translations": [
       {
         "language_code": "en",
@@ -668,6 +739,7 @@
   },
   {
     "id": "fk",
+    "flag_id": "flag-fk",
     "translations": [
       {
         "language_code": "en",
@@ -677,6 +749,7 @@
   },
   {
     "id": "fm",
+    "flag_id": "flag-fm",
     "translations": [
       {
         "language_code": "en",
@@ -686,6 +759,7 @@
   },
   {
     "id": "fo",
+    "flag_id": "flag-fo",
     "translations": [
       {
         "language_code": "en",
@@ -695,6 +769,7 @@
   },
   {
     "id": "fr",
+    "flag_id": "flag-fr",
     "translations": [
       {
         "language_code": "en",
@@ -704,6 +779,7 @@
   },
   {
     "id": "ga",
+    "flag_id": "flag-ga",
     "translations": [
       {
         "language_code": "en",
@@ -713,6 +789,7 @@
   },
   {
     "id": "gb",
+    "flag_id": "flag-gb",
     "translations": [
       {
         "language_code": "en",
@@ -722,6 +799,7 @@
   },
   {
     "id": "gd",
+    "flag_id": "flag-gd",
     "translations": [
       {
         "language_code": "en",
@@ -731,6 +809,7 @@
   },
   {
     "id": "ge",
+    "flag_id": "flag-ge",
     "translations": [
       {
         "language_code": "en",
@@ -740,6 +819,7 @@
   },
   {
     "id": "gf",
+    "flag_id": "flag-gf",
     "translations": [
       {
         "language_code": "en",
@@ -749,6 +829,7 @@
   },
   {
     "id": "gg",
+    "flag_id": "flag-gg",
     "translations": [
       {
         "language_code": "en",
@@ -758,6 +839,7 @@
   },
   {
     "id": "gh",
+    "flag_id": "flag-gh",
     "translations": [
       {
         "language_code": "en",
@@ -767,6 +849,7 @@
   },
   {
     "id": "gi",
+    "flag_id": "flag-gi",
     "translations": [
       {
         "language_code": "en",
@@ -776,6 +859,7 @@
   },
   {
     "id": "gl",
+    "flag_id": "flag-gl",
     "translations": [
       {
         "language_code": "en",
@@ -785,6 +869,7 @@
   },
   {
     "id": "gm",
+    "flag_id": "flag-gm",
     "translations": [
       {
         "language_code": "en",
@@ -794,6 +879,7 @@
   },
   {
     "id": "gn",
+    "flag_id": "flag-gn",
     "translations": [
       {
         "language_code": "en",
@@ -803,6 +889,7 @@
   },
   {
     "id": "gp",
+    "flag_id": "flag-gp",
     "translations": [
       {
         "language_code": "en",
@@ -812,6 +899,7 @@
   },
   {
     "id": "gq",
+    "flag_id": "flag-gq",
     "translations": [
       {
         "language_code": "en",
@@ -821,6 +909,7 @@
   },
   {
     "id": "gr",
+    "flag_id": "flag-gr",
     "translations": [
       {
         "language_code": "en",
@@ -830,6 +919,7 @@
   },
   {
     "id": "gs",
+    "flag_id": "flag-gs",
     "translations": [
       {
         "language_code": "en",
@@ -839,6 +929,7 @@
   },
   {
     "id": "gt",
+    "flag_id": "flag-gt",
     "translations": [
       {
         "language_code": "en",
@@ -848,6 +939,7 @@
   },
   {
     "id": "gu",
+    "flag_id": "flag-gu",
     "translations": [
       {
         "language_code": "en",
@@ -857,6 +949,7 @@
   },
   {
     "id": "gw",
+    "flag_id": "flag-gw",
     "translations": [
       {
         "language_code": "en",
@@ -866,6 +959,7 @@
   },
   {
     "id": "gy",
+    "flag_id": "flag-gy",
     "translations": [
       {
         "language_code": "en",
@@ -875,6 +969,7 @@
   },
   {
     "id": "hk",
+    "flag_id": "flag-hk",
     "translations": [
       {
         "language_code": "en",
@@ -884,6 +979,7 @@
   },
   {
     "id": "hm",
+    "flag_id": "flag-hm",
     "translations": [
       {
         "language_code": "en",
@@ -893,6 +989,7 @@
   },
   {
     "id": "hn",
+    "flag_id": "flag-hn",
     "translations": [
       {
         "language_code": "en",
@@ -902,6 +999,7 @@
   },
   {
     "id": "hr",
+    "flag_id": "flag-hr",
     "translations": [
       {
         "language_code": "en",
@@ -911,6 +1009,7 @@
   },
   {
     "id": "ht",
+    "flag_id": "flag-ht",
     "translations": [
       {
         "language_code": "en",
@@ -920,6 +1019,7 @@
   },
   {
     "id": "hu",
+    "flag_id": "flag-hu",
     "translations": [
       {
         "language_code": "en",
@@ -929,6 +1029,7 @@
   },
   {
     "id": "id",
+    "flag_id": "flag-id",
     "translations": [
       {
         "language_code": "en",
@@ -938,6 +1039,7 @@
   },
   {
     "id": "ie",
+    "flag_id": "flag-ie",
     "translations": [
       {
         "language_code": "en",
@@ -947,6 +1049,7 @@
   },
   {
     "id": "il",
+    "flag_id": "flag-il",
     "translations": [
       {
         "language_code": "en",
@@ -956,6 +1059,7 @@
   },
   {
     "id": "im",
+    "flag_id": "flag-im",
     "translations": [
       {
         "language_code": "en",
@@ -965,6 +1069,7 @@
   },
   {
     "id": "in",
+    "flag_id": "flag-in",
     "translations": [
       {
         "language_code": "en",
@@ -974,6 +1079,7 @@
   },
   {
     "id": "io",
+    "flag_id": "flag-io",
     "translations": [
       {
         "language_code": "en",
@@ -983,6 +1089,7 @@
   },
   {
     "id": "iq",
+    "flag_id": "flag-iq",
     "translations": [
       {
         "language_code": "en",
@@ -992,6 +1099,7 @@
   },
   {
     "id": "ir",
+    "flag_id": "flag-ir",
     "translations": [
       {
         "language_code": "en",
@@ -1001,6 +1109,7 @@
   },
   {
     "id": "is",
+    "flag_id": "flag-is",
     "translations": [
       {
         "language_code": "en",
@@ -1010,6 +1119,7 @@
   },
   {
     "id": "it",
+    "flag_id": "flag-it",
     "translations": [
       {
         "language_code": "en",
@@ -1019,6 +1129,7 @@
   },
   {
     "id": "je",
+    "flag_id": "flag-je",
     "translations": [
       {
         "language_code": "en",
@@ -1028,6 +1139,7 @@
   },
   {
     "id": "jm",
+    "flag_id": "flag-jm",
     "translations": [
       {
         "language_code": "en",
@@ -1037,6 +1149,7 @@
   },
   {
     "id": "jo",
+    "flag_id": "flag-jo",
     "translations": [
       {
         "language_code": "en",
@@ -1046,6 +1159,7 @@
   },
   {
     "id": "jp",
+    "flag_id": "flag-jp",
     "translations": [
       {
         "language_code": "en",
@@ -1055,6 +1169,7 @@
   },
   {
     "id": "ke",
+    "flag_id": "flag-ke",
     "translations": [
       {
         "language_code": "en",
@@ -1064,6 +1179,7 @@
   },
   {
     "id": "kg",
+    "flag_id": "flag-kg",
     "translations": [
       {
         "language_code": "en",
@@ -1073,6 +1189,7 @@
   },
   {
     "id": "kh",
+    "flag_id": "flag-kh",
     "translations": [
       {
         "language_code": "en",
@@ -1082,6 +1199,7 @@
   },
   {
     "id": "ki",
+    "flag_id": "flag-ki",
     "translations": [
       {
         "language_code": "en",
@@ -1091,6 +1209,7 @@
   },
   {
     "id": "km",
+    "flag_id": "flag-km",
     "translations": [
       {
         "language_code": "en",
@@ -1100,6 +1219,7 @@
   },
   {
     "id": "kn",
+    "flag_id": "flag-kn",
     "translations": [
       {
         "language_code": "en",
@@ -1109,6 +1229,7 @@
   },
   {
     "id": "kp",
+    "flag_id": "flag-kp",
     "translations": [
       {
         "language_code": "en",
@@ -1118,6 +1239,7 @@
   },
   {
     "id": "kr",
+    "flag_id": "flag-kr",
     "translations": [
       {
         "language_code": "en",
@@ -1127,6 +1249,7 @@
   },
   {
     "id": "kw",
+    "flag_id": "flag-kw",
     "translations": [
       {
         "language_code": "en",
@@ -1136,6 +1259,7 @@
   },
   {
     "id": "ky",
+    "flag_id": "flag-ky",
     "translations": [
       {
         "language_code": "en",
@@ -1145,6 +1269,7 @@
   },
   {
     "id": "kz",
+    "flag_id": "flag-kz",
     "translations": [
       {
         "language_code": "en",
@@ -1154,6 +1279,7 @@
   },
   {
     "id": "la",
+    "flag_id": "flag-la",
     "translations": [
       {
         "language_code": "en",
@@ -1163,6 +1289,7 @@
   },
   {
     "id": "lb",
+    "flag_id": "flag-lb",
     "translations": [
       {
         "language_code": "en",
@@ -1172,6 +1299,7 @@
   },
   {
     "id": "lc",
+    "flag_id": "flag-lc",
     "translations": [
       {
         "language_code": "en",
@@ -1181,6 +1309,7 @@
   },
   {
     "id": "li",
+    "flag_id": "flag-li",
     "translations": [
       {
         "language_code": "en",
@@ -1190,6 +1319,7 @@
   },
   {
     "id": "lk",
+    "flag_id": "flag-lk",
     "translations": [
       {
         "language_code": "en",
@@ -1198,16 +1328,8 @@
     ]
   },
   {
-    "id": "",
-    "translations": [
-      {
-        "language_code": "en",
-        "label": null
-      }
-    ]
-  },
-  {
     "id": "lr",
+    "flag_id": "flag-lr",
     "translations": [
       {
         "language_code": "en",
@@ -1217,6 +1339,7 @@
   },
   {
     "id": "ls",
+    "flag_id": "flag-ls",
     "translations": [
       {
         "language_code": "en",
@@ -1226,6 +1349,7 @@
   },
   {
     "id": "lt",
+    "flag_id": "flag-lt",
     "translations": [
       {
         "language_code": "en",
@@ -1235,6 +1359,7 @@
   },
   {
     "id": "lu",
+    "flag_id": "flag-lu",
     "translations": [
       {
         "language_code": "en",
@@ -1244,6 +1369,7 @@
   },
   {
     "id": "lv",
+    "flag_id": "flag-lv",
     "translations": [
       {
         "language_code": "en",
@@ -1253,6 +1379,7 @@
   },
   {
     "id": "ly",
+    "flag_id": "flag-ly",
     "translations": [
       {
         "language_code": "en",
@@ -1262,6 +1389,7 @@
   },
   {
     "id": "ma",
+    "flag_id": "flag-ma",
     "translations": [
       {
         "language_code": "en",
@@ -1271,6 +1399,7 @@
   },
   {
     "id": "mc",
+    "flag_id": "flag-mc",
     "translations": [
       {
         "language_code": "en",
@@ -1280,6 +1409,7 @@
   },
   {
     "id": "md",
+    "flag_id": "flag-md",
     "translations": [
       {
         "language_code": "en",
@@ -1289,6 +1419,7 @@
   },
   {
     "id": "me",
+    "flag_id": "flag-me",
     "translations": [
       {
         "language_code": "en",
@@ -1298,6 +1429,7 @@
   },
   {
     "id": "mf",
+    "flag_id": "flag-mf",
     "translations": [
       {
         "language_code": "en",
@@ -1307,6 +1439,7 @@
   },
   {
     "id": "mg",
+    "flag_id": "flag-mg",
     "translations": [
       {
         "language_code": "en",
@@ -1316,6 +1449,7 @@
   },
   {
     "id": "mh",
+    "flag_id": "flag-mh",
     "translations": [
       {
         "language_code": "en",
@@ -1325,6 +1459,7 @@
   },
   {
     "id": "mk",
+    "flag_id": "flag-mk",
     "translations": [
       {
         "language_code": "en",
@@ -1334,6 +1469,7 @@
   },
   {
     "id": "ml",
+    "flag_id": "flag-ml",
     "translations": [
       {
         "language_code": "en",
@@ -1343,6 +1479,7 @@
   },
   {
     "id": "mm",
+    "flag_id": "flag-mm",
     "translations": [
       {
         "language_code": "en",
@@ -1352,6 +1489,7 @@
   },
   {
     "id": "mn",
+    "flag_id": "flag-mn",
     "translations": [
       {
         "language_code": "en",
@@ -1361,6 +1499,7 @@
   },
   {
     "id": "mo",
+    "flag_id": "flag-mo",
     "translations": [
       {
         "language_code": "en",
@@ -1370,6 +1509,7 @@
   },
   {
     "id": "mp",
+    "flag_id": "flag-mp",
     "translations": [
       {
         "language_code": "en",
@@ -1379,6 +1519,7 @@
   },
   {
     "id": "mq",
+    "flag_id": "flag-mq",
     "translations": [
       {
         "language_code": "en",
@@ -1388,6 +1529,7 @@
   },
   {
     "id": "mr",
+    "flag_id": "flag-mr",
     "translations": [
       {
         "language_code": "en",
@@ -1397,6 +1539,7 @@
   },
   {
     "id": "ms",
+    "flag_id": "flag-ms",
     "translations": [
       {
         "language_code": "en",
@@ -1406,6 +1549,7 @@
   },
   {
     "id": "mt",
+    "flag_id": "flag-mt",
     "translations": [
       {
         "language_code": "en",
@@ -1415,6 +1559,7 @@
   },
   {
     "id": "mu",
+    "flag_id": "flag-mu",
     "translations": [
       {
         "language_code": "en",
@@ -1424,6 +1569,7 @@
   },
   {
     "id": "mv",
+    "flag_id": "flag-mv",
     "translations": [
       {
         "language_code": "en",
@@ -1433,6 +1579,7 @@
   },
   {
     "id": "mw",
+    "flag_id": "flag-mw",
     "translations": [
       {
         "language_code": "en",
@@ -1442,6 +1589,7 @@
   },
   {
     "id": "mx",
+    "flag_id": "flag-mx",
     "translations": [
       {
         "language_code": "en",
@@ -1451,6 +1599,7 @@
   },
   {
     "id": "my",
+    "flag_id": "flag-my",
     "translations": [
       {
         "language_code": "en",
@@ -1460,6 +1609,7 @@
   },
   {
     "id": "mz",
+    "flag_id": "flag-mz",
     "translations": [
       {
         "language_code": "en",
@@ -1469,6 +1619,7 @@
   },
   {
     "id": "na",
+    "flag_id": "flag-na",
     "translations": [
       {
         "language_code": "en",
@@ -1478,6 +1629,7 @@
   },
   {
     "id": "nc",
+    "flag_id": "flag-nc",
     "translations": [
       {
         "language_code": "en",
@@ -1487,6 +1639,7 @@
   },
   {
     "id": "ne",
+    "flag_id": "flag-ne",
     "translations": [
       {
         "language_code": "en",
@@ -1496,6 +1649,7 @@
   },
   {
     "id": "nf",
+    "flag_id": "flag-nf",
     "translations": [
       {
         "language_code": "en",
@@ -1505,6 +1659,7 @@
   },
   {
     "id": "ng",
+    "flag_id": "flag-ng",
     "translations": [
       {
         "language_code": "en",
@@ -1514,6 +1669,7 @@
   },
   {
     "id": "ni",
+    "flag_id": "flag-ni",
     "translations": [
       {
         "language_code": "en",
@@ -1523,6 +1679,7 @@
   },
   {
     "id": "nl",
+    "flag_id": "flag-nl",
     "translations": [
       {
         "language_code": "en",
@@ -1532,6 +1689,7 @@
   },
   {
     "id": "no",
+    "flag_id": "flag-no",
     "translations": [
       {
         "language_code": "en",
@@ -1541,6 +1699,7 @@
   },
   {
     "id": "np",
+    "flag_id": "flag-np",
     "translations": [
       {
         "language_code": "en",
@@ -1550,6 +1709,7 @@
   },
   {
     "id": "nr",
+    "flag_id": "flag-nr",
     "translations": [
       {
         "language_code": "en",
@@ -1559,6 +1719,7 @@
   },
   {
     "id": "nu",
+    "flag_id": "flag-nu",
     "translations": [
       {
         "language_code": "en",
@@ -1568,6 +1729,7 @@
   },
   {
     "id": "nz",
+    "flag_id": "flag-nz",
     "translations": [
       {
         "language_code": "en",
@@ -1577,6 +1739,7 @@
   },
   {
     "id": "om",
+    "flag_id": "flag-om",
     "translations": [
       {
         "language_code": "en",
@@ -1586,6 +1749,7 @@
   },
   {
     "id": "pa",
+    "flag_id": "flag-pa",
     "translations": [
       {
         "language_code": "en",
@@ -1595,6 +1759,7 @@
   },
   {
     "id": "pe",
+    "flag_id": "flag-pe",
     "translations": [
       {
         "language_code": "en",
@@ -1604,6 +1769,7 @@
   },
   {
     "id": "pf",
+    "flag_id": "flag-pf",
     "translations": [
       {
         "language_code": "en",
@@ -1613,6 +1779,7 @@
   },
   {
     "id": "pg",
+    "flag_id": "flag-pg",
     "translations": [
       {
         "language_code": "en",
@@ -1622,6 +1789,7 @@
   },
   {
     "id": "ph",
+    "flag_id": "flag-ph",
     "translations": [
       {
         "language_code": "en",
@@ -1631,6 +1799,7 @@
   },
   {
     "id": "pk",
+    "flag_id": "flag-pk",
     "translations": [
       {
         "language_code": "en",
@@ -1640,6 +1809,7 @@
   },
   {
     "id": "pl",
+    "flag_id": "flag-pl",
     "translations": [
       {
         "language_code": "en",
@@ -1649,6 +1819,7 @@
   },
   {
     "id": "pm",
+    "flag_id": "flag-pm",
     "translations": [
       {
         "language_code": "en",
@@ -1658,6 +1829,7 @@
   },
   {
     "id": "pn",
+    "flag_id": "flag-pn",
     "translations": [
       {
         "language_code": "en",
@@ -1667,6 +1839,7 @@
   },
   {
     "id": "pr",
+    "flag_id": "flag-pr",
     "translations": [
       {
         "language_code": "en",
@@ -1676,6 +1849,7 @@
   },
   {
     "id": "ps",
+    "flag_id": "flag-ps",
     "translations": [
       {
         "language_code": "en",
@@ -1685,6 +1859,7 @@
   },
   {
     "id": "pt",
+    "flag_id": "flag-pt",
     "translations": [
       {
         "language_code": "en",
@@ -1694,6 +1869,7 @@
   },
   {
     "id": "pw",
+    "flag_id": "flag-pw",
     "translations": [
       {
         "language_code": "en",
@@ -1703,6 +1879,7 @@
   },
   {
     "id": "py",
+    "flag_id": "flag-py",
     "translations": [
       {
         "language_code": "en",
@@ -1712,6 +1889,7 @@
   },
   {
     "id": "qa",
+    "flag_id": "flag-qa",
     "translations": [
       {
         "language_code": "en",
@@ -1721,6 +1899,7 @@
   },
   {
     "id": "re",
+    "flag_id": "flag-re",
     "translations": [
       {
         "language_code": "en",
@@ -1730,6 +1909,7 @@
   },
   {
     "id": "ro",
+    "flag_id": "flag-ro",
     "translations": [
       {
         "language_code": "en",
@@ -1739,6 +1919,7 @@
   },
   {
     "id": "rs",
+    "flag_id": "flag-rs",
     "translations": [
       {
         "language_code": "en",
@@ -1748,6 +1929,7 @@
   },
   {
     "id": "ru",
+    "flag_id": "flag-ru",
     "translations": [
       {
         "language_code": "en",
@@ -1757,6 +1939,7 @@
   },
   {
     "id": "rw",
+    "flag_id": "flag-rw",
     "translations": [
       {
         "language_code": "en",
@@ -1766,6 +1949,7 @@
   },
   {
     "id": "sa",
+    "flag_id": "flag-sa",
     "translations": [
       {
         "language_code": "en",
@@ -1775,6 +1959,7 @@
   },
   {
     "id": "sb",
+    "flag_id": "flag-sb",
     "translations": [
       {
         "language_code": "en",
@@ -1784,6 +1969,7 @@
   },
   {
     "id": "sc",
+    "flag_id": "flag-sc",
     "translations": [
       {
         "language_code": "en",
@@ -1793,6 +1979,7 @@
   },
   {
     "id": "sd",
+    "flag_id": "flag-sd",
     "translations": [
       {
         "language_code": "en",
@@ -1802,6 +1989,7 @@
   },
   {
     "id": "se",
+    "flag_id": "flag-se",
     "translations": [
       {
         "language_code": "en",
@@ -1811,6 +1999,7 @@
   },
   {
     "id": "sg",
+    "flag_id": "flag-sg",
     "translations": [
       {
         "language_code": "en",
@@ -1820,6 +2009,7 @@
   },
   {
     "id": "sh",
+    "flag_id": "flag-sh",
     "translations": [
       {
         "language_code": "en",
@@ -1828,16 +2018,8 @@
     ]
   },
   {
-    "id": "",
-    "translations": [
-      {
-        "language_code": "en",
-        "label": null
-      }
-    ]
-  },
-  {
     "id": "si",
+    "flag_id": "flag-si",
     "translations": [
       {
         "language_code": "en",
@@ -1847,6 +2029,7 @@
   },
   {
     "id": "sj",
+    "flag_id": "flag-sj",
     "translations": [
       {
         "language_code": "en",
@@ -1856,6 +2039,7 @@
   },
   {
     "id": "sk",
+    "flag_id": "flag-sk",
     "translations": [
       {
         "language_code": "en",
@@ -1865,6 +2049,7 @@
   },
   {
     "id": "sl",
+    "flag_id": "flag-sl",
     "translations": [
       {
         "language_code": "en",
@@ -1874,6 +2059,7 @@
   },
   {
     "id": "sm",
+    "flag_id": "flag-sm",
     "translations": [
       {
         "language_code": "en",
@@ -1883,6 +2069,7 @@
   },
   {
     "id": "sn",
+    "flag_id": "flag-sn",
     "translations": [
       {
         "language_code": "en",
@@ -1892,6 +2079,7 @@
   },
   {
     "id": "so",
+    "flag_id": "flag-so",
     "translations": [
       {
         "language_code": "en",
@@ -1901,6 +2089,7 @@
   },
   {
     "id": "sr",
+    "flag_id": "flag-sr",
     "translations": [
       {
         "language_code": "en",
@@ -1910,6 +2099,7 @@
   },
   {
     "id": "ss",
+    "flag_id": "flag-ss",
     "translations": [
       {
         "language_code": "en",
@@ -1919,6 +2109,7 @@
   },
   {
     "id": "st",
+    "flag_id": "flag-st",
     "translations": [
       {
         "language_code": "en",
@@ -1928,6 +2119,7 @@
   },
   {
     "id": "sv",
+    "flag_id": "flag-sv",
     "translations": [
       {
         "language_code": "en",
@@ -1937,6 +2129,7 @@
   },
   {
     "id": "sx",
+    "flag_id": "flag-sx",
     "translations": [
       {
         "language_code": "en",
@@ -1946,6 +2139,7 @@
   },
   {
     "id": "sy",
+    "flag_id": "flag-sy",
     "translations": [
       {
         "language_code": "en",
@@ -1955,6 +2149,7 @@
   },
   {
     "id": "sz",
+    "flag_id": "flag-sz",
     "translations": [
       {
         "language_code": "en",
@@ -1964,6 +2159,7 @@
   },
   {
     "id": "tc",
+    "flag_id": "flag-tc",
     "translations": [
       {
         "language_code": "en",
@@ -1973,6 +2169,7 @@
   },
   {
     "id": "td",
+    "flag_id": "flag-td",
     "translations": [
       {
         "language_code": "en",
@@ -1982,6 +2179,7 @@
   },
   {
     "id": "tf",
+    "flag_id": "flag-tf",
     "translations": [
       {
         "language_code": "en",
@@ -1991,6 +2189,7 @@
   },
   {
     "id": "tg",
+    "flag_id": "flag-tg",
     "translations": [
       {
         "language_code": "en",
@@ -2000,6 +2199,7 @@
   },
   {
     "id": "th",
+    "flag_id": "flag-th",
     "translations": [
       {
         "language_code": "en",
@@ -2009,6 +2209,7 @@
   },
   {
     "id": "tj",
+    "flag_id": "flag-tj",
     "translations": [
       {
         "language_code": "en",
@@ -2018,6 +2219,7 @@
   },
   {
     "id": "tk",
+    "flag_id": "flag-tk",
     "translations": [
       {
         "language_code": "en",
@@ -2027,6 +2229,7 @@
   },
   {
     "id": "tl",
+    "flag_id": "flag-tl",
     "translations": [
       {
         "language_code": "en",
@@ -2036,6 +2239,7 @@
   },
   {
     "id": "tm",
+    "flag_id": "flag-tm",
     "translations": [
       {
         "language_code": "en",
@@ -2045,6 +2249,7 @@
   },
   {
     "id": "tn",
+    "flag_id": "flag-tn",
     "translations": [
       {
         "language_code": "en",
@@ -2054,6 +2259,7 @@
   },
   {
     "id": "to",
+    "flag_id": "flag-to",
     "translations": [
       {
         "language_code": "en",
@@ -2063,6 +2269,7 @@
   },
   {
     "id": "tr",
+    "flag_id": "flag-tr",
     "translations": [
       {
         "language_code": "en",
@@ -2072,6 +2279,7 @@
   },
   {
     "id": "tt",
+    "flag_id": "flag-tt",
     "translations": [
       {
         "language_code": "en",
@@ -2081,6 +2289,7 @@
   },
   {
     "id": "tv",
+    "flag_id": "flag-tv",
     "translations": [
       {
         "language_code": "en",
@@ -2090,6 +2299,7 @@
   },
   {
     "id": "tw",
+    "flag_id": "flag-tw",
     "translations": [
       {
         "language_code": "en",
@@ -2099,6 +2309,7 @@
   },
   {
     "id": "tz",
+    "flag_id": "flag-tz",
     "translations": [
       {
         "language_code": "en",
@@ -2108,6 +2319,7 @@
   },
   {
     "id": "ua",
+    "flag_id": "flag-ua",
     "translations": [
       {
         "language_code": "en",
@@ -2117,6 +2329,7 @@
   },
   {
     "id": "ug",
+    "flag_id": "flag-ug",
     "translations": [
       {
         "language_code": "en",
@@ -2126,6 +2339,7 @@
   },
   {
     "id": "um",
+    "flag_id": "flag-um",
     "translations": [
       {
         "language_code": "en",
@@ -2135,6 +2349,7 @@
   },
   {
     "id": "us",
+    "flag_id": "flag-us",
     "translations": [
       {
         "language_code": "en",
@@ -2144,6 +2359,7 @@
   },
   {
     "id": "uy",
+    "flag_id": "flag-uy",
     "translations": [
       {
         "language_code": "en",
@@ -2153,6 +2369,7 @@
   },
   {
     "id": "uz",
+    "flag_id": "flag-uz",
     "translations": [
       {
         "language_code": "en",
@@ -2162,6 +2379,7 @@
   },
   {
     "id": "va",
+    "flag_id": "flag-va",
     "translations": [
       {
         "language_code": "en",
@@ -2171,6 +2389,7 @@
   },
   {
     "id": "vc",
+    "flag_id": "flag-vc",
     "translations": [
       {
         "language_code": "en",
@@ -2180,6 +2399,7 @@
   },
   {
     "id": "ve",
+    "flag_id": "flag-ve",
     "translations": [
       {
         "language_code": "en",
@@ -2189,6 +2409,7 @@
   },
   {
     "id": "vg",
+    "flag_id": "flag-vg",
     "translations": [
       {
         "language_code": "en",
@@ -2198,6 +2419,7 @@
   },
   {
     "id": "vi",
+    "flag_id": "flag-vi",
     "translations": [
       {
         "language_code": "en",
@@ -2207,6 +2429,7 @@
   },
   {
     "id": "vn",
+    "flag_id": "flag-vn",
     "translations": [
       {
         "language_code": "en",
@@ -2216,6 +2439,7 @@
   },
   {
     "id": "vu",
+    "flag_id": "flag-vu",
     "translations": [
       {
         "language_code": "en",
@@ -2225,6 +2449,7 @@
   },
   {
     "id": "wf",
+    "flag_id": "flag-wf",
     "translations": [
       {
         "language_code": "en",
@@ -2234,6 +2459,7 @@
   },
   {
     "id": "ws",
+    "flag_id": "flag-ws",
     "translations": [
       {
         "language_code": "en",
@@ -2243,6 +2469,7 @@
   },
   {
     "id": "xk",
+    "flag_id": "flag-xk",
     "translations": [
       {
         "language_code": "en",
@@ -2252,6 +2479,7 @@
   },
   {
     "id": "ye",
+    "flag_id": "flag-ye",
     "translations": [
       {
         "language_code": "en",
@@ -2261,6 +2489,7 @@
   },
   {
     "id": "yt",
+    "flag_id": "flag-yt",
     "translations": [
       {
         "language_code": "en",
@@ -2270,6 +2499,7 @@
   },
   {
     "id": "za",
+    "flag_id": "flag-za",
     "translations": [
       {
         "language_code": "en",
@@ -2279,6 +2509,7 @@
   },
   {
     "id": "zm",
+    "flag_id": "flag-zm",
     "translations": [
       {
         "language_code": "en",
@@ -2288,6 +2519,7 @@
   },
   {
     "id": "zw",
+    "flag_id": "flag-zw",
     "translations": [
       {
         "language_code": "en",

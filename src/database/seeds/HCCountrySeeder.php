@@ -88,15 +88,17 @@ class HCCountrySeeder extends Seeder
                 $flag = $this->resourceService->getRepository()->findOneBy(['id' => $country['flag_id']]);
 
                 if (!$flag) {
-                    $this->resourceService->download(__DIR__ . '/../../resources/media/flags/' . $country['id'] . '.svg',
-                        null, 'flag-' . $country['id']);
+                    $this->resourceService->download(
+                        __DIR__ . '/../../resources/media/flags/' . $country['id'] . '.svg',
+                        null,
+                        'flag-' . $country['id']
+                    );
                 }
 
                 $translations = $country['translations'];
                 array_forget($country, 'translations');
 
-                $this->countryRepository->updateOrCreate(['id' => $country['id']], $country);
-                $countryRecord = $this->countryRepository->findOneBy(['id' => $country['id']]);
+                $countryRecord = $this->countryRepository->updateOrCreate(['id' => $country['id']], $country);
                 $countryRecord->updateTranslations($translations);
 
                 $this->connection->commit();
