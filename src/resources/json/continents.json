@@ -1,0 +1,50 @@
+[{
+  "id": "EU",
+  "translations": [{
+    "language_code": "en",
+    "label": "Europe"
+  }]
+},
+  {
+    "id": "AS",
+    "translations": [{
+      "language_code": "en",
+      "label": "Asia"
+    }]
+  },
+  {
+    "id": "NA",
+    "translations": [{
+      "language_code": "en",
+      "label": "North America"
+    }]
+  },
+  {
+    "id": "AF",
+    "translations": [{
+      "language_code": "en",
+      "label": "Africa"
+    }]
+  },
+  {
+    "id": "AN",
+    "translations": [{
+      "language_code": "en",
+      "label": "Antarctica"
+    }]
+  },
+  {
+    "id": "SA",
+    "translations": [{
+      "language_code": "en",
+      "label": "South America"
+    }]
+  },
+  {
+    "id": "OC",
+    "translations": [{
+      "language_code": "en",
+      "label": "Oceania"
+    }]
+  }
+]
