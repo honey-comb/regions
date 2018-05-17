@@ -1,6 +1,6 @@
 <?php
 /**
- * @copyright 2018 interactivesolutions
+ * @copyright 2018 innovationbase
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -20,9 +20,9 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  *
- * Contact InteractiveSolutions:
- * E-mail: hello@interactivesolutions.lt
- * http://www.interactivesolutions.lt
+ * Contact InnovationBase:
+ * E-mail: hello@innovationbase.eu
+ * https://innovationbase.eu
  */
 
 declare(strict_types = 1);
@@ -35,7 +35,7 @@ use Illuminate\Database\Connection;
 use Illuminate\Database\Seeder;
 
 /**
- * Class HCCountrySeeder
+ * Class HCContinentSeeder
  * @package HoneyComb\Regions\Database\Seeds
  */
 class HCContinentSeeder extends Seeder
@@ -46,15 +46,14 @@ class HCContinentSeeder extends Seeder
     private $connection;
 
     /**
-     * @var \HoneyComb\Regions\Repositories\HCCountryRepository
+     * @var HCContinentRepository
      */
     private $continentRepository;
 
     /**
-     * HCCountriesSeeder constructor.
-     * @param \Illuminate\Database\Connection $connection
-     * @param \HoneyComb\Resources\Services\HCResourceService $resourceService
-     * @param \HoneyComb\Regions\Repositories\HCCountryRepository $countryRepository
+     * HCContinentSeeder constructor.
+     * @param Connection $connection
+     * @param HCContinentRepository $continentRepository
      */
     public function __construct(
         Connection $connection,
