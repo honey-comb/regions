@@ -108,6 +108,10 @@ class HCCityForm extends HCBaseForm
                 ],
         ];
 
+        if (request('country_id')) {
+            $form[$prefix . 'country_id']['value'] = request('country_id');
+        }
+
         if (request('hc_options')) {
             $form[$prefix . 'hc_options'] = [
                 'type' => 'singleLine',
