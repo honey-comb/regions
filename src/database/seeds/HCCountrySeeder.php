@@ -30,6 +30,7 @@ declare(strict_types = 1);
 namespace HoneyComb\Regions\Database\Seeds;
 
 use HoneyComb\Regions\Repositories\HCCountryRepository;
+use HoneyComb\Resources\Repositories\Admin\HCResourceRepository;
 use HoneyComb\Resources\Services\HCResourceService;
 use Illuminate\Database\Connection;
 use Illuminate\Database\Seeder;
@@ -58,15 +59,13 @@ class HCCountrySeeder extends Seeder
     /**
      * HCCountriesSeeder constructor.
      * @param \Illuminate\Database\Connection $connection
-     * @param \HoneyComb\Resources\Services\HCResourceService $resourceService
      * @param \HoneyComb\Regions\Repositories\HCCountryRepository $countryRepository
      */
     public function __construct(
         Connection $connection,
-        HCResourceService $resourceService,
         HCCountryRepository $countryRepository
     ) {
-        $this->resourceService = $resourceService;
+        $this->resourceService = new HCResourceService(new HCResourceRepository(), true);
         $this->connection = $connection;
         $this->countryRepository = $countryRepository;
     }
@@ -75,6 +74,7 @@ class HCCountrySeeder extends Seeder
      * Run the database seeds.
      *
      * @return void
+     * @throws \Exception
      */
     public function run(): void
     {
