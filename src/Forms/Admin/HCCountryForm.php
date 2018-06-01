@@ -38,6 +38,11 @@ use HoneyComb\Starter\Forms\HCBaseForm;
 class HCCountryForm extends HCBaseForm
 {
     /**
+     * @var bool
+     */
+    protected $multiLanguage = true;
+
+    /**
      * Creating form
      *
      * @param bool $edit
