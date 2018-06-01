@@ -34,6 +34,10 @@
       {
         "language_code": "en",
         "label": "Andorra"
+      },
+      {
+        "language_code": "lt",
+        "label": "Andorra"
       }
     ]
   },
@@ -43,6 +47,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "United Arab Emirates"
+      },
+      {
+        "language_code": "lt",
         "label": "United Arab Emirates"
       }
     ]
@@ -54,6 +62,10 @@
       {
         "language_code": "en",
         "label": "Afghanistan"
+      },
+      {
+        "language_code": "lt",
+        "label": "Afghanistan"
       }
     ]
   },
@@ -63,6 +75,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Antigua and Barbuda"
+      },
+      {
+        "language_code": "lt",
         "label": "Antigua and Barbuda"
       }
     ]
@@ -74,6 +90,10 @@
       {
         "language_code": "en",
         "label": "Anguilla"
+      },
+      {
+        "language_code": "lt",
+        "label": "Anguilla"
       }
     ]
   },
@@ -83,6 +103,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Albania"
+      },
+      {
+        "language_code": "lt",
         "label": "Albania"
       }
     ]
@@ -94,6 +118,10 @@
       {
         "language_code": "en",
         "label": "Armenia"
+      },
+      {
+        "language_code": "lt",
+        "label": "Armenia"
       }
     ]
   },
@@ -103,6 +131,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Angola"
+      },
+      {
+        "language_code": "lt",
         "label": "Angola"
       }
     ]
@@ -114,6 +146,10 @@
       {
         "language_code": "en",
         "label": "Antarctica"
+      },
+      {
+        "language_code": "lt",
+        "label": "Antarctica"
       }
     ]
   },
@@ -123,6 +159,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Argentina"
+      },
+      {
+        "language_code": "lt",
         "label": "Argentina"
       }
     ]
@@ -134,6 +174,10 @@
       {
         "language_code": "en",
         "label": "American Samoa"
+      },
+      {
+        "language_code": "lt",
+        "label": "American Samoa"
       }
     ]
   },
@@ -143,6 +187,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Austria"
+      },
+      {
+        "language_code": "lt",
         "label": "Austria"
       }
     ]
@@ -154,6 +202,10 @@
       {
         "language_code": "en",
         "label": "Australia"
+      },
+      {
+        "language_code": "lt",
+        "label": "Australia"
       }
     ]
   },
@@ -163,6 +215,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Aruba"
+      },
+      {
+        "language_code": "lt",
         "label": "Aruba"
       }
     ]
@@ -174,6 +230,10 @@
       {
         "language_code": "en",
         "label": "\u00c5land Islands"
+      },
+      {
+        "language_code": "lt",
+        "label": "\u00c5land Islands"
       }
     ]
   },
@@ -183,6 +243,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Azerbaijan"
+      },
+      {
+        "language_code": "lt",
         "label": "Azerbaijan"
       }
     ]
@@ -194,6 +258,10 @@
       {
         "language_code": "en",
         "label": "Bosnia and Herzegovina"
+      },
+      {
+        "language_code": "lt",
+        "label": "Bosnia and Herzegovina"
       }
     ]
   },
@@ -203,6 +271,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Barbados"
+      },
+      {
+        "language_code": "lt",
         "label": "Barbados"
       }
     ]
@@ -214,6 +286,10 @@
       {
         "language_code": "en",
         "label": "Bangladesh"
+      },
+      {
+        "language_code": "lt",
+        "label": "Bangladesh"
       }
     ]
   },
@@ -223,6 +299,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Belgium"
+      },
+      {
+        "language_code": "lt",
         "label": "Belgium"
       }
     ]
@@ -234,6 +314,10 @@
       {
         "language_code": "en",
         "label": "Burkina Faso"
+      },
+      {
+        "language_code": "lt",
+        "label": "Burkina Faso"
       }
     ]
   },
@@ -243,6 +327,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Bulgaria"
+      },
+      {
+        "language_code": "lt",
         "label": "Bulgaria"
       }
     ]
@@ -254,6 +342,10 @@
       {
         "language_code": "en",
         "label": "Bahrain"
+      },
+      {
+        "language_code": "lt",
+        "label": "Bahrain"
       }
     ]
   },
@@ -263,6 +355,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Burundi"
+      },
+      {
+        "language_code": "lt",
         "label": "Burundi"
       }
     ]
@@ -274,6 +370,10 @@
       {
         "language_code": "en",
         "label": "Benin"
+      },
+      {
+        "language_code": "lt",
+        "label": "Benin"
       }
     ]
   },
@@ -283,6 +383,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Saint Barth\u00e9lemy"
+      },
+      {
+        "language_code": "lt",
         "label": "Saint Barth\u00e9lemy"
       }
     ]
@@ -294,6 +398,10 @@
       {
         "language_code": "en",
         "label": "Bermuda"
+      },
+      {
+        "language_code": "lt",
+        "label": "Bermuda"
       }
     ]
   },
@@ -303,6 +411,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Brunei"
+      },
+      {
+        "language_code": "lt",
         "label": "Brunei"
       }
     ]
@@ -314,6 +426,10 @@
       {
         "language_code": "en",
         "label": "Bolivia"
+      },
+      {
+        "language_code": "lt",
+        "label": "Bolivia"
       }
     ]
   },
@@ -323,6 +439,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Caribbean Netherlands"
+      },
+      {
+        "language_code": "lt",
         "label": "Caribbean Netherlands"
       }
     ]
@@ -334,6 +454,10 @@
       {
         "language_code": "en",
         "label": "Brazil"
+      },
+      {
+        "language_code": "lt",
+        "label": "Brazil"
       }
     ]
   },
@@ -343,6 +467,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Bahamas"
+      },
+      {
+        "language_code": "lt",
         "label": "Bahamas"
       }
     ]
@@ -354,6 +482,10 @@
       {
         "language_code": "en",
         "label": "Bhutan"
+      },
+      {
+        "language_code": "lt",
+        "label": "Bhutan"
       }
     ]
   },
@@ -363,6 +495,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Bouvet Island"
+      },
+      {
+        "language_code": "lt",
         "label": "Bouvet Island"
       }
     ]
@@ -374,6 +510,10 @@
       {
         "language_code": "en",
         "label": "Botswana"
+      },
+      {
+        "language_code": "lt",
+        "label": "Botswana"
       }
     ]
   },
@@ -383,6 +523,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Belarus"
+      },
+      {
+        "language_code": "lt",
         "label": "Belarus"
       }
     ]
@@ -394,6 +538,10 @@
       {
         "language_code": "en",
         "label": "Belize"
+      },
+      {
+        "language_code": "lt",
+        "label": "Belize"
       }
     ]
   },
@@ -403,6 +551,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Canada"
+      },
+      {
+        "language_code": "lt",
         "label": "Canada"
       }
     ]
@@ -414,6 +566,10 @@
       {
         "language_code": "en",
         "label": "Cocos (Keeling) Islands"
+      },
+      {
+        "language_code": "lt",
+        "label": "Cocos (Keeling) Islands"
       }
     ]
   },
@@ -423,6 +579,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "DR Congo"
+      },
+      {
+        "language_code": "lt",
         "label": "DR Congo"
       }
     ]
@@ -434,6 +594,10 @@
       {
         "language_code": "en",
         "label": "Central African Republic"
+      },
+      {
+        "language_code": "lt",
+        "label": "Central African Republic"
       }
     ]
   },
@@ -443,6 +607,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Republic of the Congo"
+      },
+      {
+        "language_code": "lt",
         "label": "Republic of the Congo"
       }
     ]
@@ -454,6 +622,10 @@
       {
         "language_code": "en",
         "label": "Switzerland"
+      },
+      {
+        "language_code": "lt",
+        "label": "Switzerland"
       }
     ]
   },
@@ -463,6 +635,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Ivory Coast"
+      },
+      {
+        "language_code": "lt",
         "label": "Ivory Coast"
       }
     ]
@@ -474,6 +650,10 @@
       {
         "language_code": "en",
         "label": "Cook Islands"
+      },
+      {
+        "language_code": "lt",
+        "label": "Cook Islands"
       }
     ]
   },
@@ -483,6 +663,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Chile"
+      },
+      {
+        "language_code": "lt",
         "label": "Chile"
       }
     ]
@@ -494,6 +678,10 @@
       {
         "language_code": "en",
         "label": "Cameroon"
+      },
+      {
+        "language_code": "lt",
+        "label": "Cameroon"
       }
     ]
   },
@@ -503,6 +691,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "China"
+      },
+      {
+        "language_code": "lt",
         "label": "China"
       }
     ]
@@ -514,6 +706,10 @@
       {
         "language_code": "en",
         "label": "Colombia"
+      },
+      {
+        "language_code": "lt",
+        "label": "Colombia"
       }
     ]
   },
@@ -523,6 +719,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Costa Rica"
+      },
+      {
+        "language_code": "lt",
         "label": "Costa Rica"
       }
     ]
@@ -534,6 +734,10 @@
       {
         "language_code": "en",
         "label": "Cuba"
+      },
+      {
+        "language_code": "lt",
+        "label": "Cuba"
       }
     ]
   },
@@ -543,6 +747,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Cape Verde"
+      },
+      {
+        "language_code": "lt",
         "label": "Cape Verde"
       }
     ]
@@ -554,6 +762,10 @@
       {
         "language_code": "en",
         "label": "Cura\u00e7ao"
+      },
+      {
+        "language_code": "lt",
+        "label": "Cura\u00e7ao"
       }
     ]
   },
@@ -563,6 +775,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Christmas Island"
+      },
+      {
+        "language_code": "lt",
         "label": "Christmas Island"
       }
     ]
@@ -574,6 +790,10 @@
       {
         "language_code": "en",
         "label": "Cyprus"
+      },
+      {
+        "language_code": "lt",
+        "label": "Cyprus"
       }
     ]
   },
@@ -583,6 +803,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Czech Republic"
+      },
+      {
+        "language_code": "lt",
         "label": "Czech Republic"
       }
     ]
@@ -594,6 +818,10 @@
       {
         "language_code": "en",
         "label": "Germany"
+      },
+      {
+        "language_code": "lt",
+        "label": "Germany"
       }
     ]
   },
@@ -603,6 +831,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Djibouti"
+      },
+      {
+        "language_code": "lt",
         "label": "Djibouti"
       }
     ]
@@ -614,6 +846,10 @@
       {
         "language_code": "en",
         "label": "Denmark"
+      },
+      {
+        "language_code": "lt",
+        "label": "Denmark"
       }
     ]
   },
@@ -623,6 +859,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Dominica"
+      },
+      {
+        "language_code": "lt",
         "label": "Dominica"
       }
     ]
@@ -634,6 +874,10 @@
       {
         "language_code": "en",
         "label": "Dominican Republic"
+      },
+      {
+        "language_code": "lt",
+        "label": "Dominican Republic"
       }
     ]
   },
@@ -643,6 +887,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Algeria"
+      },
+      {
+        "language_code": "lt",
         "label": "Algeria"
       }
     ]
@@ -654,6 +902,10 @@
       {
         "language_code": "en",
         "label": "Ecuador"
+      },
+      {
+        "language_code": "lt",
+        "label": "Ecuador"
       }
     ]
   },
@@ -663,6 +915,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Estonia"
+      },
+      {
+        "language_code": "lt",
         "label": "Estonia"
       }
     ]
@@ -674,6 +930,10 @@
       {
         "language_code": "en",
         "label": "Egypt"
+      },
+      {
+        "language_code": "lt",
+        "label": "Egypt"
       }
     ]
   },
@@ -683,6 +943,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Western Sahara"
+      },
+      {
+        "language_code": "lt",
         "label": "Western Sahara"
       }
     ]
@@ -694,6 +958,10 @@
       {
         "language_code": "en",
         "label": "Eritrea"
+      },
+      {
+        "language_code": "lt",
+        "label": "Eritrea"
       }
     ]
   },
@@ -703,6 +971,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Spain"
+      },
+      {
+        "language_code": "lt",
         "label": "Spain"
       }
     ]
@@ -714,6 +986,10 @@
       {
         "language_code": "en",
         "label": "Ethiopia"
+      },
+      {
+        "language_code": "lt",
+        "label": "Ethiopia"
       }
     ]
   },
@@ -723,6 +999,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Finland"
+      },
+      {
+        "language_code": "lt",
         "label": "Finland"
       }
     ]
@@ -734,6 +1014,10 @@
       {
         "language_code": "en",
         "label": "Fiji"
+      },
+      {
+        "language_code": "lt",
+        "label": "Fiji"
       }
     ]
   },
@@ -743,6 +1027,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Falkland Islands"
+      },
+      {
+        "language_code": "lt",
         "label": "Falkland Islands"
       }
     ]
@@ -754,6 +1042,10 @@
       {
         "language_code": "en",
         "label": "Micronesia"
+      },
+      {
+        "language_code": "lt",
+        "label": "Micronesia"
       }
     ]
   },
@@ -763,6 +1055,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Faroe Islands"
+      },
+      {
+        "language_code": "lt",
         "label": "Faroe Islands"
       }
     ]
@@ -774,6 +1070,10 @@
       {
         "language_code": "en",
         "label": "France"
+      },
+      {
+        "language_code": "lt",
+        "label": "France"
       }
     ]
   },
@@ -783,6 +1083,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Gabon"
+      },
+      {
+        "language_code": "lt",
         "label": "Gabon"
       }
     ]
@@ -794,6 +1098,10 @@
       {
         "language_code": "en",
         "label": "United Kingdom"
+      },
+      {
+        "language_code": "lt",
+        "label": "United Kingdom"
       }
     ]
   },
@@ -803,6 +1111,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Grenada"
+      },
+      {
+        "language_code": "lt",
         "label": "Grenada"
       }
     ]
@@ -814,6 +1126,10 @@
       {
         "language_code": "en",
         "label": "Georgia"
+      },
+      {
+        "language_code": "lt",
+        "label": "Georgia"
       }
     ]
   },
@@ -823,6 +1139,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "French Guiana"
+      },
+      {
+        "language_code": "lt",
         "label": "French Guiana"
       }
     ]
@@ -834,6 +1154,10 @@
       {
         "language_code": "en",
         "label": "Guernsey"
+      },
+      {
+        "language_code": "lt",
+        "label": "Guernsey"
       }
     ]
   },
@@ -843,6 +1167,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Ghana"
+      },
+      {
+        "language_code": "lt",
         "label": "Ghana"
       }
     ]
@@ -854,6 +1182,10 @@
       {
         "language_code": "en",
         "label": "Gibraltar"
+      },
+      {
+        "language_code": "lt",
+        "label": "Gibraltar"
       }
     ]
   },
@@ -863,6 +1195,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Greenland"
+      },
+      {
+        "language_code": "lt",
         "label": "Greenland"
       }
     ]
@@ -874,6 +1210,10 @@
       {
         "language_code": "en",
         "label": "Gambia"
+      },
+      {
+        "language_code": "lt",
+        "label": "Gambia"
       }
     ]
   },
@@ -883,6 +1223,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Guinea"
+      },
+      {
+        "language_code": "lt",
         "label": "Guinea"
       }
     ]
@@ -894,6 +1238,10 @@
       {
         "language_code": "en",
         "label": "Guadeloupe"
+      },
+      {
+        "language_code": "lt",
+        "label": "Guadeloupe"
       }
     ]
   },
@@ -903,6 +1251,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Equatorial Guinea"
+      },
+      {
+        "language_code": "lt",
         "label": "Equatorial Guinea"
       }
     ]
@@ -914,6 +1266,10 @@
       {
         "language_code": "en",
         "label": "Greece"
+      },
+      {
+        "language_code": "lt",
+        "label": "Greece"
       }
     ]
   },
@@ -923,6 +1279,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "South Georgia"
+      },
+      {
+        "language_code": "lt",
         "label": "South Georgia"
       }
     ]
@@ -934,6 +1294,10 @@
       {
         "language_code": "en",
         "label": "Guatemala"
+      },
+      {
+        "language_code": "lt",
+        "label": "Guatemala"
       }
     ]
   },
@@ -943,6 +1307,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Guam"
+      },
+      {
+        "language_code": "lt",
         "label": "Guam"
       }
     ]
@@ -954,6 +1322,10 @@
       {
         "language_code": "en",
         "label": "Guinea-Bissau"
+      },
+      {
+        "language_code": "lt",
+        "label": "Guinea-Bissau"
       }
     ]
   },
@@ -963,6 +1335,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Guyana"
+      },
+      {
+        "language_code": "lt",
         "label": "Guyana"
       }
     ]
@@ -974,6 +1350,10 @@
       {
         "language_code": "en",
         "label": "Hong Kong"
+      },
+      {
+        "language_code": "lt",
+        "label": "Hong Kong"
       }
     ]
   },
@@ -983,6 +1363,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Heard Island and McDonald Islands"
+      },
+      {
+        "language_code": "lt",
         "label": "Heard Island and McDonald Islands"
       }
     ]
@@ -994,6 +1378,10 @@
       {
         "language_code": "en",
         "label": "Honduras"
+      },
+      {
+        "language_code": "lt",
+        "label": "Honduras"
       }
     ]
   },
@@ -1003,6 +1391,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Croatia"
+      },
+      {
+        "language_code": "lt",
         "label": "Croatia"
       }
     ]
@@ -1014,6 +1406,10 @@
       {
         "language_code": "en",
         "label": "Haiti"
+      },
+      {
+        "language_code": "lt",
+        "label": "Haiti"
       }
     ]
   },
@@ -1023,6 +1419,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Hungary"
+      },
+      {
+        "language_code": "lt",
         "label": "Hungary"
       }
     ]
@@ -1034,6 +1434,10 @@
       {
         "language_code": "en",
         "label": "Indonesia"
+      },
+      {
+        "language_code": "lt",
+        "label": "Indonesia"
       }
     ]
   },
@@ -1043,6 +1447,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Ireland"
+      },
+      {
+        "language_code": "lt",
         "label": "Ireland"
       }
     ]
@@ -1054,6 +1462,10 @@
       {
         "language_code": "en",
         "label": "Israel"
+      },
+      {
+        "language_code": "lt",
+        "label": "Israel"
       }
     ]
   },
@@ -1063,6 +1475,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Isle of Man"
+      },
+      {
+        "language_code": "lt",
         "label": "Isle of Man"
       }
     ]
@@ -1074,6 +1490,10 @@
       {
         "language_code": "en",
         "label": "India"
+      },
+      {
+        "language_code": "lt",
+        "label": "India"
       }
     ]
   },
@@ -1083,6 +1503,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "British Indian Ocean Territory"
+      },
+      {
+        "language_code": "lt",
         "label": "British Indian Ocean Territory"
       }
     ]
@@ -1094,6 +1518,10 @@
       {
         "language_code": "en",
         "label": "Iraq"
+      },
+      {
+        "language_code": "lt",
+        "label": "Iraq"
       }
     ]
   },
@@ -1103,6 +1531,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Iran"
+      },
+      {
+        "language_code": "lt",
         "label": "Iran"
       }
     ]
@@ -1114,6 +1546,10 @@
       {
         "language_code": "en",
         "label": "Iceland"
+      },
+      {
+        "language_code": "lt",
+        "label": "Iceland"
       }
     ]
   },
@@ -1123,6 +1559,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Italy"
+      },
+      {
+        "language_code": "lt",
         "label": "Italy"
       }
     ]
@@ -1134,6 +1574,10 @@
       {
         "language_code": "en",
         "label": "Jersey"
+      },
+      {
+        "language_code": "lt",
+        "label": "Jersey"
       }
     ]
   },
@@ -1143,6 +1587,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Jamaica"
+      },
+      {
+        "language_code": "lt",
         "label": "Jamaica"
       }
     ]
@@ -1154,6 +1602,10 @@
       {
         "language_code": "en",
         "label": "Jordan"
+      },
+      {
+        "language_code": "lt",
+        "label": "Jordan"
       }
     ]
   },
@@ -1163,6 +1615,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Japan"
+      },
+      {
+        "language_code": "lt",
         "label": "Japan"
       }
     ]
@@ -1174,6 +1630,10 @@
       {
         "language_code": "en",
         "label": "Kenya"
+      },
+      {
+        "language_code": "lt",
+        "label": "Kenya"
       }
     ]
   },
@@ -1183,6 +1643,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Kyrgyzstan"
+      },
+      {
+        "language_code": "lt",
         "label": "Kyrgyzstan"
       }
     ]
@@ -1194,6 +1658,10 @@
       {
         "language_code": "en",
         "label": "Cambodia"
+      },
+      {
+        "language_code": "lt",
+        "label": "Cambodia"
       }
     ]
   },
@@ -1203,6 +1671,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Kiribati"
+      },
+      {
+        "language_code": "lt",
         "label": "Kiribati"
       }
     ]
@@ -1214,6 +1686,10 @@
       {
         "language_code": "en",
         "label": "Comoros"
+      },
+      {
+        "language_code": "lt",
+        "label": "Comoros"
       }
     ]
   },
@@ -1223,6 +1699,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Saint Kitts and Nevis"
+      },
+      {
+        "language_code": "lt",
         "label": "Saint Kitts and Nevis"
       }
     ]
@@ -1234,6 +1714,10 @@
       {
         "language_code": "en",
         "label": "North Korea"
+      },
+      {
+        "language_code": "lt",
+        "label": "North Korea"
       }
     ]
   },
@@ -1243,6 +1727,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "South Korea"
+      },
+      {
+        "language_code": "lt",
         "label": "South Korea"
       }
     ]
@@ -1254,6 +1742,10 @@
       {
         "language_code": "en",
         "label": "Kuwait"
+      },
+      {
+        "language_code": "lt",
+        "label": "Kuwait"
       }
     ]
   },
@@ -1263,6 +1755,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Cayman Islands"
+      },
+      {
+        "language_code": "lt",
         "label": "Cayman Islands"
       }
     ]
@@ -1274,6 +1770,10 @@
       {
         "language_code": "en",
         "label": "Kazakhstan"
+      },
+      {
+        "language_code": "lt",
+        "label": "Kazakhstan"
       }
     ]
   },
@@ -1283,6 +1783,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Laos"
+      },
+      {
+        "language_code": "lt",
         "label": "Laos"
       }
     ]
@@ -1294,6 +1798,10 @@
       {
         "language_code": "en",
         "label": "Lebanon"
+      },
+      {
+        "language_code": "lt",
+        "label": "Lebanon"
       }
     ]
   },
@@ -1303,6 +1811,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Saint Lucia"
+      },
+      {
+        "language_code": "lt",
         "label": "Saint Lucia"
       }
     ]
@@ -1314,6 +1826,10 @@
       {
         "language_code": "en",
         "label": "Liechtenstein"
+      },
+      {
+        "language_code": "lt",
+        "label": "Liechtenstein"
       }
     ]
   },
@@ -1323,6 +1839,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Sri Lanka"
+      },
+      {
+        "language_code": "lt",
         "label": "Sri Lanka"
       }
     ]
@@ -1334,6 +1854,10 @@
       {
         "language_code": "en",
         "label": "Liberia"
+      },
+      {
+        "language_code": "lt",
+        "label": "Liberia"
       }
     ]
   },
@@ -1343,6 +1867,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Lesotho"
+      },
+      {
+        "language_code": "lt",
         "label": "Lesotho"
       }
     ]
@@ -1354,6 +1882,10 @@
       {
         "language_code": "en",
         "label": "Lithuania"
+      },
+      {
+        "language_code": "lt",
+        "label": "Lithuania"
       }
     ]
   },
@@ -1363,6 +1895,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Luxembourg"
+      },
+      {
+        "language_code": "lt",
         "label": "Luxembourg"
       }
     ]
@@ -1374,6 +1910,10 @@
       {
         "language_code": "en",
         "label": "Latvia"
+      },
+      {
+        "language_code": "lt",
+        "label": "Latvia"
       }
     ]
   },
@@ -1383,6 +1923,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Libya"
+      },
+      {
+        "language_code": "lt",
         "label": "Libya"
       }
     ]
@@ -1394,6 +1938,10 @@
       {
         "language_code": "en",
         "label": "Morocco"
+      },
+      {
+        "language_code": "lt",
+        "label": "Morocco"
       }
     ]
   },
@@ -1403,6 +1951,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Monaco"
+      },
+      {
+        "language_code": "lt",
         "label": "Monaco"
       }
     ]
@@ -1414,6 +1966,10 @@
       {
         "language_code": "en",
         "label": "Moldova"
+      },
+      {
+        "language_code": "lt",
+        "label": "Moldova"
       }
     ]
   },
@@ -1423,6 +1979,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Montenegro"
+      },
+      {
+        "language_code": "lt",
         "label": "Montenegro"
       }
     ]
@@ -1434,6 +1994,10 @@
       {
         "language_code": "en",
         "label": "Saint Martin"
+      },
+      {
+        "language_code": "lt",
+        "label": "Saint Martin"
       }
     ]
   },
@@ -1443,6 +2007,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Madagascar"
+      },
+      {
+        "language_code": "lt",
         "label": "Madagascar"
       }
     ]
@@ -1454,6 +2022,10 @@
       {
         "language_code": "en",
         "label": "Marshall Islands"
+      },
+      {
+        "language_code": "lt",
+        "label": "Marshall Islands"
       }
     ]
   },
@@ -1463,6 +2035,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Macedonia"
+      },
+      {
+        "language_code": "lt",
         "label": "Macedonia"
       }
     ]
@@ -1474,6 +2050,10 @@
       {
         "language_code": "en",
         "label": "Mali"
+      },
+      {
+        "language_code": "lt",
+        "label": "Mali"
       }
     ]
   },
@@ -1483,6 +2063,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Myanmar"
+      },
+      {
+        "language_code": "lt",
         "label": "Myanmar"
       }
     ]
@@ -1494,6 +2078,10 @@
       {
         "language_code": "en",
         "label": "Mongolia"
+      },
+      {
+        "language_code": "lt",
+        "label": "Mongolia"
       }
     ]
   },
@@ -1503,6 +2091,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Macau"
+      },
+      {
+        "language_code": "lt",
         "label": "Macau"
       }
     ]
@@ -1514,6 +2106,10 @@
       {
         "language_code": "en",
         "label": "Northern Mariana Islands"
+      },
+      {
+        "language_code": "lt",
+        "label": "Northern Mariana Islands"
       }
     ]
   },
@@ -1523,6 +2119,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Martinique"
+      },
+      {
+        "language_code": "lt",
         "label": "Martinique"
       }
     ]
@@ -1534,6 +2134,10 @@
       {
         "language_code": "en",
         "label": "Mauritania"
+      },
+      {
+        "language_code": "lt",
+        "label": "Mauritania"
       }
     ]
   },
@@ -1543,6 +2147,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Montserrat"
+      },
+      {
+        "language_code": "lt",
         "label": "Montserrat"
       }
     ]
@@ -1554,6 +2162,10 @@
       {
         "language_code": "en",
         "label": "Malta"
+      },
+      {
+        "language_code": "lt",
+        "label": "Malta"
       }
     ]
   },
@@ -1563,6 +2175,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Mauritius"
+      },
+      {
+        "language_code": "lt",
         "label": "Mauritius"
       }
     ]
@@ -1574,6 +2190,10 @@
       {
         "language_code": "en",
         "label": "Maldives"
+      },
+      {
+        "language_code": "lt",
+        "label": "Maldives"
       }
     ]
   },
@@ -1583,6 +2203,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Malawi"
+      },
+      {
+        "language_code": "lt",
         "label": "Malawi"
       }
     ]
@@ -1594,6 +2218,10 @@
       {
         "language_code": "en",
         "label": "Mexico"
+      },
+      {
+        "language_code": "lt",
+        "label": "Mexico"
       }
     ]
   },
@@ -1603,6 +2231,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Malaysia"
+      },
+      {
+        "language_code": "lt",
         "label": "Malaysia"
       }
     ]
@@ -1614,6 +2246,10 @@
       {
         "language_code": "en",
         "label": "Mozambique"
+      },
+      {
+        "language_code": "lt",
+        "label": "Mozambique"
       }
     ]
   },
@@ -1623,6 +2259,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Namibia"
+      },
+      {
+        "language_code": "lt",
         "label": "Namibia"
       }
     ]
@@ -1634,6 +2274,10 @@
       {
         "language_code": "en",
         "label": "New Caledonia"
+      },
+      {
+        "language_code": "lt",
+        "label": "New Caledonia"
       }
     ]
   },
@@ -1643,6 +2287,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Niger"
+      },
+      {
+        "language_code": "lt",
         "label": "Niger"
       }
     ]
@@ -1654,6 +2302,10 @@
       {
         "language_code": "en",
         "label": "Norfolk Island"
+      },
+      {
+        "language_code": "lt",
+        "label": "Norfolk Island"
       }
     ]
   },
@@ -1663,6 +2315,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Nigeria"
+      },
+      {
+        "language_code": "lt",
         "label": "Nigeria"
       }
     ]
@@ -1674,6 +2330,10 @@
       {
         "language_code": "en",
         "label": "Nicaragua"
+      },
+      {
+        "language_code": "lt",
+        "label": "Nicaragua"
       }
     ]
   },
@@ -1683,6 +2343,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Netherlands"
+      },
+      {
+        "language_code": "lt",
         "label": "Netherlands"
       }
     ]
@@ -1694,6 +2358,10 @@
       {
         "language_code": "en",
         "label": "Norway"
+      },
+      {
+        "language_code": "lt",
+        "label": "Norway"
       }
     ]
   },
@@ -1703,6 +2371,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Nepal"
+      },
+      {
+        "language_code": "lt",
         "label": "Nepal"
       }
     ]
@@ -1714,6 +2386,10 @@
       {
         "language_code": "en",
         "label": "Nauru"
+      },
+      {
+        "language_code": "lt",
+        "label": "Nauru"
       }
     ]
   },
@@ -1723,6 +2399,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Niue"
+      },
+      {
+        "language_code": "lt",
         "label": "Niue"
       }
     ]
@@ -1734,6 +2414,10 @@
       {
         "language_code": "en",
         "label": "New Zealand"
+      },
+      {
+        "language_code": "lt",
+        "label": "New Zealand"
       }
     ]
   },
@@ -1743,6 +2427,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Oman"
+      },
+      {
+        "language_code": "lt",
         "label": "Oman"
       }
     ]
@@ -1754,6 +2442,10 @@
       {
         "language_code": "en",
         "label": "Panama"
+      },
+      {
+        "language_code": "lt",
+        "label": "Panama"
       }
     ]
   },
@@ -1763,6 +2455,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Peru"
+      },
+      {
+        "language_code": "lt",
         "label": "Peru"
       }
     ]
@@ -1774,6 +2470,10 @@
       {
         "language_code": "en",
         "label": "French Polynesia"
+      },
+      {
+        "language_code": "lt",
+        "label": "French Polynesia"
       }
     ]
   },
@@ -1783,6 +2483,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Papua New Guinea"
+      },
+      {
+        "language_code": "lt",
         "label": "Papua New Guinea"
       }
     ]
@@ -1794,6 +2498,10 @@
       {
         "language_code": "en",
         "label": "Philippines"
+      },
+      {
+        "language_code": "lt",
+        "label": "Philippines"
       }
     ]
   },
@@ -1803,6 +2511,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Pakistan"
+      },
+      {
+        "language_code": "lt",
         "label": "Pakistan"
       }
     ]
@@ -1814,6 +2526,10 @@
       {
         "language_code": "en",
         "label": "Poland"
+      },
+      {
+        "language_code": "lt",
+        "label": "Poland"
       }
     ]
   },
@@ -1823,6 +2539,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Saint Pierre and Miquelon"
+      },
+      {
+        "language_code": "lt",
         "label": "Saint Pierre and Miquelon"
       }
     ]
@@ -1834,6 +2554,10 @@
       {
         "language_code": "en",
         "label": "Pitcairn Islands"
+      },
+      {
+        "language_code": "lt",
+        "label": "Pitcairn Islands"
       }
     ]
   },
@@ -1843,6 +2567,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Puerto Rico"
+      },
+      {
+        "language_code": "lt",
         "label": "Puerto Rico"
       }
     ]
@@ -1854,6 +2582,10 @@
       {
         "language_code": "en",
         "label": "Palestine"
+      },
+      {
+        "language_code": "lt",
+        "label": "Palestine"
       }
     ]
   },
@@ -1863,6 +2595,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Portugal"
+      },
+      {
+        "language_code": "lt",
         "label": "Portugal"
       }
     ]
@@ -1874,6 +2610,10 @@
       {
         "language_code": "en",
         "label": "Palau"
+      },
+      {
+        "language_code": "lt",
+        "label": "Palau"
       }
     ]
   },
@@ -1883,6 +2623,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Paraguay"
+      },
+      {
+        "language_code": "lt",
         "label": "Paraguay"
       }
     ]
@@ -1894,6 +2638,10 @@
       {
         "language_code": "en",
         "label": "Qatar"
+      },
+      {
+        "language_code": "lt",
+        "label": "Qatar"
       }
     ]
   },
@@ -1903,6 +2651,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "R\u00e9union"
+      },
+      {
+        "language_code": "lt",
         "label": "R\u00e9union"
       }
     ]
@@ -1914,6 +2666,10 @@
       {
         "language_code": "en",
         "label": "Romania"
+      },
+      {
+        "language_code": "lt",
+        "label": "Romania"
       }
     ]
   },
@@ -1923,6 +2679,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Serbia"
+      },
+      {
+        "language_code": "lt",
         "label": "Serbia"
       }
     ]
@@ -1934,6 +2694,10 @@
       {
         "language_code": "en",
         "label": "Russia"
+      },
+      {
+        "language_code": "lt",
+        "label": "Russia"
       }
     ]
   },
@@ -1943,6 +2707,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Rwanda"
+      },
+      {
+        "language_code": "lt",
         "label": "Rwanda"
       }
     ]
@@ -1954,6 +2722,10 @@
       {
         "language_code": "en",
         "label": "Saudi Arabia"
+      },
+      {
+        "language_code": "lt",
+        "label": "Saudi Arabia"
       }
     ]
   },
@@ -1963,6 +2735,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Solomon Islands"
+      },
+      {
+        "language_code": "lt",
         "label": "Solomon Islands"
       }
     ]
@@ -1974,6 +2750,10 @@
       {
         "language_code": "en",
         "label": "Seychelles"
+      },
+      {
+        "language_code": "lt",
+        "label": "Seychelles"
       }
     ]
   },
@@ -1983,6 +2763,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Sudan"
+      },
+      {
+        "language_code": "lt",
         "label": "Sudan"
       }
     ]
@@ -1994,6 +2778,10 @@
       {
         "language_code": "en",
         "label": "Sweden"
+      },
+      {
+        "language_code": "lt",
+        "label": "Sweden"
       }
     ]
   },
@@ -2003,6 +2791,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Singapore"
+      },
+      {
+        "language_code": "lt",
         "label": "Singapore"
       }
     ]
@@ -2014,6 +2806,10 @@
       {
         "language_code": "en",
         "label": "Saint Helena"
+      },
+      {
+        "language_code": "lt",
+        "label": "Saint Helena"
       }
     ]
   },
@@ -2023,6 +2819,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Slovenia"
+      },
+      {
+        "language_code": "lt",
         "label": "Slovenia"
       }
     ]
@@ -2034,6 +2834,10 @@
       {
         "language_code": "en",
         "label": "Svalbard and Jan Mayen"
+      },
+      {
+        "language_code": "lt",
+        "label": "Svalbard and Jan Mayen"
       }
     ]
   },
@@ -2043,6 +2847,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Slovakia"
+      },
+      {
+        "language_code": "lt",
         "label": "Slovakia"
       }
     ]
@@ -2054,6 +2862,10 @@
       {
         "language_code": "en",
         "label": "Sierra Leone"
+      },
+      {
+        "language_code": "lt",
+        "label": "Sierra Leone"
       }
     ]
   },
@@ -2063,6 +2875,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "San Marino"
+      },
+      {
+        "language_code": "lt",
         "label": "San Marino"
       }
     ]
@@ -2074,6 +2890,10 @@
       {
         "language_code": "en",
         "label": "Senegal"
+      },
+      {
+        "language_code": "lt",
+        "label": "Senegal"
       }
     ]
   },
@@ -2083,6 +2903,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Somalia"
+      },
+      {
+        "language_code": "lt",
         "label": "Somalia"
       }
     ]
@@ -2094,6 +2918,10 @@
       {
         "language_code": "en",
         "label": "Suriname"
+      },
+      {
+        "language_code": "lt",
+        "label": "Suriname"
       }
     ]
   },
@@ -2103,6 +2931,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "South Sudan"
+      },
+      {
+        "language_code": "lt",
         "label": "South Sudan"
       }
     ]
@@ -2114,6 +2946,10 @@
       {
         "language_code": "en",
         "label": "S\u00e3o Tom\u00e9 and Pr\u00edncipe"
+      },
+      {
+        "language_code": "lt",
+        "label": "S\u00e3o Tom\u00e9 and Pr\u00edncipe"
       }
     ]
   },
@@ -2123,6 +2959,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "El Salvador"
+      },
+      {
+        "language_code": "lt",
         "label": "El Salvador"
       }
     ]
@@ -2134,6 +2974,10 @@
       {
         "language_code": "en",
         "label": "Sint Maarten"
+      },
+      {
+        "language_code": "lt",
+        "label": "Sint Maarten"
       }
     ]
   },
@@ -2143,6 +2987,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Syria"
+      },
+      {
+        "language_code": "lt",
         "label": "Syria"
       }
     ]
@@ -2154,6 +3002,10 @@
       {
         "language_code": "en",
         "label": "Swaziland"
+      },
+      {
+        "language_code": "lt",
+        "label": "Swaziland"
       }
     ]
   },
@@ -2163,6 +3015,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Turks and Caicos Islands"
+      },
+      {
+        "language_code": "lt",
         "label": "Turks and Caicos Islands"
       }
     ]
@@ -2174,6 +3030,10 @@
       {
         "language_code": "en",
         "label": "Chad"
+      },
+      {
+        "language_code": "lt",
+        "label": "Chad"
       }
     ]
   },
@@ -2183,6 +3043,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "French Southern and Antarctic Lands"
+      },
+      {
+        "language_code": "lt",
         "label": "French Southern and Antarctic Lands"
       }
     ]
@@ -2194,6 +3058,10 @@
       {
         "language_code": "en",
         "label": "Togo"
+      },
+      {
+        "language_code": "lt",
+        "label": "Togo"
       }
     ]
   },
@@ -2203,6 +3071,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Thailand"
+      },
+      {
+        "language_code": "lt",
         "label": "Thailand"
       }
     ]
@@ -2214,6 +3086,10 @@
       {
         "language_code": "en",
         "label": "Tajikistan"
+      },
+      {
+        "language_code": "lt",
+        "label": "Tajikistan"
       }
     ]
   },
@@ -2223,6 +3099,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Tokelau"
+      },
+      {
+        "language_code": "lt",
         "label": "Tokelau"
       }
     ]
@@ -2234,6 +3114,10 @@
       {
         "language_code": "en",
         "label": "Timor-Leste"
+      },
+      {
+        "language_code": "lt",
+        "label": "Timor-Leste"
       }
     ]
   },
@@ -2243,6 +3127,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Turkmenistan"
+      },
+      {
+        "language_code": "lt",
         "label": "Turkmenistan"
       }
     ]
@@ -2254,6 +3142,10 @@
       {
         "language_code": "en",
         "label": "Tunisia"
+      },
+      {
+        "language_code": "lt",
+        "label": "Tunisia"
       }
     ]
   },
@@ -2263,6 +3155,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Tonga"
+      },
+      {
+        "language_code": "lt",
         "label": "Tonga"
       }
     ]
@@ -2274,6 +3170,10 @@
       {
         "language_code": "en",
         "label": "Turkey"
+      },
+      {
+        "language_code": "lt",
+        "label": "Turkey"
       }
     ]
   },
@@ -2283,6 +3183,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Trinidad and Tobago"
+      },
+      {
+        "language_code": "lt",
         "label": "Trinidad and Tobago"
       }
     ]
@@ -2294,6 +3198,10 @@
       {
         "language_code": "en",
         "label": "Tuvalu"
+      },
+      {
+        "language_code": "lt",
+        "label": "Tuvalu"
       }
     ]
   },
@@ -2303,6 +3211,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Taiwan"
+      },
+      {
+        "language_code": "lt",
         "label": "Taiwan"
       }
     ]
@@ -2314,6 +3226,10 @@
       {
         "language_code": "en",
         "label": "Tanzania"
+      },
+      {
+        "language_code": "lt",
+        "label": "Tanzania"
       }
     ]
   },
@@ -2323,6 +3239,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Ukraine"
+      },
+      {
+        "language_code": "lt",
         "label": "Ukraine"
       }
     ]
@@ -2334,6 +3254,10 @@
       {
         "language_code": "en",
         "label": "Uganda"
+      },
+      {
+        "language_code": "lt",
+        "label": "Uganda"
       }
     ]
   },
@@ -2343,6 +3267,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "United States Minor Outlying Islands"
+      },
+      {
+        "language_code": "lt",
         "label": "United States Minor Outlying Islands"
       }
     ]
@@ -2354,6 +3282,10 @@
       {
         "language_code": "en",
         "label": "United States"
+      },
+      {
+        "language_code": "lt",
+        "label": "United States"
       }
     ]
   },
@@ -2363,6 +3295,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Uruguay"
+      },
+      {
+        "language_code": "lt",
         "label": "Uruguay"
       }
     ]
@@ -2374,6 +3310,10 @@
       {
         "language_code": "en",
         "label": "Uzbekistan"
+      },
+      {
+        "language_code": "lt",
+        "label": "Uzbekistan"
       }
     ]
   },
@@ -2383,6 +3323,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Vatican City"
+      },
+      {
+        "language_code": "lt",
         "label": "Vatican City"
       }
     ]
@@ -2394,6 +3338,10 @@
       {
         "language_code": "en",
         "label": "Saint Vincent and the Grenadines"
+      },
+      {
+        "language_code": "lt",
+        "label": "Saint Vincent and the Grenadines"
       }
     ]
   },
@@ -2403,6 +3351,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Venezuela"
+      },
+      {
+        "language_code": "lt",
         "label": "Venezuela"
       }
     ]
@@ -2414,6 +3366,10 @@
       {
         "language_code": "en",
         "label": "British Virgin Islands"
+      },
+      {
+        "language_code": "lt",
+        "label": "British Virgin Islands"
       }
     ]
   },
@@ -2423,6 +3379,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "United States Virgin Islands"
+      },
+      {
+        "language_code": "lt",
         "label": "United States Virgin Islands"
       }
     ]
@@ -2434,6 +3394,10 @@
       {
         "language_code": "en",
         "label": "Vietnam"
+      },
+      {
+        "language_code": "lt",
+        "label": "Vietnam"
       }
     ]
   },
@@ -2443,6 +3407,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Vanuatu"
+      },
+      {
+        "language_code": "lt",
         "label": "Vanuatu"
       }
     ]
@@ -2454,6 +3422,10 @@
       {
         "language_code": "en",
         "label": "Wallis and Futuna"
+      },
+      {
+        "language_code": "lt",
+        "label": "Wallis and Futuna"
       }
     ]
   },
@@ -2463,6 +3435,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Samoa"
+      },
+      {
+        "language_code": "lt",
         "label": "Samoa"
       }
     ]
@@ -2474,6 +3450,10 @@
       {
         "language_code": "en",
         "label": "Kosovo"
+      },
+      {
+        "language_code": "lt",
+        "label": "Kosovo"
       }
     ]
   },
@@ -2483,6 +3463,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Yemen"
+      },
+      {
+        "language_code": "lt",
         "label": "Yemen"
       }
     ]
@@ -2494,6 +3478,10 @@
       {
         "language_code": "en",
         "label": "Mayotte"
+      },
+      {
+        "language_code": "lt",
+        "label": "Mayotte"
       }
     ]
   },
@@ -2503,6 +3491,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "South Africa"
+      },
+      {
+        "language_code": "lt",
         "label": "South Africa"
       }
     ]
@@ -2514,6 +3506,10 @@
       {
         "language_code": "en",
         "label": "Zambia"
+      },
+      {
+        "language_code": "lt",
+        "label": "Zambia"
       }
     ]
   },
@@ -2523,6 +3519,10 @@
     "translations": [
       {
         "language_code": "en",
+        "label": "Zimbabwe"
+      },
+      {
+        "language_code": "lt",
         "label": "Zimbabwe"
       }
     ]
