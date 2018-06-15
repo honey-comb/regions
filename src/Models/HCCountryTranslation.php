@@ -1,6 +1,6 @@
 <?php
 /**
- * @copyright 2018 interactivesolutions
+ * @copyright 2018 innovationbase
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -20,9 +20,9 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  *
- * Contact InteractiveSolutions:
- * E-mail: hello@interactivesolutions.lt
- * http://www.interactivesolutions.lt
+ * Contact InnovationBase:
+ * E-mail: hello@innovationbase.eu
+ * https://innovationbase.eu
  */
 
 declare(strict_types = 1);
@@ -31,13 +31,19 @@ namespace HoneyComb\Regions\Models;
 
 use HoneyComb\Starter\Models\HCModel;
 
-
 /**
  * Class HCCountryTranslation
  * @package HoneyComb\Regions\Models
  */
 class HCCountryTranslation extends HCModel
 {
+    /**
+     * Primary key field
+     *
+     * @var string
+     */
+    protected $primaryKey = 'count';
+
     /**
      * The database table used by the model.
      *
@@ -51,9 +57,9 @@ class HCCountryTranslation extends HCModel
      * @var array
      */
     protected $fillable = [
-        "record_id",
-        "language_code",
-        "label",
+        'record_id',
+        'language_code',
+        'label',
     ];
 
     /**
