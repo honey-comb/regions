@@ -43,6 +43,7 @@ class HCCityForm extends HCBaseForm
      * @var bool
      */
     protected $multiLanguage = true;
+
     /**
      * @var \HoneyComb\Regions\Repositories\HCCountryRepository
      */
