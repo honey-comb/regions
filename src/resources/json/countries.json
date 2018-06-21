@@ -4,12 +4,12 @@
     "flag_id": "flag-lt",
     "translations": [
       {
-        "language_code": "lt",
-        "label": "Lietuva"
-      },
-      {
         "language_code": "en",
         "label": "Lithuania"
+      },
+      {
+        "language_code": "lt",
+        "label": "Lietuva"
       }
     ]
   },
@@ -18,12 +18,12 @@
     "flag_id": "flag-lv",
     "translations": [
       {
-        "language_code": "lt",
+        "language_code": "en",
         "label": "Latvia"
       },
       {
-        "language_code": "en",
-        "label": "Latvia"
+        "language_code": "lt",
+        "label": "Latvija"
       }
     ]
   },
@@ -37,7 +37,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Andorra"
+        "label": "Andora"
       }
     ]
   },
@@ -51,7 +51,7 @@
       },
       {
         "language_code": "lt",
-        "label": "United Arab Emirates"
+        "label": "Jungtiniai Arab\u0173 Emyratai"
       }
     ]
   },
@@ -65,7 +65,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Afghanistan"
+        "label": "Afganistanas"
       }
     ]
   },
@@ -79,7 +79,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Antigua and Barbuda"
+        "label": "Antigva ir Barbuda"
       }
     ]
   },
@@ -93,7 +93,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Anguilla"
+        "label": "Angilija"
       }
     ]
   },
@@ -107,7 +107,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Albania"
+        "label": "Albanija"
       }
     ]
   },
@@ -121,7 +121,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Armenia"
+        "label": "Arm\u0117nija"
       }
     ]
   },
@@ -149,7 +149,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Antarctica"
+        "label": "Antarktida"
       }
     ]
   },
@@ -177,7 +177,7 @@
       },
       {
         "language_code": "lt",
-        "label": "American Samoa"
+        "label": "Amerikos Samoa"
       }
     ]
   },
@@ -191,7 +191,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Austria"
+        "label": "Austrija"
       }
     ]
   },
@@ -205,7 +205,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Australia"
+        "label": "Australija"
       }
     ]
   },
@@ -233,7 +233,7 @@
       },
       {
         "language_code": "lt",
-        "label": "\u00c5land Islands"
+        "label": "Alandai"
       }
     ]
   },
@@ -247,7 +247,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Azerbaijan"
+        "label": "Azerbaid\u017eanas"
       }
     ]
   },
@@ -261,7 +261,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Bosnia and Herzegovina"
+        "label": "Bosnija ir Hercogovina"
       }
     ]
   },
@@ -275,7 +275,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Barbados"
+        "label": "Barbadosas"
       }
     ]
   },
@@ -289,7 +289,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Bangladesh"
+        "label": "Banglade\u0161as"
       }
     ]
   },
@@ -303,7 +303,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Belgium"
+        "label": "Belgija"
       }
     ]
   },
@@ -317,7 +317,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Burkina Faso"
+        "label": "Burkina Fasas"
       }
     ]
   },
@@ -331,7 +331,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Bulgaria"
+        "label": "Bulgarija"
       }
     ]
   },
@@ -345,7 +345,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Bahrain"
+        "label": "Bahreinas"
       }
     ]
   },
@@ -359,7 +359,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Burundi"
+        "label": "Burundis"
       }
     ]
   },
@@ -373,7 +373,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Benin"
+        "label": "Beninas"
       }
     ]
   },
@@ -387,7 +387,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Saint Barth\u00e9lemy"
+        "label": "\u0160vento Baltramiejaus sala"
       }
     ]
   },
@@ -401,7 +401,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Bermuda"
+        "label": "Bermudai"
       }
     ]
   },
@@ -415,7 +415,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Brunei"
+        "label": "Brun\u0117jus"
       }
     ]
   },
@@ -429,7 +429,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Bolivia"
+        "label": "Bolivija"
       }
     ]
   },
@@ -443,7 +443,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Caribbean Netherlands"
+        "label": "Bonaire, Sint Eustatius and Saba"
       }
     ]
   },
@@ -457,7 +457,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Brazil"
+        "label": "Brazilija"
       }
     ]
   },
@@ -471,7 +471,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Bahamas"
+        "label": "Bahamos"
       }
     ]
   },
@@ -485,7 +485,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Bhutan"
+        "label": "Butanas"
       }
     ]
   },
@@ -513,7 +513,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Botswana"
+        "label": "Botsvana"
       }
     ]
   },
@@ -527,7 +527,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Belarus"
+        "label": "Baltarusija"
       }
     ]
   },
@@ -541,7 +541,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Belize"
+        "label": "Belizas"
       }
     ]
   },
@@ -555,7 +555,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Canada"
+        "label": "Kanada"
       }
     ]
   },
@@ -569,7 +569,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Cocos (Keeling) Islands"
+        "label": "Kokos\u0173 salos"
       }
     ]
   },
@@ -583,7 +583,7 @@
       },
       {
         "language_code": "lt",
-        "label": "DR Congo"
+        "label": "Kongo Demokratin\u0117 Respublika"
       }
     ]
   },
@@ -597,7 +597,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Central African Republic"
+        "label": "Centrin\u0117 Afrikos Respublika"
       }
     ]
   },
@@ -611,7 +611,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Republic of the Congo"
+        "label": "Kongas"
       }
     ]
   },
@@ -625,7 +625,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Switzerland"
+        "label": "\u0160veicarija"
       }
     ]
   },
@@ -639,7 +639,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Ivory Coast"
+        "label": "Dramblio Kaulo Krantas"
       }
     ]
   },
@@ -653,7 +653,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Cook Islands"
+        "label": "Kuko salos"
       }
     ]
   },
@@ -667,7 +667,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Chile"
+        "label": "\u010cil\u0117"
       }
     ]
   },
@@ -681,7 +681,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Cameroon"
+        "label": "Kamer\u016bnas"
       }
     ]
   },
@@ -695,7 +695,7 @@
       },
       {
         "language_code": "lt",
-        "label": "China"
+        "label": "Kinija"
       }
     ]
   },
@@ -709,7 +709,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Colombia"
+        "label": "Kolumbija"
       }
     ]
   },
@@ -723,7 +723,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Costa Rica"
+        "label": "Kosta Rika"
       }
     ]
   },
@@ -737,7 +737,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Cuba"
+        "label": "Kuba"
       }
     ]
   },
@@ -751,7 +751,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Cape Verde"
+        "label": "\u017daliasis Ky\u0161ulys"
       }
     ]
   },
@@ -765,7 +765,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Cura\u00e7ao"
+        "label": "Kurakao"
       }
     ]
   },
@@ -779,7 +779,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Christmas Island"
+        "label": "Kal\u0117d\u0173 sala"
       }
     ]
   },
@@ -793,7 +793,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Cyprus"
+        "label": "Kipras"
       }
     ]
   },
@@ -807,7 +807,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Czech Republic"
+        "label": "\u010cekija"
       }
     ]
   },
@@ -821,7 +821,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Germany"
+        "label": "Vokietija"
       }
     ]
   },
@@ -835,7 +835,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Djibouti"
+        "label": "D\u017eibutis"
       }
     ]
   },
@@ -849,7 +849,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Denmark"
+        "label": "Danija"
       }
     ]
   },
@@ -863,7 +863,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Dominica"
+        "label": "Dominika"
       }
     ]
   },
@@ -877,7 +877,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Dominican Republic"
+        "label": "Dominikos Respublika"
       }
     ]
   },
@@ -891,7 +891,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Algeria"
+        "label": "Al\u017eyras"
       }
     ]
   },
@@ -905,7 +905,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Ecuador"
+        "label": "Ekvadoras"
       }
     ]
   },
@@ -919,7 +919,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Estonia"
+        "label": "Estija"
       }
     ]
   },
@@ -933,7 +933,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Egypt"
+        "label": "Egiptas"
       }
     ]
   },
@@ -947,7 +947,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Western Sahara"
+        "label": "Vakar\u0173 Sachara"
       }
     ]
   },
@@ -961,7 +961,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Eritrea"
+        "label": "Eritr\u0117ja"
       }
     ]
   },
@@ -975,7 +975,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Spain"
+        "label": "Ispanija"
       }
     ]
   },
@@ -989,7 +989,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Ethiopia"
+        "label": "Etiopija"
       }
     ]
   },
@@ -1003,7 +1003,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Finland"
+        "label": "Suomija"
       }
     ]
   },
@@ -1017,7 +1017,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Fiji"
+        "label": "Fid\u017eis"
       }
     ]
   },
@@ -1031,7 +1031,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Falkland Islands"
+        "label": "Falklando salos"
       }
     ]
   },
@@ -1045,7 +1045,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Micronesia"
+        "label": "Mikronezija"
       }
     ]
   },
@@ -1059,7 +1059,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Faroe Islands"
+        "label": "Farerai"
       }
     ]
   },
@@ -1073,7 +1073,7 @@
       },
       {
         "language_code": "lt",
-        "label": "France"
+        "label": "Pranc\u016bzija"
       }
     ]
   },
@@ -1087,7 +1087,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Gabon"
+        "label": "Gabonas"
       }
     ]
   },
@@ -1101,7 +1101,7 @@
       },
       {
         "language_code": "lt",
-        "label": "United Kingdom"
+        "label": "Jungtin\u0117 Karalyst\u0117"
       }
     ]
   },
@@ -1129,7 +1129,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Georgia"
+        "label": "Gruzija"
       }
     ]
   },
@@ -1143,7 +1143,7 @@
       },
       {
         "language_code": "lt",
-        "label": "French Guiana"
+        "label": "Pranc\u016bzijos Gviana"
       }
     ]
   },
@@ -1157,7 +1157,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Guernsey"
+        "label": "Gernsis"
       }
     ]
   },
@@ -1171,7 +1171,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Ghana"
+        "label": "Gana"
       }
     ]
   },
@@ -1185,7 +1185,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Gibraltar"
+        "label": "Gibraltaras"
       }
     ]
   },
@@ -1199,7 +1199,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Greenland"
+        "label": "Grenlandija"
       }
     ]
   },
@@ -1213,7 +1213,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Gambia"
+        "label": "Gambija"
       }
     ]
   },
@@ -1227,7 +1227,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Guinea"
+        "label": "Gvin\u0117ja"
       }
     ]
   },
@@ -1241,7 +1241,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Guadeloupe"
+        "label": "Gvadelupa"
       }
     ]
   },
@@ -1255,7 +1255,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Equatorial Guinea"
+        "label": "Pusiaujo Gvin\u0117ja"
       }
     ]
   },
@@ -1269,7 +1269,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Greece"
+        "label": "Graikija"
       }
     ]
   },
@@ -1283,7 +1283,7 @@
       },
       {
         "language_code": "lt",
-        "label": "South Georgia"
+        "label": "Piet\u0173 D\u017eord\u017eija ir Piet\u0173 Sandvi\u010do salos"
       }
     ]
   },
@@ -1297,7 +1297,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Guatemala"
+        "label": "Gvatemala"
       }
     ]
   },
@@ -1311,7 +1311,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Guam"
+        "label": "Guamas"
       }
     ]
   },
@@ -1325,7 +1325,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Guinea-Bissau"
+        "label": "Bisau Gvin\u0117ja"
       }
     ]
   },
@@ -1339,7 +1339,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Guyana"
+        "label": "Gajana"
       }
     ]
   },
@@ -1353,7 +1353,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Hong Kong"
+        "label": "Honkongas"
       }
     ]
   },
@@ -1367,7 +1367,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Heard Island and McDonald Islands"
+        "label": "Herdo ir Makdonaldo salos"
       }
     ]
   },
@@ -1381,7 +1381,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Honduras"
+        "label": "Hond\u016bras"
       }
     ]
   },
@@ -1395,7 +1395,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Croatia"
+        "label": "Kroatija"
       }
     ]
   },
@@ -1409,7 +1409,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Haiti"
+        "label": "Haitis"
       }
     ]
   },
@@ -1423,7 +1423,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Hungary"
+        "label": "Vengrija"
       }
     ]
   },
@@ -1437,7 +1437,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Indonesia"
+        "label": "Indonezija"
       }
     ]
   },
@@ -1451,7 +1451,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Ireland"
+        "label": "Airija"
       }
     ]
   },
@@ -1465,7 +1465,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Israel"
+        "label": "Izraelis"
       }
     ]
   },
@@ -1479,7 +1479,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Isle of Man"
+        "label": "Meno sala"
       }
     ]
   },
@@ -1493,7 +1493,7 @@
       },
       {
         "language_code": "lt",
-        "label": "India"
+        "label": "Indija"
       }
     ]
   },
@@ -1507,7 +1507,7 @@
       },
       {
         "language_code": "lt",
-        "label": "British Indian Ocean Territory"
+        "label": "Indijos vandenyno brit\u0173 salos"
       }
     ]
   },
@@ -1521,7 +1521,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Iraq"
+        "label": "Irakas"
       }
     ]
   },
@@ -1535,7 +1535,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Iran"
+        "label": "Iranas"
       }
     ]
   },
@@ -1549,7 +1549,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Iceland"
+        "label": "Islandija"
       }
     ]
   },
@@ -1563,7 +1563,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Italy"
+        "label": "Italija"
       }
     ]
   },
@@ -1577,7 +1577,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Jersey"
+        "label": "D\u017eersis"
       }
     ]
   },
@@ -1591,7 +1591,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Jamaica"
+        "label": "Jamaika"
       }
     ]
   },
@@ -1605,7 +1605,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Jordan"
+        "label": "Jordanija"
       }
     ]
   },
@@ -1619,7 +1619,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Japan"
+        "label": "Japonija"
       }
     ]
   },
@@ -1633,7 +1633,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Kenya"
+        "label": "Kenija"
       }
     ]
   },
@@ -1647,7 +1647,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Kyrgyzstan"
+        "label": "Kirgizija"
       }
     ]
   },
@@ -1661,7 +1661,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Cambodia"
+        "label": "Kambod\u017ea"
       }
     ]
   },
@@ -1675,7 +1675,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Kiribati"
+        "label": "Kiribatis"
       }
     ]
   },
@@ -1689,7 +1689,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Comoros"
+        "label": "Komorai"
       }
     ]
   },
@@ -1703,7 +1703,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Saint Kitts and Nevis"
+        "label": "Sent Kitsas ir Nevis"
       }
     ]
   },
@@ -1717,7 +1717,7 @@
       },
       {
         "language_code": "lt",
-        "label": "North Korea"
+        "label": "\u0160iaur\u0117s Kor\u0117ja"
       }
     ]
   },
@@ -1731,7 +1731,7 @@
       },
       {
         "language_code": "lt",
-        "label": "South Korea"
+        "label": "Piet\u0173 Kor\u0117ja"
       }
     ]
   },
@@ -1745,7 +1745,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Kuwait"
+        "label": "Kuveitas"
       }
     ]
   },
@@ -1759,7 +1759,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Cayman Islands"
+        "label": "Kaiman\u0173 salos"
       }
     ]
   },
@@ -1773,7 +1773,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Kazakhstan"
+        "label": "Kazachstanas"
       }
     ]
   },
@@ -1787,7 +1787,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Laos"
+        "label": "Laosas"
       }
     ]
   },
@@ -1801,7 +1801,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Lebanon"
+        "label": "Libanas"
       }
     ]
   },
@@ -1815,7 +1815,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Saint Lucia"
+        "label": "Sent Lusija"
       }
     ]
   },
@@ -1829,7 +1829,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Liechtenstein"
+        "label": "Lichten\u0161teinas"
       }
     ]
   },
@@ -1843,7 +1843,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Sri Lanka"
+        "label": "\u0160ri Lanka"
       }
     ]
   },
@@ -1857,7 +1857,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Liberia"
+        "label": "Liberija"
       }
     ]
   },
@@ -1871,7 +1871,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Lesotho"
+        "label": "Lesotas"
       }
     ]
   },
@@ -1885,7 +1885,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Lithuania"
+        "label": "Lietuva"
       }
     ]
   },
@@ -1899,7 +1899,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Luxembourg"
+        "label": "Liuksemburgas"
       }
     ]
   },
@@ -1913,7 +1913,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Latvia"
+        "label": "Latvija"
       }
     ]
   },
@@ -1927,7 +1927,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Libya"
+        "label": "Libija"
       }
     ]
   },
@@ -1941,7 +1941,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Morocco"
+        "label": "Marokas"
       }
     ]
   },
@@ -1955,7 +1955,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Monaco"
+        "label": "Monakas"
       }
     ]
   },
@@ -1969,7 +1969,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Moldova"
+        "label": "Moldovija"
       }
     ]
   },
@@ -1983,7 +1983,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Montenegro"
+        "label": "Juodkalnija"
       }
     ]
   },
@@ -1997,7 +1997,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Saint Martin"
+        "label": "Sent Martenas"
       }
     ]
   },
@@ -2011,7 +2011,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Madagascar"
+        "label": "Madagaskaras"
       }
     ]
   },
@@ -2025,7 +2025,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Marshall Islands"
+        "label": "Mar\u0161alo Salos"
       }
     ]
   },
@@ -2039,7 +2039,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Macedonia"
+        "label": "Makedonija"
       }
     ]
   },
@@ -2053,7 +2053,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Mali"
+        "label": "Malis"
       }
     ]
   },
@@ -2067,7 +2067,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Myanmar"
+        "label": "Mianmaras"
       }
     ]
   },
@@ -2081,7 +2081,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Mongolia"
+        "label": "Mongolija"
       }
     ]
   },
@@ -2095,7 +2095,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Macau"
+        "label": "Makao"
       }
     ]
   },
@@ -2109,7 +2109,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Northern Mariana Islands"
+        "label": "Marianos \u0161iaurin\u0117s salos"
       }
     ]
   },
@@ -2123,7 +2123,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Martinique"
+        "label": "Martinika"
       }
     ]
   },
@@ -2137,7 +2137,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Mauritania"
+        "label": "Mauritanija"
       }
     ]
   },
@@ -2151,7 +2151,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Montserrat"
+        "label": "Montseratas"
       }
     ]
   },
@@ -2179,7 +2179,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Mauritius"
+        "label": "Mauricijus"
       }
     ]
   },
@@ -2193,7 +2193,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Maldives"
+        "label": "Maldyvai"
       }
     ]
   },
@@ -2207,7 +2207,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Malawi"
+        "label": "Malavis"
       }
     ]
   },
@@ -2221,7 +2221,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Mexico"
+        "label": "Meksika"
       }
     ]
   },
@@ -2235,7 +2235,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Malaysia"
+        "label": "Malaizija"
       }
     ]
   },
@@ -2249,7 +2249,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Mozambique"
+        "label": "Mozambikas"
       }
     ]
   },
@@ -2263,7 +2263,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Namibia"
+        "label": "Namibija"
       }
     ]
   },
@@ -2277,7 +2277,7 @@
       },
       {
         "language_code": "lt",
-        "label": "New Caledonia"
+        "label": "Naujoji Kaledonija"
       }
     ]
   },
@@ -2291,7 +2291,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Niger"
+        "label": "Nigeris"
       }
     ]
   },
@@ -2305,7 +2305,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Norfolk Island"
+        "label": "Norfolkas"
       }
     ]
   },
@@ -2319,7 +2319,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Nigeria"
+        "label": "Nigerija"
       }
     ]
   },
@@ -2333,7 +2333,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Nicaragua"
+        "label": "Nikaragva"
       }
     ]
   },
@@ -2347,7 +2347,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Netherlands"
+        "label": "Nyderlandai"
       }
     ]
   },
@@ -2361,7 +2361,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Norway"
+        "label": "Norvegija"
       }
     ]
   },
@@ -2375,7 +2375,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Nepal"
+        "label": "Nepalas"
       }
     ]
   },
@@ -2403,7 +2403,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Niue"
+        "label": "Niuj\u0117"
       }
     ]
   },
@@ -2417,7 +2417,7 @@
       },
       {
         "language_code": "lt",
-        "label": "New Zealand"
+        "label": "Naujoji Zelandija"
       }
     ]
   },
@@ -2431,7 +2431,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Oman"
+        "label": "Omanas"
       }
     ]
   },
@@ -2473,7 +2473,7 @@
       },
       {
         "language_code": "lt",
-        "label": "French Polynesia"
+        "label": "Pranc\u016bzijos Polinezija"
       }
     ]
   },
@@ -2487,7 +2487,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Papua New Guinea"
+        "label": "Papua Naujoji Gvin\u0117ja"
       }
     ]
   },
@@ -2501,7 +2501,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Philippines"
+        "label": "Filipinai"
       }
     ]
   },
@@ -2515,7 +2515,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Pakistan"
+        "label": "Pakistanas"
       }
     ]
   },
@@ -2529,7 +2529,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Poland"
+        "label": "Lenkija"
       }
     ]
   },
@@ -2543,7 +2543,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Saint Pierre and Miquelon"
+        "label": "Sen Pjeras ir Mikelonas"
       }
     ]
   },
@@ -2557,7 +2557,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Pitcairn Islands"
+        "label": "Pitkernas"
       }
     ]
   },
@@ -2571,7 +2571,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Puerto Rico"
+        "label": "Puerto Rikas"
       }
     ]
   },
@@ -2585,7 +2585,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Palestine"
+        "label": "Palestina"
       }
     ]
   },
@@ -2599,7 +2599,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Portugal"
+        "label": "Portugalija"
       }
     ]
   },
@@ -2627,7 +2627,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Paraguay"
+        "label": "Paragvajus"
       }
     ]
   },
@@ -2641,7 +2641,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Qatar"
+        "label": "Kataras"
       }
     ]
   },
@@ -2655,7 +2655,7 @@
       },
       {
         "language_code": "lt",
-        "label": "R\u00e9union"
+        "label": "Reunionas"
       }
     ]
   },
@@ -2669,7 +2669,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Romania"
+        "label": "Rumunija"
       }
     ]
   },
@@ -2683,7 +2683,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Serbia"
+        "label": "Serbija"
       }
     ]
   },
@@ -2697,7 +2697,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Russia"
+        "label": "Rusija"
       }
     ]
   },
@@ -2711,7 +2711,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Rwanda"
+        "label": "Ruanda"
       }
     ]
   },
@@ -2725,7 +2725,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Saudi Arabia"
+        "label": "Saudo Arabija"
       }
     ]
   },
@@ -2739,7 +2739,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Solomon Islands"
+        "label": "Saliamono salos"
       }
     ]
   },
@@ -2753,7 +2753,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Seychelles"
+        "label": "Sei\u0161eliai"
       }
     ]
   },
@@ -2767,7 +2767,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Sudan"
+        "label": "Sudanas"
       }
     ]
   },
@@ -2781,7 +2781,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Sweden"
+        "label": "\u0160vedija"
       }
     ]
   },
@@ -2795,7 +2795,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Singapore"
+        "label": "Singap\u016bras"
       }
     ]
   },
@@ -2809,7 +2809,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Saint Helena"
+        "label": "\u0160ventoji Elena"
       }
     ]
   },
@@ -2823,7 +2823,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Slovenia"
+        "label": "Slov\u0117nija"
       }
     ]
   },
@@ -2837,7 +2837,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Svalbard and Jan Mayen"
+        "label": "Svalbardas"
       }
     ]
   },
@@ -2851,7 +2851,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Slovakia"
+        "label": "Slovakija"
       }
     ]
   },
@@ -2865,7 +2865,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Sierra Leone"
+        "label": "Siera Leon\u0117"
       }
     ]
   },
@@ -2879,7 +2879,7 @@
       },
       {
         "language_code": "lt",
-        "label": "San Marino"
+        "label": "San Marinas"
       }
     ]
   },
@@ -2893,7 +2893,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Senegal"
+        "label": "Senegalas"
       }
     ]
   },
@@ -2907,7 +2907,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Somalia"
+        "label": "Somalis"
       }
     ]
   },
@@ -2921,7 +2921,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Suriname"
+        "label": "Surinamas"
       }
     ]
   },
@@ -2935,7 +2935,7 @@
       },
       {
         "language_code": "lt",
-        "label": "South Sudan"
+        "label": "Piet\u0173 sudanas"
       }
     ]
   },
@@ -2949,7 +2949,7 @@
       },
       {
         "language_code": "lt",
-        "label": "S\u00e3o Tom\u00e9 and Pr\u00edncipe"
+        "label": "San Tom\u0117 ir Prinsip\u0117"
       }
     ]
   },
@@ -2963,7 +2963,7 @@
       },
       {
         "language_code": "lt",
-        "label": "El Salvador"
+        "label": "Salvadoras"
       }
     ]
   },
@@ -2977,7 +2977,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Sint Maarten"
+        "label": "Sint Martenas (Nyderland\u0173 dalis)"
       }
     ]
   },
@@ -2991,7 +2991,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Syria"
+        "label": "Sirija"
       }
     ]
   },
@@ -3005,7 +3005,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Swaziland"
+        "label": "Svazilandas"
       }
     ]
   },
@@ -3019,7 +3019,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Turks and Caicos Islands"
+        "label": "Terksas ir Kaikosas"
       }
     ]
   },
@@ -3033,7 +3033,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Chad"
+        "label": "\u010cadas"
       }
     ]
   },
@@ -3047,7 +3047,7 @@
       },
       {
         "language_code": "lt",
-        "label": "French Southern and Antarctic Lands"
+        "label": "Pranc\u016bzijos Piet\u0173 ir Antarkties sritys"
       }
     ]
   },
@@ -3061,7 +3061,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Togo"
+        "label": "Togas"
       }
     ]
   },
@@ -3075,7 +3075,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Thailand"
+        "label": "Tailandas"
       }
     ]
   },
@@ -3089,7 +3089,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Tajikistan"
+        "label": "Tad\u017eikistanas"
       }
     ]
   },
@@ -3117,7 +3117,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Timor-Leste"
+        "label": "Ryt\u0173 Timoras"
       }
     ]
   },
@@ -3131,7 +3131,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Turkmenistan"
+        "label": "Turkm\u0117nija"
       }
     ]
   },
@@ -3145,7 +3145,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Tunisia"
+        "label": "Tunisas"
       }
     ]
   },
@@ -3173,7 +3173,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Turkey"
+        "label": "Turkija"
       }
     ]
   },
@@ -3187,7 +3187,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Trinidad and Tobago"
+        "label": "Trinidadas ir Tobagas"
       }
     ]
   },
@@ -3215,7 +3215,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Taiwan"
+        "label": "Taivanas"
       }
     ]
   },
@@ -3229,7 +3229,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Tanzania"
+        "label": "Tanzanija"
       }
     ]
   },
@@ -3243,7 +3243,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Ukraine"
+        "label": "Ukraina"
       }
     ]
   },
@@ -3271,7 +3271,7 @@
       },
       {
         "language_code": "lt",
-        "label": "United States Minor Outlying Islands"
+        "label": "JAV ma\u017eosios aplinkin\u0117s salos"
       }
     ]
   },
@@ -3285,7 +3285,7 @@
       },
       {
         "language_code": "lt",
-        "label": "United States"
+        "label": "JAV"
       }
     ]
   },
@@ -3299,7 +3299,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Uruguay"
+        "label": "Urugvajus"
       }
     ]
   },
@@ -3313,7 +3313,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Uzbekistan"
+        "label": "Uzbekistanas"
       }
     ]
   },
@@ -3327,7 +3327,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Vatican City"
+        "label": "Vatikanas"
       }
     ]
   },
@@ -3341,7 +3341,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Saint Vincent and the Grenadines"
+        "label": "Sent Vinsentas ir Grenadinai"
       }
     ]
   },
@@ -3355,7 +3355,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Venezuela"
+        "label": "Venesuela"
       }
     ]
   },
@@ -3369,7 +3369,7 @@
       },
       {
         "language_code": "lt",
-        "label": "British Virgin Islands"
+        "label": "Did\u017eiosios Britanijos Mergeli\u0173 salos"
       }
     ]
   },
@@ -3383,7 +3383,7 @@
       },
       {
         "language_code": "lt",
-        "label": "United States Virgin Islands"
+        "label": "Mergeli\u0173 salos (JAV)"
       }
     ]
   },
@@ -3397,7 +3397,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Vietnam"
+        "label": "Vietnamas"
       }
     ]
   },
@@ -3425,7 +3425,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Wallis and Futuna"
+        "label": "Volisas ir Futuna"
       }
     ]
   },
@@ -3467,7 +3467,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Yemen"
+        "label": "Jemenas"
       }
     ]
   },
@@ -3481,7 +3481,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Mayotte"
+        "label": "Majotas"
       }
     ]
   },
@@ -3495,7 +3495,7 @@
       },
       {
         "language_code": "lt",
-        "label": "South Africa"
+        "label": "Piet\u0173 Afrika"
       }
     ]
   },
@@ -3509,7 +3509,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Zambia"
+        "label": "Zambija"
       }
     ]
   },
@@ -3523,7 +3523,7 @@
       },
       {
         "language_code": "lt",
-        "label": "Zimbabwe"
+        "label": "Zimbabv\u0117"
       }
     ]
   }
