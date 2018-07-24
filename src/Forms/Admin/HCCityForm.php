@@ -113,8 +113,8 @@ class HCCityForm extends HCBaseForm
             $form[$prefix . 'country_id']['value'] = request('country_id');
         }
 
-        if (request('hc_options')) {
-            $form[$prefix . 'hc_options'] = [
+        if (request('hc_new')) {
+            $form[$prefix . 'hc_new'] = [
                 'type' => 'singleLine',
                 'required' => 1,
                 'value' => 1,

@@ -172,21 +172,13 @@ class HCCityController extends HCBaseController
 
         event(new HCCityCreated($record));
 
-        return $this->response->success("Created", $this->responseData($request, $record->id));
-    }
-
-    /**
-     * @param \HoneyComb\Regions\Http\Requests\Admin\HCCityRequest $request
-     * @param string $id
-     * @return array|null
-     */
-    protected function responseData(HCCityRequest $request, string $id)
-    {
         if ($request->isResponseForOptions()) {
-            return $this->service->getRepository()->formatForOptions($this->getById($id));
-        }
 
-        return null;
+            return $this->response->success("Created", $this->service->getRepository()->formatForOptions($record));
+        } else {
+
+            return $this->response->success("Created");
+        }
     }
 
     /**
