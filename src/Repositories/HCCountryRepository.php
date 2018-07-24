@@ -29,7 +29,7 @@ declare(strict_types = 1);
 
 namespace HoneyComb\Regions\Repositories;
 
-use HoneyComb\Core\Repositories\Traits\HCQueryBuilderTrait;
+use HoneyComb\Starter\Repositories\Traits\HCQueryBuilderTrait;
 use HoneyComb\Regions\Http\Requests\Admin\HCCountryRequest;
 use HoneyComb\Regions\Models\HCCountry;
 use HoneyComb\Starter\Repositories\HCBaseRepository;
