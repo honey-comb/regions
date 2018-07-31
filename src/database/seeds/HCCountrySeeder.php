@@ -90,7 +90,7 @@ class HCCountrySeeder extends Seeder
                 if (!$flag) {
                     $this->resourceService->download(
                         __DIR__ . '/../../resources/media/flags/' . $country['id'] . '.svg',
-                        null,
+                        'local',
                         'flag-' . $country['id']
                     );
                 }
