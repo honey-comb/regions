@@ -29,6 +29,7 @@ declare(strict_types = 1);
 
 namespace HoneyComb\Regions\Repositories;
 
+use HoneyComb\Regions\Models\HCCountryTranslation;
 use HoneyComb\Starter\Repositories\Traits\HCQueryBuilderTrait;
 use HoneyComb\Regions\Http\Requests\Admin\HCCountryRequest;
 use HoneyComb\Regions\Models\HCCountry;
@@ -50,6 +51,14 @@ class HCCountryRepository extends HCBaseRepository
     public function model(): string
     {
         return HCCountry::class;
+    }
+
+    /**
+     * @return null|string
+     */
+    public function translationModel(): ?string
+    {
+        return HCCountryTranslation::class;
     }
 
     /**
