@@ -34,7 +34,6 @@ use HoneyComb\Starter\Models\HCUuidSoftModel;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 
-
 /**
  * Class HCCountry
  * @package HoneyComb\Regions\Models
@@ -68,67 +67,4 @@ class HCCountry extends HCUuidSoftModel
         'translations',
         'translation',
     ];
-
-    /**
-     * @var
-     */
-    private $translationClass;
-
-    /**
-     * Translations
-     *
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany
-     */
-    public function translations(): HasMany
-    {
-        $this->translationClass = get_class($this) . 'Translation';
-
-        return $this->hasMany($this->translationClass, 'record_id', 'id');
-    }
-
-    /**
-     * Single translation only
-     * @return \Illuminate\Database\Eloquent\Relations\HasOne
-     */
-    public function translation(): HasOne
-    {
-        $this->translationClass = get_class($this) . 'Translation';
-
-        return $this->hasOne($this->translationClass, 'record_id', 'id')->where('language_code', app()->getLocale());
-    }
-
-    /**
-     * Update translations
-     *
-     * @param array $data
-     * @return \Illuminate\Database\Eloquent\Model
-     */
-    public function updateTranslation(array $data)
-    {
-        $translation = $this->translations()->where([
-            'record_id' => $this->id,
-            'language_code' => array_get($data, 'language_code'),
-        ])->first();
-
-        if (is_null($translation)) {
-            $translation = $this->translations()->create($data);
-        } else {
-            $translation->update($data);
-        }
-
-        return $translation;
-    }
-
-    /**
-     * Update multiple translations at once
-     *
-     * @param array $data
-     */
-    public function updateTranslations(array $data = [])
-    {
-        foreach ($data as $translationsData) {
-            $this->updateTranslation($translationsData);
-        }
-    }
-
 }

@@ -32,7 +32,6 @@ namespace HoneyComb\Regions\Models;
 use HoneyComb\Core\Models\Traits\HCTranslation;
 use HoneyComb\Starter\Models\HCUuidSoftModel;
 
-
 /**
  * Class HCCity
  * @package HoneyComb\Regions\Models
@@ -54,7 +53,9 @@ class HCCity extends HCUuidSoftModel
      * @var array
      */
     protected $fillable = [
-        'id', 'country_id', 'visible'
+        'id',
+        'country_id',
+        'visible',
     ];
 
     /**
@@ -62,7 +63,6 @@ class HCCity extends HCUuidSoftModel
      */
     protected $with = [
         'translations',
-        'translation'
+        'translation',
     ];
-
 }
